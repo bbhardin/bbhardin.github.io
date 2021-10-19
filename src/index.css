@@ -11,3 +11,174 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.navigationBar {
+  background-color: #ee964b;
+}
+
+.navigationBarContent {
+  padding: 1rem;
+}
+
+.navigationBarText {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: white;
+  text-align: right;
+}
+
+.homeButton {
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.pageTitle {
+  font-family: -apple-system, Helvetica Neue;
+  font-weight: bold;
+  font-size: 40px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.pageSubtitle {
+  font-family: -apple-system, Helvetica Neue;
+  font-weight: bold;
+  color: grey;
+  font-size: 22px;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.pageSubSubtitle {
+  font-family: -apple-system, Helvetica Neue;
+  font-size: 17px;
+  padding-bottom: 0.5rem;
+}
+
+
+.contentInsets {
+  padding: 1rem;
+}
+
+.leftContentInsets {
+  padding-left: 1rem;
+}
+
+.leftAndRightContentInsets {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.rightJustified {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 5%;
+  border-color: white;
+  border-style: solid;
+  margin-right: 0px;
+  float: left;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.gridImage {
+  vertical-align: middle;
+  max-width: 100%;
+  border-radius: 10px;
+  border-color: white;
+  border-style: solid;
+  float: left;
+  display: block;
+
+}
+
+.smallBottomPadding {
+  padding-bottom: 0.5rem;
+}
+
+.mediumBottomPadding {
+  padding-bottom: 1rem;
+}
+
+.bottomElement {
+  position: fixed;
+  bottom: 0;
+
+  /* And if you want the div to be full-width: */
+  left: 0;
+  right: 0;
+}
+
+.resumeSubtitle {
+  font-family: -apple-system, Helvetica Neue;
+  font-weight: bold;
+  color: black;
+  font-size: 22px;
+  margin-bottom: 0.3rem;
+  margin-top: 1rem;
+}
+
+.resumeSubSubtitle {
+  font-family: -apple-system, Helvetica Neue;
+  font-weight: bold;
+  color: black;
+  font-size: 18px;
+}
+
+.resumeDate {
+  font-family: -apple-system, Helvetica Neue;
+  font-style: italic;
+  font-weight: normal;
+  color: black;
+  font-size: 17px;
+  float: right;
+}
+
+.italic {
+  font-style: italic;
+}
+
+
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 5px;
+  height: 5px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: white;
+  float: right;
+  margin: 5px;
+}
+
+.fa:hover {
+  opacity: 0.95;
+  color: #ee964b;
+}
+
+.roundedBackgroundPadding {
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.roundedBackground {
+  background-color: #ededed;
+  border-radius: 1rem;
+}
+
+.bottomBorder {
+  border-top: 2px solid black;
+}
+
