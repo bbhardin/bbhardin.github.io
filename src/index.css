@@ -1,3 +1,7 @@
+:root {
+  --orange: #ff9c59;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,7 +17,7 @@ code {
 }
 
 .navigationBar {
-  background-color: #ee964b;
+  background-color: var(--orange)
 }
 
 .navigationBarContent {
@@ -35,7 +39,7 @@ code {
 }
 
 .pageTitle {
-  font-family: -apple-system, Helvetica Neue;
+  font-family: -apple-system, Helvetica Neue, Arial;
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 1rem;
@@ -43,7 +47,7 @@ code {
 }
 
 .pageSubtitle {
-  font-family: -apple-system, Helvetica Neue;
+  font-family: -apple-system, Helvetica Neue, Arial;
   font-weight: bold;
   color: grey;
   font-size: 22px;
@@ -52,7 +56,7 @@ code {
 }
 
 .pageSubSubtitle {
-  font-family: -apple-system, Helvetica Neue;
+  font-family: -apple-system, Helvetica Neue, Arial;
   font-size: 17px;
   padding-bottom: 0.5rem;
 }
@@ -164,7 +168,7 @@ code {
 
 .fa:hover {
   opacity: 0.95;
-  color: #ee964b;
+  background-color: var(--orange)
 }
 
 .roundedBackgroundPadding {

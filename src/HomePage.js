@@ -9,12 +9,12 @@ export default function HomePage() {
 
             <div className='pageTitle' style={{paddingBottom: "0rem"}}>Ben Hardin</div>
             <div style={{fontWeight: "bold"}}>
-                <div>Computer Science Honors student at Purdue University </div>
+                <div>Computer Science Honors @ Purdue</div>
                 <div style={{paddingBottom: "1rem"}}>Graduating May 2022</div>
             </div>
 
             <div>
-                <Container>
+                <Container style={{padding: "0rem", margin: "0rem"}}>
             <Row>
                 <Col sm={3}>
                     <img className='avatar' src={profile} />

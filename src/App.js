@@ -1,5 +1,5 @@
 import './App.css';
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
+import {BrowserRouter as Router, Switch, Route, HashRouter} from "react-router-dom"
 import HomePage from "./HomePage";
 import NavigationBar from "./NavigationBar";
 import SkillsPage from "./SkillsPage";
@@ -17,10 +17,11 @@ import React from "react";
 function App() {
   return (
       <>
-        <Router>
+        <HashRouter basename="/MyReactSite">
             <NavigationBar/>
             <Switch>
                 <Route exact path="/" component={HomePage}/>
+                {/*<Route exact path="/about" component={HomePage}/>*/}
                 <Route exact path="/resume" component={ResumePage}/>
                 <Route exact path="/skills" component={SkillsPage}/>
                 <Route exact path="/training" component={CertificationsPage}/>
@@ -31,11 +32,11 @@ function App() {
                 <Route exact path="/contact" component={ContactPage}/>
             </Switch>
             <p style={{paddingBottom: "2rem"}}></p>
-            <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "white", backgroundColor: "#ee964b"}}>
-                Website built by Ben Hardin, using React + WebStorm
+            <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "white", backgroundColor: "var(--orange)"}}>
+                Website built by Ben Hardin, using React + WebStorm + Google Cloud Platform
                 <a style={{float: "right", paddingRight: "1rem", textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/benjamin-hardin">My LinkedIn</a>
             </div>
-        </Router>
+        </HashRouter>
       </>
   );
 }
