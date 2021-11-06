@@ -1,5 +1,6 @@
 :root {
   --orange: #ff9c59;
+  --mygreen: #748b85;
 }
 
 body {
@@ -17,7 +18,7 @@ code {
 }
 
 .navigationBar {
-  background-color: var(--orange)
+  background-color: var(--mygreen)
 }
 
 .navigationBarContent {
@@ -168,7 +169,7 @@ code {
 
 .fa:hover {
   opacity: 0.95;
-  background-color: var(--orange)
+  background-color: var(--mygreen)
 }
 
 .roundedBackgroundPadding {

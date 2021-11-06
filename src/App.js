@@ -32,8 +32,8 @@ function App() {
                 <Route exact path="/contact" component={ContactPage}/>
             </Switch>
             <p style={{paddingBottom: "2rem"}}></p>
-            <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "white", backgroundColor: "var(--orange)"}}>
-                Website built by Ben Hardin, using React + WebStorm + Google Cloud Platform
+            <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "white", backgroundColor: "var(--mygreen)"}}>
+                Website built by Ben Hardin, using React + WebStorm + GitHub Pages
                 <a style={{float: "right", paddingRight: "1rem", textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/benjamin-hardin">My LinkedIn</a>
             </div>
         </HashRouter>

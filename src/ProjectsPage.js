@@ -9,6 +9,9 @@ export default function ProjectsPage() {
         <div className="leftAndRightContentInsets">
 
             <div className="pageTitle">Projects</div>
+
+            <div className="leftContentInsets">
+
             <div className="pageSubtitle">DCnet Research Project</div>
             <div className="pageSubSubtitle">Undergraduate Research with Professor Douglas Comer</div>
             <ul>
@@ -17,7 +20,7 @@ export default function ProjectsPage() {
             </ul>
 
 
-            <div className="pageSubtitle">Purdue Honors College & Residences App</div>
+            <div className="pageSubtitle"> <a href="https://apps.apple.com/us/app/purdue-hcr/id1416403036">Purdue Honors College & Residences App </a></div>
             <img className='avatar' style={{maxWidth: 100, borderRadius: '15%', float: 'right', marginRight: 50, borderColor: 'black', borderWidth: 2, marginLeft: 50}} src={hcr} />
             <div className="pageSubSubtitle">President of Purdue Honors College Development Committee</div>
             <div>Led the iOS team to develop an app to support the Purdue Honors College and Residences in their house
@@ -26,7 +29,10 @@ export default function ProjectsPage() {
                 as events happening around Honors and laundry machine status updates.
             </div>
 
-            <div className="pageSubtitle">Appetyte</div>
+            <div className="pageSubtitle"><a href="https://github.com/bbhardin/A-Guide-to-MacOS-Scaled-Resolutions">A Guide to MacOS Scaled Resolutions</a></div>
+            <div className="pageSubSubtitle">(Slightly popular) GitHub guide I wrote on enabling scaled resolution support in MacOS</div>
+
+            <div className="pageSubtitle"><a href="https://github.com/PallavAg/Appetyte">Appetyte</a></div>
             <div className="pageSubSubtitle">CS407 Semester Project, Fall 2022</div>
             <ul><li>Developing an app to help users reduce food waste by making recipes for their ingredients that expire soon.</li></ul>
 
@@ -39,7 +45,7 @@ export default function ProjectsPage() {
             <div className="pageSubtitle">DoctorsNote</div>
             <div className="pageSubSubtitle">CS307 Semester Project, Sprint 2020</div>
 
-
+            </div>
 
         </div>
     );
