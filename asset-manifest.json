@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/mysite/static/css/main.080fb72b.chunk.css",
-    "main.js": "/mysite/static/js/main.41fcdcd1.chunk.js",
-    "main.js.map": "/mysite/static/js/main.41fcdcd1.chunk.js.map",
+    "main.js": "/mysite/static/js/main.5033371c.chunk.js",
+    "main.js.map": "/mysite/static/js/main.5033371c.chunk.js.map",
     "runtime-main.js": "/mysite/static/js/runtime-main.f929fc30.js",
     "runtime-main.js.map": "/mysite/static/js/runtime-main.f929fc30.js.map",
     "static/css/2.0a9ec390.chunk.css": "/mysite/static/css/2.0a9ec390.chunk.css",
@@ -36,6 +36,7 @@
     "static/media/ski.8b79480b.jpg": "/mysite/static/media/ski.8b79480b.jpg",
     "static/media/sl_my_version.d5487277.jpg": "/mysite/static/media/sl_my_version.d5487277.jpg",
     "static/media/sl_original.f7368c72.JPG": "/mysite/static/media/sl_original.f7368c72.JPG",
+    "static/media/smart_light_switch.c89577ae.jpeg": "/mysite/static/media/smart_light_switch.c89577ae.jpeg",
     "static/media/southside.01d5b5f1.jpeg": "/mysite/static/media/southside.01d5b5f1.jpeg",
     "static/media/treewouldittake.ca3635af.png": "/mysite/static/media/treewouldittake.ca3635af.png",
     "static/media/venice_canal.240302ee.JPG": "/mysite/static/media/venice_canal.240302ee.JPG",
@@ -47,6 +48,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.fce9bbdf.chunk.js",
     "static/css/main.080fb72b.chunk.css",
-    "static/js/main.41fcdcd1.chunk.js"
+    "static/js/main.5033371c.chunk.js"
   ]
 }
