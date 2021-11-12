@@ -8,6 +8,7 @@ import northside from "./images/volunteer/northside.jpeg";
 import southside from "./images/volunteer/southside.jpeg";
 import front from "./images/volunteer/front.jpeg";
 import planting from "./images/volunteer/planting.jpeg";
+import report from "./images/projects/report.pdf";
 import React from "react";
 
 export default function VolunteerPage() {
@@ -26,7 +27,7 @@ export default function VolunteerPage() {
                     <li>Cleared space in the woods for the classroom and spread landscape fabric and local mulch to create a sustainable space.</li>
                     <li>Trimmed trees and added more gravel to the lane in order to improve the appearance of the property from the road.</li>
                 </ul>
-                <Container style={{paddingTop: "1rem", marginLeft: "0rem", marginRight: "0rem"}}>
+                <Container style={{margin: "0.5rem", marginLeft: "0rem", marginRight: "0rem", height: "350px"}}>
                     <Row>
                         <Col sm={"auto"}>
                             <img className='gridImage' style={{maxHeight: "350px"}} src={benches} />
@@ -39,14 +40,14 @@ export default function VolunteerPage() {
                         </Col>
                     </Row>
                 </Container>
-                <span><Collapsible trigger="Show Project Report">
-                    <div>Test</div>
-                      <object data="http://bbhardin." type="application/pdf" width="100%" height="100%">
-                </Collapsible></span>
             </div>
+            <span style={{marginTop: "0.5rem", marginBottom: "2rem"}}><Collapsible trigger="Show/Hide Project Report"
+                   triggerStyle={{fontWeight: "bold", backgroundColor: "lightgray", padding: "5px", borderRadius: "5px"}}>
+                   <iframe src={report} style={{width: "50%", height: "500px"}}/>
+                </Collapsible></span>
 
 
-            <div className="pageSubtitle">Eagle Scout Project</div>
+            <div className="pageSubtitle" style={{marginTop: "1rem"}}>Eagle Scout Project</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Landscaping for North Madison Church of Christ</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2016</div>
             <div>
