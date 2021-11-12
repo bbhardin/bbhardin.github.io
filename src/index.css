@@ -81,6 +81,15 @@ code {
   margin-right: 0px;
 }
 
+.croppedImage {
+  vertical-align: middle;
+  width: 100%;
+  max-width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: 50% 25%;
+}
+
 .avatar {
   vertical-align: middle;
   width: auto;
@@ -157,13 +166,12 @@ code {
 .fa {
   padding: 15px;
   font-size: 30px;
-  width: 5px;
-  height: 5px;
+  width: 50px;
+  height: 50px;
   text-align: center;
   text-decoration: none;
   border-radius: 50%;
   background-color: white;
-  float: right;
   margin: 5px;
 }
 
@@ -185,5 +193,19 @@ code {
 
 .bottomBorder {
   border-top: 2px solid black;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  /*.card {*/
+  /*  display: inline-block;*/
+  /*}*/
+}
+
+.serifStyle {
+  font-family: Garamond, Georgia, Times New Roman;
 }
 
