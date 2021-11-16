@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.638b9e8e.chunk.css",
-    "main.js": "/static/js/main.fa8e450e.chunk.js",
-    "main.js.map": "/static/js/main.fa8e450e.chunk.js.map",
+    "main.js": "/static/js/main.d8d6e5aa.chunk.js",
+    "main.js.map": "/static/js/main.d8d6e5aa.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8bfa26b7.js",
     "runtime-main.js.map": "/static/js/runtime-main.8bfa26b7.js.map",
     "static/css/2.0a9ec390.chunk.css": "/static/css/2.0a9ec390.chunk.css",
@@ -14,7 +14,8 @@
     "static/css/2.0a9ec390.chunk.css.map": "/static/css/2.0a9ec390.chunk.css.map",
     "static/css/main.638b9e8e.chunk.css.map": "/static/css/main.638b9e8e.chunk.css.map",
     "static/js/2.1d400994.chunk.js.LICENSE.txt": "/static/js/2.1d400994.chunk.js.LICENSE.txt",
-    "static/media/2_series_original.c3bb49d7.jpeg": "/static/media/2_series_original.c3bb49d7.jpeg",
+    "static/media/2_series_my_version.b5d21cf2.jpg": "/static/media/2_series_my_version.b5d21cf2.jpg",
+    "static/media/2_series_original.1b6426f1.jpeg": "/static/media/2_series_original.1b6426f1.jpeg",
     "static/media/HCR.f43b99ef.png": "/static/media/HCR.f43b99ef.png",
     "static/media/Icon.6eddd67d.png": "/static/media/Icon.6eddd67d.png",
     "static/media/benches.fb6175ba.jpg": "/static/media/benches.fb6175ba.jpg",
@@ -29,6 +30,8 @@
     "static/media/houses.34926407.jpg": "/static/media/houses.34926407.jpg",
     "static/media/info.cb528a33.png": "/static/media/info.cb528a33.png",
     "static/media/information.43e090d3.png": "/static/media/information.43e090d3.png",
+    "static/media/mini_my_version.88bf6fb8.jpg": "/static/media/mini_my_version.88bf6fb8.jpg",
+    "static/media/mini_original.f8a93ce1.jpeg": "/static/media/mini_original.f8a93ce1.jpeg",
     "static/media/motorcycle.08cd3d47.jpg": "/static/media/motorcycle.08cd3d47.jpg",
     "static/media/northside.95aa126c.jpeg": "/static/media/northside.95aa126c.jpeg",
     "static/media/planting.582ac3e6.jpeg": "/static/media/planting.582ac3e6.jpeg",
@@ -52,6 +55,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.1d400994.chunk.js",
     "static/css/main.638b9e8e.chunk.css",
-    "static/js/main.fa8e450e.chunk.js"
+    "static/js/main.d8d6e5aa.chunk.js"
   ]
 }
