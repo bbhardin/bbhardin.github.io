@@ -5,6 +5,9 @@ import skiing from "./images/hobbies/ski.jpg";
 import sl_original from "./images/cardesigns/sl_original.JPG";
 import sl_my_version from "./images/cardesigns/sl_my_version.jpg";
 import two_series_original from "./images/cardesigns/2_series_original.jpeg";
+import two_series_my_version from "./images/cardesigns/2_series_my_version.jpg";
+import mini_my_version from "./images/cardesigns/mini_my_version.jpg";
+import mini_original from "./images/cardesigns/mini_original.jpeg";
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import timingchain from "./images/projects/timingchain.JPG";
@@ -93,7 +96,22 @@ export default function HobbiesPage() {
                             <img className='gridImage' style={{maxHeight: "350px"}} src={two_series_original} />
                         </Col>
                         <Col>
-
+                            <img className='gridImage' style={{maxHeight: "350px"}} src={two_series_my_version} />
+                        </Col>
+                    </Row>
+                </Container>
+                <div style={{fontWeight: "bold", paddingTop: "1rem"}}>2021 Mini Cooper</div>
+                <Container style={{padding: "0rem", margin: "1rem"}}>
+                    <Row>
+                        <Col>Original</Col>
+                        <Col>My Version</Col>
+                    </Row>
+                    <Row>
+                        <Col>
+                            <img className='gridImage' style={{maxHeight: "350px"}} src={mini_original} />
+                        </Col>
+                        <Col>
+                            <img className='gridImage' style={{maxHeight: "350px"}} src={mini_my_version} />
                         </Col>
                     </Row>
                 </Container>
