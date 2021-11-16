@@ -52,7 +52,6 @@ export default function VolunteerPage() {
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2016</div>
             <div>
                 <ul>
-                    <li>Landscaped North Madison Church of Christ in Madison, IN.</li>
                     <li>Raised funds, drafted and revised plans, selected plants, and organized labor to accomplish the project.</li>
                     <li style={{fontWeight: "bold"}}>Over 200 man-hours in total.</li>
                 </ul>

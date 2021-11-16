@@ -27,6 +27,7 @@ export default function HobbiesPage() {
                                 <li>Reading <div style={{fontWeight: "normal"}}>
                                     <div>Check out my book blog, <a href="https://bbhardin1.wixsite.com/paintchipsociety">The Paint Chip Society!</a></div>
                                     (Favorite authors are Dickens, Vonnegut, and Hemingway)</div></li>
+                                <li>Tennis</li>
                                 <li>Bicycling</li>
                                 <li>Running and Lifting</li>
                             </ul>
