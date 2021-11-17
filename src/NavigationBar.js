@@ -8,7 +8,7 @@ export default function NavigationBar() {
 		<div>
 			<Navbar variant="dark" className="navbar navigationBar navigationBarContent py-3">
 				<Nav className="me-auto" style={{margin: "0 auto"}}>
-					<Navbar.Brand as={Link} to="/" className="navbar-brand homeButton">Ben Hardin</Navbar.Brand>
+					<Navbar.Brand as={Link} to="/">Ben Hardin</Navbar.Brand>
 					<Nav.Link as={Link} to="/">About Me</Nav.Link>
 					<Nav.Link as={Link} to="/resume">My Resume</Nav.Link>
 					<Nav.Link as={Link} to="/projects">Projects</Nav.Link>
@@ -16,7 +16,7 @@ export default function NavigationBar() {
 					<Nav.Link as={Link} to="/hobbies">Hobbies</Nav.Link>
 					<Nav.Link as={Link} to="/travels">Travels</Nav.Link>
 					<Nav.Link as={Link} to="/skills">Skills</Nav.Link>
-					<Nav.Link as={Link} to="/training">Certification</Nav.Link>
+					{/*<Nav.Link as={Link} to="/training">Certification</Nav.Link>*/}
 					<Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 				</Nav>
 			</Navbar>

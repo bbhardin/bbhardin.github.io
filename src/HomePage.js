@@ -10,7 +10,7 @@ export default function HomePage() {
         <div>
             <div>
                 <img className="croppedImage" src={taillights}/>
-                <p style={{color: "white", position: "absolute", top: "30%", left: "50%",
+                <p style={{color: "white", position: "absolute", top: "40%", left: "50%",
                     transform: "translate(-50%, -50%)", fontWeight: "bold", textAlign: "center"}}>
                     <p style={{fontSize: 48}}>Ben Hardin</p>
                     <p style={{fontSize: 22, margin: "0rem"}}>Computer Science Honors @ Purdue</p>
@@ -25,7 +25,6 @@ export default function HomePage() {
                        className="fa fa-flickr"></a>
                     <a href="https://www.twitter.com/b_b_hardin" target="_blank" className="fa fa-twitter"></a>
                 </p>
-
             </div>
             <div className='leftContentInsets' style={{backgroundColor: "lightGray"}}>
 
@@ -34,15 +33,7 @@ export default function HomePage() {
             </div>
 
             <div>
-                <Container style={{padding: "0rem", margin: "0rem"}}>
-            <Row>
-                {/*<Col sm={2}>*/}
-                    {/*/<img className='avatar' src={profile} />*/}
-
-                {/*</Col>*/}
-
-                <Col>
-                    <div className='pageSubtitle serifStyle' style={{paddingTop: "0rem", color: "black", textAlign: "center"}}>About Me </div>
+                    <div className='pageSubtitle' style={{paddingTop: "0rem", color: "black", textAlign: "center", float: "center"}}>About Me </div>
                     <div style={{fontSize: 15}}>
                     <div className='smallBottomPadding'>Surprisingly, growing up on Indiana farms has taught me more than how to drive a tractor; it has taught me a lot about computer science too.</div>
                     <div className='smallBottomPadding'>Living in a community well-separated from the world of the software industry, I learned the importance of software accessibility to those of all backgrounds. I see people struggle to use complicated or quickly deprecated devices made by a team who only saw through the eyes of a software engineer.</div>
@@ -54,18 +45,15 @@ export default function HomePage() {
                     <div className='smallBottomPadding' style={{}}>If you would like to contact me, I can be reached at bbhardin1 (at) gmail (dot) com.</div>
                     <div className='smallBottomPadding'><a href="https://www.linkedin.com/in/benjamin-hardin">www.linkedin.com/in/benjamin-hardin</a></div>
 
-                    <div style={{paddingTop: "1rem"}}>Check out my book blog, <a href="https://bbhardin1.wixsite.com/paintchipsociety">The Paint Chip Society!</a> (Still under construction)</div>
-                    <div>(Favorite authors are Dickens, Vonnegut, and Hemingway)</div>
+                    {/*<div style={{paddingTop: "1rem"}}>Check out my book blog, <a href="https://bbhardin1.wixsite.com/paintchipsociety">The Paint Chip Society!</a> (Still under construction)</div>*/}
+                    {/*<div>(Favorite authors are Dickens, Vonnegut, and Hemingway)</div>*/}
                     </div>
-                </Col>
-            </Row>
-                </Container>
             </div>
             </div>
 
             <div style={{backgroundColor: "#ededed", paddingBottom: "1rem", marginTop: "1rem"}}>
                 <div className="leftContentInsets">
-                    <div className="pageTitle serifStyle">Selected Projects</div>
+                    <div className="pageTitle">Selected Projects</div>
                     <div><Nav.Link style={{paddingLeft: 0}}as={Link} to="/projects">Check out my Projects Page!</Nav.Link> or see <a href="https://github.com/bbhardin">my GitHub</a> for info on all my latest projects.</div>
 
 
