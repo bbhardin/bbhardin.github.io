@@ -12,6 +12,8 @@ import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
 import timingchain from "./images/projects/timingchain.JPG";
 import timingchain2 from "./images/projects/timingchain_close.JPG";
+import {Link} from "react-router-dom";
+import {Nav} from "react-bootstrap";
 
 export default function HobbiesPage() {
     return (
@@ -33,6 +35,11 @@ export default function HobbiesPage() {
                                 <li>Tennis</li>
                                 <li>Bicycling</li>
                                 <li>Running and Lifting</li>
+                                <li>Cooking with friends</li>
+                                <li>Visiting art museums
+                                    <div style={{fontWeight: "normal"}}>
+                                        <Nav.Link style={{paddingLeft: 0}}as={Link} to="/art">Some of my favorite pieces</Nav.Link>
+                                    </div></li>
                             </ul>
                         </Col>
                         <Col>

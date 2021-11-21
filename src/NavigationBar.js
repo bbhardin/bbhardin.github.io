@@ -10,9 +10,9 @@ export default function NavigationBar() {
 				<Nav className="me-auto" style={{margin: "0 auto"}}>
 					<Navbar.Brand as={Link} to="/">Ben Hardin</Navbar.Brand>
 					<Nav.Link as={Link} to="/">About Me</Nav.Link>
-					<Nav.Link as={Link} to="/resume">My Resume</Nav.Link>
 					<Nav.Link as={Link} to="/projects">Projects</Nav.Link>
 					<Nav.Link as={Link} to="/volunteer">Volunteer Experience</Nav.Link>
+					<Nav.Link as={Link} to="/resume">CV</Nav.Link>
 					<Nav.Link as={Link} to="/hobbies">Hobbies</Nav.Link>
 					<Nav.Link as={Link} to="/travels">Travels</Nav.Link>
 					<Nav.Link as={Link} to="/skills">Skills</Nav.Link>

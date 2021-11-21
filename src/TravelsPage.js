@@ -12,6 +12,7 @@ export default function TravelsPage() {
         <div className="leftContentInsets">
             <div className="pageTitle">Some of My Travels</div>
             <div className="pageSubtitle">Upcoming: I will be studying at ETH Zürich for Spring 2022!!</div>
+            <div>I'm excited to take courses on ubiquitous computing, HCI, and computer vision.</div>
             <div className="pageSubtitle">Italian Discoveries Study Abroad</div>
             <div>
                 We visited Florence, Venice, Cinque Terre, and Paderno del Grappa while studying Da Vinci and the Renaissance

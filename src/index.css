@@ -205,6 +205,15 @@ code {
   /*}*/
 }
 
+.projectSubtitle {
+  font-family: -apple-system, Helvetica Neue, Arial;
+  font-weight: bold;
+  color: grey;
+  font-size: 24px;
+  padding-bottom: 0.5rem;
+  padding-top: 2rem;
+}
+
 .serifStyle {
   font-family: Garamond, Georgia, Times New Roman;
 }
