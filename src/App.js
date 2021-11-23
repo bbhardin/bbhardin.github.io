@@ -15,11 +15,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect} from "react";
 
 function App() {
-
-    useEffect(() => {
-        document.title = "Ben Hardin"
-    })
-
   return (
       <>
         <HashRouter basename="/mysite">
