@@ -12,12 +12,17 @@ import ContactPage from "./ContactPage";
 import ArtPage from "./ArtPage";
 import ResumePage from "./ResumePage";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import React from "react";
+import React, {useEffect} from "react";
 
 function App() {
+
+    useEffect(() => {
+        document.title = "Ben Hardin"
+    })
+
   return (
       <>
-        <HashRouter basename="/MyReactSite">
+        <HashRouter basename="/mysite">
             <NavigationBar/>
             <Switch>
                 <Route exact path="/" component={HomePage}/>
