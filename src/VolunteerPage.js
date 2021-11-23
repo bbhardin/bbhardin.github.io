@@ -27,15 +27,15 @@ export default function VolunteerPage() {
                     <li>Cleared space in the woods for the classroom and spread landscape fabric and local mulch to create a sustainable space.</li>
                     <li>Trimmed trees and added more gravel to the lane in order to improve the appearance of the property from the road.</li>
                 </ul>
-                <Container style={{margin: "0.5rem", marginLeft: "0rem", marginRight: "0rem", height: "350px"}}>
+                <Container style={{margin: "0.5rem", marginLeft: "0rem", marginRight: "0rem", padding: "0rem", maxHeight: "350px"}}>
                     <Row>
-                        <Col sm={"auto"}>
+                        <Col sm={6}>
                             <img className='gridImage' style={{maxHeight: "350px"}} src={benches} />
                         </Col>
-                        <Col sm={"auto"}>
+                        <Col>
                             <img className='gridImage' style={{maxHeight: "350px"}} src={cutting_trees} />
                         </Col>
-                        <Col sm={"auto"}>
+                        <Col>
                             <img className='gridImage' style={{maxHeight: "350px"}} src={drill} />
                         </Col>
                     </Row>
@@ -43,9 +43,8 @@ export default function VolunteerPage() {
             </div>
             <span style={{marginTop: "0.5rem", marginBottom: "2rem"}}><Collapsible trigger="Show/Hide Project Report"
                    triggerStyle={{fontWeight: "bold", backgroundColor: "lightgray", padding: "5px", borderRadius: "5px"}}>
-                   <iframe src={report} style={{width: "50%", height: "500px"}}/>
+                   <iframe src={report} style={{width: "90%", height: "500px"}}/>
                 </Collapsible></span>
-
 
             <div className="pageSubtitle" style={{marginTop: "1rem"}}>Eagle Scout Project</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Landscaping for North Madison Church of Christ</div>
