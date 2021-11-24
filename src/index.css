@@ -105,6 +105,18 @@ code {
   background-repeat: no-repeat;
 }
 
+.smallAvatar {
+  vertical-align: middle;
+  width: auto;
+  max-width: 150px;
+  height: auto;
+  border-radius: 15px;
+  margin-right: 0px;
+
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .gridImage {
   vertical-align: middle;
   max-width: 100%;

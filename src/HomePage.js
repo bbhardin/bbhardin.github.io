@@ -32,23 +32,34 @@ export default function HomePage() {
                 <div style={{paddingBottom: "1rem", fontSize: 16}}></div>
             </div>
 
-            <div className='leftAndRightContentInsets'>
-                    <div className='pageSubtitle' style={{paddingTop: "1rem", color: "black", textAlign: "center", float: "center"}}>About Me </div>
-                    <div style={{fontSize: 15}}>
-                    <div className='smallBottomPadding'>Surprisingly, growing up on Indiana farms has taught me more than how to drive a tractor; it has taught me a lot about computer science too.</div>
-                    <div className='smallBottomPadding'>Living in a community well-separated from the world of the software industry, I learned the importance of software accessibility to those of all backgrounds. I see people struggle to use complicated or quickly deprecated devices made by a team who only saw through the eyes of a software engineer.</div>
-                    <div className='smallBottomPadding'>What does this mean for me, a computer science student passionate about human-computer interaction and systems programming? It means I strive to seek out the many perspectives of the end user. I want what I build to be robust, accessible, and make life easier. I am addicted to solving important problems the best way, even when it means hours of dedicated research before I see an approach to the issue.</div>
-                    <div className='smallBottomPadding'>Through my experiences with Microsoft, GM, GE Aviation, and the Purdue Honors College Dev Committee, I am learning how to integrate the insight and experiences of others when designing a product.</div>
-                    <div className='mediumBottomPadding'>On a personal note, if you want to catch my attention and see my eyes light up, just mention Apple, Mercedes-Benz, or anything about the tech or auto industries. In my free time you’ll find me tinkering with old computers, hiking, practicing photography, or reading dystopian novels (because who doesn’t love an unsatisfying ending). All in all, I’m just a guy passionate about working hard, enjoying life, and taking pride in what I create.</div>
+                <div className='leftAndRightContentInsets'>
+                <Row >
+                    <Col sm={"auto"}>
+                        <img className="smallAvatar" style={{marginTop: "4rem"}} src={profile}/>
+                        <div className="pageSubSubtitle" style={{paddingBottom: 0, paddingTop: "1rem", fontWeight: "bold"}}>Contact Info</div>
+                        <div style={{}}>bbhardin1 (at) gmail (dot) com.</div>
+                        <div className='smallBottomPadding' style={{paddingBottom: "2rem"}}><a href="https://www.linkedin.com/in/benjamin-hardin">www.linkedin.com/in/benjamin-hardin</a></div>
 
-                    <div className="pageSubSubtitle" style={{paddingBottom: 0, paddingTop: "1rem", fontWeight: "bold"}}>Contact Info</div>
-                    <div style={{}}>bbhardin1 (at) gmail (dot) com.</div>
-                    <div className='smallBottomPadding' style={{paddingBottom: "2rem"}}><a href="https://www.linkedin.com/in/benjamin-hardin">www.linkedin.com/in/benjamin-hardin</a></div>
+                    </Col>
+                    <Col>
+                        <div style={{maxWidth: "750px"}}>
+                            <div className='pageSubtitle' style={{paddingTop: "1rem", color: "black", textAlign: "center", float: "center"}}>About Me </div>
+                            <div style={{fontSize: 15}}>
+                                <div className='smallBottomPadding'>Surprisingly, growing up on Indiana farms has taught me more than how to drive a tractor; it has taught me a lot about computer science too.</div>
+                                <div className='smallBottomPadding'>Living in a community well-separated from the world of the software industry, I learned the importance of software accessibility to those of all backgrounds. I see people struggle to use complicated or quickly deprecated devices made by a team who only saw through the eyes of a software engineer.</div>
+                                <div className='smallBottomPadding'>What does this mean for me, a computer science student passionate about human-computer interaction and systems programming? It means I strive to seek out the many perspectives of the end user. I want what I build to be robust, accessible, and make life easier. I am addicted to solving important problems the best way, even when it means hours of dedicated research before I see an approach to the issue.</div>
+                                <div className='smallBottomPadding'>Through my experiences with Microsoft, GM, GE Aviation, and the Purdue Honors College Dev Committee, I am learning how to integrate the insight and experiences of others when designing a product.</div>
+                                <div className='mediumBottomPadding'>On a personal note, if you want to catch my attention and see my eyes light up, just mention Apple, Mercedes-Benz, or anything about the tech or auto industries. In my free time you’ll find me tinkering with old computers, hiking, practicing photography, or reading dystopian novels (because who doesn’t love an unsatisfying ending). All in all, I’m just a guy passionate about working hard, enjoying life, and taking pride in what I create.</div>
 
-                    {/*<div style={{paddingTop: "1rem"}}>Check out my book blog, <a href="https://bbhardin1.wixsite.com/paintchipsociety">The Paint Chip Society!</a> (Still under construction)</div>*/}
-                    {/*<div>(Favorite authors are Dickens, Vonnegut, and Hemingway)</div>*/}
-                    </div>
-            </div>
+
+                                {/*<div style={{paddingTop: "1rem"}}>Check out my book blog, <a href="https://bbhardin1.wixsite.com/paintchipsociety">The Paint Chip Society!</a> (Still under construction)</div>*/}
+                                {/*<div>(Favorite authors are Dickens, Vonnegut, and Hemingway)</div>*/}
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+                </div>
+
             </div>
 
             <div style={{backgroundColor: "#ededed", paddingBottom: "1rem"}}>
