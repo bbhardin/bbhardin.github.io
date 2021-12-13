@@ -21,11 +21,11 @@ export default function VolunteerPage() {
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2021</div>
             <div>
                 <ul>
-                    <li>Designed, built, and installed an outdoor classroom for 24 students to learn surrounded by the rolling hills of Southern Indiana to facilitate STEM training for minority student teachers.</li>
-                    <li>Handcrafted 9 benches, 9 tables, and 1 podium and drilled 37 holes with a 2-man auger.</li>
+                    <li>Designed, built, and installed an outdoor classroom for 24 students to learn surrounded by the rolling hills of Southern Indiana to facilitate training for minority STEM teachers.</li>
+                    <li>Handcrafted 9 benches, 9 tables, and 1 podium. Drilled 37 holes with a 2-man auger.</li>
                     <li style={{fontWeight: "bold"}}>Over 155 man-hours in total.</li>
-                    <li>Cleared space in the woods for the classroom and spread landscape fabric and local mulch to create a sustainable space.</li>
-                    <li>Trimmed trees and added more gravel to the lane in order to improve the appearance of the property from the road.</li>
+                    <li>Cleared wooded space for the classroom and spread landscape fabric and local mulch to create a sustainable space.</li>
+                    <li>Trimmed trees and added more gravel to the lane to improve property appearance from the road.</li>
                 </ul>
                 <Container style={{margin: "0.5rem", marginLeft: "0rem", marginRight: "0rem", padding: "0rem", maxHeight: "350px"}}>
                     <Row>
@@ -41,7 +41,7 @@ export default function VolunteerPage() {
                     </Row>
                 </Container>
             </div>
-            <span style={{marginTop: "0.5rem", marginBottom: "2rem"}}><Collapsible trigger="Show/Hide Project Report"
+            <span style={{marginTop: "0.5rem", marginBottom: "2rem"}}><Collapsible trigger="Show/Hide Project Report (Draft)"
                    triggerStyle={{fontWeight: "bold", backgroundColor: "lightgray", padding: "5px", borderRadius: "5px"}}>
                    <iframe src={report} style={{width: "90%", height: "500px"}}/>
                 </Collapsible></span>

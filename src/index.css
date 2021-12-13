@@ -40,7 +40,7 @@ code {
 }
 
 .pageTitle {
-  font-family: -apple-system, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 1rem;
@@ -48,7 +48,7 @@ code {
 }
 
 .pageSubtitle {
-  font-family: -apple-system, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-weight: bold;
   color: grey;
   font-size: 22px;
@@ -57,7 +57,7 @@ code {
 }
 
 .pageSubSubtitle {
-  font-family: -apple-system, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-size: 17px;
   padding-bottom: 0.5rem;
 }

@@ -15,7 +15,7 @@ export default function HomePage() {
                     <p style={{fontSize: 48}}>Ben Hardin</p>
                     <p style={{fontSize: 22, margin: "0rem"}}>Computer Science Honors @ Purdue</p>
                     <p style={{margin: "0rem"}}>Graduating May 2022</p>
-                    <p style={{margin: "0rem"}}>Research Interests: <span style={{fontStyle: "italic"}}>Human Computer Interaction, Social and Ubiquitous Computing, Accessibility</span></p>
+                    <p style={{margin: "0rem"}}>Research Interests: <span style={{fontStyle: "italic"}}>Human Computer Interaction, User Interfaces, Perception</span></p>
                     <link rel="stylesheet"
                           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                     <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"

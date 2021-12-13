@@ -3,8 +3,9 @@ import {Container, Row, Col} from "react-bootstrap";
 import florence from "./images/florence.jpg";
 import gelato from "./images/gelato.jpg";
 import houses from "./images/houses.jpg";
-import venice_canal from "./images/venice_canal.JPG"
-import vineyard from "./images/vineyard.jpg"
+import venice_canal from "./images/venice_canal.JPG";
+import vineyard from "./images/vineyard.jpg";
+import eth from "./images/eth.png";
 import React from "react";
 
 export default function TravelsPage() {
@@ -12,9 +13,11 @@ export default function TravelsPage() {
         <div className="leftContentInsets">
             <div className="pageTitle">Some of My Travels</div>
             <div className="pageSubtitle">Upcoming: I will be studying at ETH Zürich for Spring 2022!!</div>
-            <div>I'm excited to take courses on ubiquitous computing, HCI, and computer vision.</div>
-            <div className="pageSubtitle">Italian Discoveries Study Abroad</div>
-            <div>
+            <img style={{maxHeight: "35px", margin: "1rem"}} src={eth}/>
+            <div className="leftContentInsets" style={{fontWeight: "bold"}}>I'm excited to take courses on ubiquitous computing, HCI, and computer vision.</div>
+
+            <div className="pageSubtitle" style={{paddingTop: "2rem"}}>Italian Discoveries Study Abroad</div>
+            <div className="leftContentInsets">
                 We visited Florence, Venice, Cinque Terre, and Paderno del Grappa while studying Da Vinci and the Renaissance
                 and The Art of Travel.
 
