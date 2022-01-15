@@ -16,7 +16,7 @@ export default function VolunteerPage() {
     return (
         <div className="leftContentInsets">
             <div className="pageTitle">Volunteer Experience</div>
-            <div className="pageSubtitle">Historic Eleutherian College, Inc.</div>
+            <div className="secondaryPageTitle">Historic Eleutherian College, Inc.</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Outdoor Classroom</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2021</div>
             <div>
@@ -46,7 +46,7 @@ export default function VolunteerPage() {
                    <iframe src={report} style={{width: "90%", height: "500px"}}/>
                 </Collapsible></span>
 
-            <div className="pageSubtitle" style={{marginTop: "1rem"}}>Eagle Scout Project</div>
+            <div className="secondaryPageTitle topBorder" style={{marginTop: "4rem"}}>Eagle Scout Project</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Landscaping for North Madison Church of Christ</div>
             <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2016</div>
             <div>
@@ -58,16 +58,16 @@ export default function VolunteerPage() {
             <Container style={{paddingTop: "1rem", marginLeft: "0rem", marginRight: "0rem"}}>
                 <Row>
                     <Col>
-                        <img className='gridImage' style={{maxHeight: "350px"}} src={front} />
+                        <img className='gridImage enlarge' style={{maxHeight: "350px"}} src={front} />
                     </Col>
                     <Col>
-                        <img className='gridImage' style={{maxHeight: "350px"}} src={northside} />
+                        <img className='gridImage enlarge' style={{maxHeight: "350px"}} src={northside} />
                     </Col>
                     <Col>
-                        <img className='gridImage' style={{maxHeight: "350px"}} src={southside} />
+                        <img className='gridImage enlarge' style={{maxHeight: "350px"}} src={southside} />
                     </Col>
                     <Col>
-                        <img className='gridImage' style={{maxHeight: "350px"}} src={planting} />
+                        <img className='gridImage enlarge' style={{maxHeight: "350px"}} src={planting} />
                     </Col>
                 </Row>
             </Container>

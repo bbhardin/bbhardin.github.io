@@ -20,16 +20,20 @@ export default function ProjectsPage() {
 
             <div className="leftContentInsets" >
 
-                <div ><div className="projectSubtitle" >DCnet Research Project</div>
+                <div ><div className="projectSubtitle boxhead"><a href="https://github.com/real-dcnet/dcnet-source">DCnet Research Project</a></div>
                     <div className="pageSubSubtitle">Undergraduate Research with Professor Douglas Comer</div>
                     <ul>
                         <li>Worked with Professor Douglas Comer to implement a new data center architecture based on unique static MAC addresses to provide reliable and quick VM migration.</li>
                         <li>Designed tests utilizing Mininet and ONOS to simulate our architecture and test network performance.</li>
                     </ul></div>
 
+                <div className="pageSubtitle boxhead"><a href="https://github.com/bbhardin/cs592-project">Mixed-Initiative Natural Language File Searcher</a></div>
+                <div className="pageSubSubtitle">CS592 Human-AI Interaction Course Project</div>
+                <div>Goal: Add mixed-initiave interface design principles to natural language file search queries to reduce the time required to find files.</div>
 
 
-            <div className="projectSubtitle"> <a href="https://apps.apple.com/us/app/purdue-hcr/id1416403036">Purdue Honors College & Residences App </a></div>
+
+            <div className="projectSubtitle boxhead"> <a href="https://apps.apple.com/us/app/purdue-hcr/id1416403036">Purdue Honors College & Residences App </a></div>
             <img className='avatar' style={{maxWidth: 100, borderRadius: '15%', float: 'right', marginRight: 50, borderColor: 'black', borderWidth: 2, marginLeft: 50}} src={hcr} />
             <div className="pageSubSubtitle">President of Purdue Honors College Development Committee</div>
             <div className="leftContentInsets">Led the iOS team to develop an app to support the Purdue Honors College and Residences in their house
@@ -38,10 +42,10 @@ export default function ProjectsPage() {
                 as events happening around Honors and laundry machine status updates.
             </div>
 
-            <div className="projectSubtitle"><a href="https://github.com/bbhardin/A-Guide-to-MacOS-Scaled-Resolutions">A Guide to MacOS Scaled Resolutions</a></div>
+            <div className="projectSubtitle boxhead"><a href="https://github.com/bbhardin/A-Guide-to-MacOS-Scaled-Resolutions">A Guide to MacOS Scaled Resolutions</a></div>
             <div className="pageSubSubtitle leftContentInsets">(Slightly popular) GitHub guide I wrote on enabling scaled resolution support in MacOS.</div>
 
-            <div className="projectSubtitle"><a href="https://github.com/bbhardin/DriversFootprint">Driver's Footprint</a></div>
+            <div className="projectSubtitle boxhead"><a href="https://github.com/bbhardin/DriversFootprint">Driver's Footprint</a></div>
             <div className="leftContentInsets"> App I developed for Apple's 2021 WWDC Student Developer Challenge to predict a user's carbon footprint
                 based on how much they drive to work. It compares the number of trees you would have to plant each year
                 to offset your driving as well as how many hamburgers you would have to avoid eating to offset your
@@ -65,27 +69,31 @@ export default function ProjectsPage() {
                 </Container>
 
             <img className='avatar' style={{maxWidth: 100, borderRadius: '15%', float: 'right', marginRight: 50}} src={icon} />
-            <div className="projectSubtitle"><a href="https://apps.apple.com/us/app/skill-zone-play-to-the-top/id1576326199">SkillZone</a></div>
+            <div className="projectSubtitle boxhead"><a href="https://apps.apple.com/us/app/skill-zone-play-to-the-top/id1576326199">SkillZone</a></div>
             <div className="leftContentInsets">
             <div className="pageSubSubtitle">Minigame iOS App</div>
-            <ul><li>Helped develop components of a mini game app with over 62,000 users.</li></ul>
+            <ul><li>Helped develop components of a mini game app with over 99,000 users.</li></ul>
             </div>
 
-            <div className="projectSubtitle"><a href="https://github.com/bbhardin/smart-light-control">Smart Light Control from a Mercedes Window Switch Panel</a></div>
-            <div className="leftContentInsets">A simple smart light control panel using IFTTT hooks built on a window switch control panel from a 2001
-                Mercedes ML320. Each switch corresponds to a different ceiling light, and the inputs are digital on/off based
-                on if the user pulls up on each switch. I would like to get an analogue to digital convertor so
-                I can monitor the switch resistance to determine if user is pulling up or down and adjust the lights accordingly.
-                I would also like to add the ability to hold the switch up or down to slowly dim/brighten.</div>
-                <Container><Row><Col><img className='gridImage' style={{maxHeight: "300px"}} src={light} /></Col></Row></Container>
+            <div className="projectSubtitle boxhead"><a href="https://github.com/bbhardin/smart-light-control">Smart Light Control from a Mercedes Window Switch Panel</a></div>
+                <Container><Row>
+                    <Col sm={"auto"}><img className='gridImage' style={{maxHeight: "250px"}} src={light} />
+                    </Col>
+                <Col sm={7}>
+                    <div className="leftContentInsets">A control panel for my smart lights using IFTTT hooks built on a window switch control panel from a 2001
+                        Mercedes ML320. Each switch corresponds to a different ceiling light, and the inputs are digital on/off based
+                        on if the user pulls up on each switch. I would like to get an analogue to digital convertor so
+                        I can monitor the switch resistance to determine if user is pulling up or down and adjust the lights accordingly.
+                        I would also like to add the ability to hold the switch up or down to slowly dim/brighten.</div>
+                </Col></Row></Container>
 
-            <div className="projectSubtitle"><a href="https://github.com/PallavAg/Appetyte">Appetyte</a></div>
+            <div className="projectSubtitle boxhead"><a href="https://github.com/PallavAg/Appetyte">Appetyte</a></div>
                 <div className="leftContentInsets">
             <div className="pageSubSubtitle">CS407 Semester Project, Fall 2022</div>
             <ul><li>Developing an app to help users reduce food waste by making recipes for their ingredients that expire soon.</li></ul>
                 </div>
 
-            <div className="projectSubtitle"><a href="https://github.com/NMerz/DoctorsNote">DoctorsNote</a></div>
+            <div className="projectSubtitle boxhead"><a href="https://github.com/NMerz/DoctorsNote">DoctorsNote</a></div>
             <img className='avatar' style={{maxWidth: 100, borderRadius: '15%', float: 'right', marginRight: 50}} src={dn} />
                 <div className="leftContentInsets">
             <div className="pageSubSubtitle">CS307 Semester Project, Sprint 2020</div>

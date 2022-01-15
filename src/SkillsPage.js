@@ -8,7 +8,7 @@ export default function SkillsPage() {
         <li>{number}</li>
     );
 
-    const courses = ["CS352 Compilers", "CS354 Operating Systems", "CS422 Computer Networks", "CS381 Analysis of Algorithms", "CS334 Computer Graphics", "CS314 Numerical Methods"]
+    const courses = ["CS592 Human-AI Interaction", "CS352 Compilers", "CS354 Operating Systems", "CS422 Computer Networks", "CS381 Analysis of Algorithms", "CS334 Computer Graphics", "CS314 Numerical Methods"]
     const coursesList = courses.map((number) =>
         <li>{number}</li>
     );
@@ -36,9 +36,9 @@ export default function SkillsPage() {
                 </Row>
             </Container>
 
-            <div className='pageSubtitle'>Certificate in Entrepreneurship and Innovation (In Progress)</div>
+            <div className='secondaryPageTitle' style={{marginTop: "3rem"}}>Certificate in Entrepreneurship and Innovation</div>
             <div className='pageSubSubtitle' style={{fontWeight: "bold"}}>Purdue University</div>
-            <div>To be completed in Fall 2021!</div>
+            <div className='pageSubSubtitle' style={{fontWeight: "bold"}}>Completed Fall 2021</div>
             <ul>
                 <li>ENTR 460 – Internship and Career Preparation Seminar<div>Fall 2021</div></li>
                 <li>ENTR 310 – Marketing and Mangement for New Ventures

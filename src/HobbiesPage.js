@@ -43,17 +43,17 @@ export default function HobbiesPage() {
                             </ul>
                         </Col>
                         <Col>
-                            <img className='gridImage' style={{maxHeight: "350px"}} src={motorcycle} />
-                            <img className='gridImage' style={{maxHeight: "350px"}} src={hiking} />
-                            <img className='gridImage' style={{maxHeight: "350px"}} src={skiing} />
-                            <img className='gridImage' style={{maxHeight: "350px"}} src={biking} />
+                            <img className='gridImage' style={{maxHeight: "250px"}} src={motorcycle} />
+                            <img className='gridImage' style={{maxHeight: "250px"}} src={hiking} />
+                            <img className='gridImage' style={{maxHeight: "250px"}} src={skiing} />
+                            <img className='gridImage' style={{maxHeight: "250px"}} src={biking} />
                         </Col>
                     </Row>
                 </Container>
             </div>
 
-            <div className="leftContentInsets">
-            <div className="pageSubtitle">Car Projects</div>
+            <div className="leftContentInsets" style={{backgroundColor: "#eeeeee", paddingTop: "2rem", paddingBottom: "2rem"}}>
+            <div className="secondaryPageTitle topBorder">Car Projects</div>
             <div>Threading the new timing chain into my '01 Mercedes CL500. After 220k miles, we figured it might be
                 time to put a new one in.</div>
             <Row>
@@ -66,8 +66,8 @@ export default function HobbiesPage() {
             </Row>
             </div>
 
-            <div className="leftContentInsets">
-                <div className="pageSubtitle">Car Redesigns</div>
+            <div className="leftContentInsets" style={{paddingTop: "2rem"}}>
+                <div className="secondaryPageTitle topBorder">Car Redesigns</div>
                 <div>I only use an iPad and a free app, but I occasionally love
                         to do rough sketches of how I would modify the design of a car. Here are a few of those
                         rough sketches!
