@@ -33,8 +33,8 @@ function App() {
                 <Route exact path="/art" component={ArtPage}/>
             </Switch>
             <p style={{paddingBottom: "4rem"}}></p>
-            <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "white", backgroundColor: "var(--mygreen)"}}>
-                Website built by Ben Hardin, using React + WebStorm + GitHub Pages
+            <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "black", backgroundColor: "white"}}>
+                Website built by Ben Hardin, using React + GitHub Pages
                 <a style={{float: "right", paddingRight: "1rem", textDecoration: "none", color: "white" }} href="https://www.linkedin.com/in/benjamin-hardin">My LinkedIn</a>
             </div>
         </HashRouter>

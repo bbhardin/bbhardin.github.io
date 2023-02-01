@@ -15,7 +15,7 @@ export default function NavigationBar() {
 					<Nav.Link as={Link} to="/resume">CV</Nav.Link>
 					<Nav.Link as={Link} to="/hobbies">Hobbies</Nav.Link>
 					<Nav.Link as={Link} to="/travels">Travels</Nav.Link>
-					<Nav.Link as={Link} to="/skills">Skills</Nav.Link>
+					{/*<Nav.Link as={Link} to="/skills">Skills</Nav.Link>*/}
 					{/*<Nav.Link as={Link} to="/training">Certification</Nav.Link>*/}
 					<Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 				</Nav>

@@ -18,7 +18,7 @@ code {
 }
 
 .navigationBar {
-  background-color: var(--mygreen)
+  background-color: black;/*var(--mygreen)*/
 }
 
 .navigationBarContent {
@@ -42,15 +42,15 @@ code {
 .pageTitle {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 44px;
   padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .secondaryPageTitle {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-weight: bold;
-  font-size: 26px;
+  font-size: 30px;
   padding-bottom: 1rem;
   padding-top: 1rem;
 }
@@ -58,16 +58,17 @@ code {
 .pageSubtitle {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-weight: bold;
+  line-height: 110%;
   color: dimgray;
   font-size: 22px;
-  padding-bottom: 0.5rem;
   padding-top: 1rem;
 }
 
 .pageSubSubtitle {
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
   font-size: 17px;
-  padding-bottom: 0.5rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
 }
 
 
@@ -80,8 +81,18 @@ code {
 }
 
 .leftAndRightContentInsets {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+.smallLeftAndRightInsets {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+.mediumLeftAndRightInsets {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .rightJustified {
@@ -93,7 +104,7 @@ code {
   vertical-align: middle;
   width: 100%;
   max-width: 100%;
-  height: 500px;
+  height: 250px;
   object-fit: cover;
   object-position: 50% 45%;
 }
@@ -118,12 +129,22 @@ code {
   width: auto;
   max-width: 150px;
   height: auto;
-  border-radius: 15px;
+  border-radius: 100px;
   margin-right: 0px;
-
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.smallAvatar2 {
+  width: auto;
+  max-width: 150px;
+  height: auto;
+  border-radius: 100px;
+  margin-right: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 
 .gridImage {
   vertical-align: middle;
@@ -195,12 +216,15 @@ code {
   text-decoration: none;
   border-radius: 50%;
   background-color: white;
+  color: black;
   margin: 7px;
+  box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.2), 1px -1px 5px rgb(0, 0, 0, 0.2), -1px 1px 5px rgb(0, 0, 0, 0.2), 1px 1px 5px rgb(0, 0, 0, 0.2);
 }
 
 .fa:hover {
-  opacity: 0.95;
-  background-color: lightgray;
+  opacity: 1.0;
+  color: dodgerblue;
+  background-color: snow;
 }
 
 .roundedBackgroundPadding {
@@ -233,7 +257,6 @@ code {
   font-weight: bold;
   color: grey;
   font-size: 24px;
-  padding-bottom: 0.5rem;
   padding-top: 2rem;
 }
 
@@ -247,14 +270,38 @@ code {
 }
 
 .boxhead a:hover {
-  padding: 0.5rem;
-  border-radius: 15px;
+  padding: 0.3rem;
+  padding-left: 0.8rem;
+  padding-right: 0.8rem;
+  border-radius: 7px;
   background-color: var(--mygreen);
   color:white;
 }
 
 .topBorder {
   border-top: 3px solid var(--mygreen);
+}
+
+.topInset {
+  margin-top: 3rem;
+}
+
+.stroke {
+  text-shadow: -1px -1px 5px #222, 1px -1px 5px #222, -1px 1px 5px #222, 1px 1px 5px #222;
+}
+
+.subtleLink {
+  color: black;
+}
+.subtleLink:hover {
+  color: dodgerblue;
+}
+
+.hoverExpand{
+  transition: transform .2s;
+}
+.hoverExpand:hover {
+  transform: scale(1.05);
 }
 
 /*.gridImage:hover {*/

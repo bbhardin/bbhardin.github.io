@@ -14,16 +14,17 @@ import React from "react";
 export default function VolunteerPage() {
 
     return (
-        <div className="leftContentInsets">
+        <div className="leftAndRightContentInsets">
             <div className="pageTitle">Volunteer Experience</div>
-            <div className="secondaryPageTitle">Historic Eleutherian College, Inc.</div>
-            <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Outdoor Classroom</div>
-            <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2021</div>
+            <div className="secondaryPageTitle" style={{"paddingBottom": "0rem"}}>Outdoor Classroom</div>
+            <div className="leftContentInsets">
+            <div className="pageSubSubtitle" style={{fontWeight: "bold", fontSize: "24px"}}>Historic Eleutherian College, Inc.</div>
+            <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingBottom: "10px"}}>Summer 2021</div>
             <div>
                 <ul>
                     <li>Designed, built, and installed an outdoor classroom for 24 students to learn surrounded by the rolling hills of Southern Indiana to facilitate training for minority STEM teachers.</li>
                     <li>Handcrafted 9 benches, 9 tables, and 1 podium. Drilled 37 holes with a 2-man auger.</li>
-                    <li style={{fontWeight: "bold"}}>Over 155 man-hours in total.</li>
+                    <li>Over 155 man-hours in total.</li>
                     <li>Cleared wooded space for the classroom and spread landscape fabric and local mulch to create a sustainable space.</li>
                     <li>Trimmed trees and added more gravel to the lane to improve property appearance from the road.</li>
                 </ul>
@@ -45,14 +46,16 @@ export default function VolunteerPage() {
                    triggerStyle={{fontWeight: "bold", backgroundColor: "lightgray", padding: "5px", borderRadius: "5px"}}>
                    <iframe src={report} style={{width: "90%", height: "500px"}}/>
                 </Collapsible></span>
+            </div>
 
-            <div className="secondaryPageTitle topBorder" style={{marginTop: "4rem"}}>Eagle Scout Project</div>
-            <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Landscaping for North Madison Church of Christ</div>
-            <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Summer 2016</div>
+            <div className="secondaryPageTitle" style={{marginTop: "7rem"}}>Eagle Scout Project</div>
+            <div className="leftContentInsets">
+            <div className="pageSubSubtitle" style={{fontWeight: "bold", fontSize: "24px"}}>Landscaping for North Madison Church of Christ</div>
+            <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingBottom: "10px"}}>Summer 2016</div>
             <div>
                 <ul>
                     <li>Raised funds, drafted and revised plans, selected plants, and organized labor to accomplish the project.</li>
-                    <li style={{fontWeight: "bold"}}>Over 200 man-hours in total.</li>
+                    <li>Over 200 man-hours in total.</li>
                 </ul>
             </div>
             <Container style={{paddingTop: "1rem", marginLeft: "0rem", marginRight: "0rem"}}>
@@ -71,6 +74,7 @@ export default function VolunteerPage() {
                     </Col>
                 </Row>
             </Container>
+            </div>
 
         </div>
     );
