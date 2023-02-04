@@ -24,15 +24,15 @@ export default function HomePage() {
                     <p className="stroke" style={{font: "Claris Sans", fontSize: 55, marginBottom: "0rem"}}>Ben Hardin</p>
                     <p className="stroke" style={{fontSize: 22, margin: "0rem"}}>Computer Science DPhil Student @ Oxford</p>
                     {/*<p style={{margin: "0rem", paddingBottom: "0.5rem"}}>Graduating May 2022</p>*/}
-                    <p className="stroke" style={{margin: "0rem", "marginBottom": "1.2rem"}}>Research Interests: <span style={{fontStyle: "italic"}}>Human Centered-Computing, Psychological Safety, Autonomous Systems</span></p>
+                    <p className="stroke" style={{margin: "0rem", "marginBottom": "1.2rem"}}>Research Interests: <span style={{fontStyle: "italic"}}>Human Computer-Interaction, Psychological Safety, Autonomous Systems</span></p>
                     <link rel="stylesheet"
                           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                     <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"
                        className="fa fa-linkedin"></a>
                     <a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>
+                    <a href="https://www.twitter.com/b_b_hardin" target="_blank" className="fa fa-twitter"></a>
                     <a href="https://www.flickr.com/gp/165665758@N08/4FDeEd" target="_blank"
                        className="fa fa-flickr"></a>
-                    <a href="https://www.twitter.com/b_b_hardin" target="_blank" className="fa fa-twitter"></a>
                 </p>
             </div>
 
@@ -100,15 +100,26 @@ export default function HomePage() {
                                         <div className="hoverExpand"><a href="https://rti.ox.ac.uk"><img style={{width: "auto", maxWidth: "150px", paddingTop: "20px"}} src={rti_logo}/></a></div>
                                         <div className="hoverExpand"><a href="https://ori.ox.ac.uk"><img style={{width: "auto", maxWidth: "150px", paddingTop: "20px"}} src={ori_logo}/></a></div>
                                     </div>
+                                </div>
 
-                                <div className="secondaryPageTitle leftContentInsets" style={{paddingTop: "3rem"}}>News</div>
-                                <div className="leftContentInsets">
-                                    <div className="pageSubSubtitle" style={{fontWeight: "bold", color: "gray"}}>March 30, 2022</div>
-                                    <div className="pageSubtitle" style={{color: "black", paddingTop: "0rem"}}>2022 Academic Alliance Conference</div>
-                                    <div className="pageSubSubtitle">with US Strategic Command (STRATCOM)</div>
-                                    <div style={{paddingTop: "10px"}}>I was on a virtual panel and presented my paper, <span style={{fontStyle: "italic"}}>An Analysis of Deterrence Options for Chinese Cyber Espionage Against the United States</span>, at the University of Nebraska-Lincoln's 2022 U.S. Strategic Command Deterrence and Assurance Academic Alliance Conference and Workshop.</div>
-                                </div>
-                                </div>
+                                    <div className="secondaryPageTitle leftContentInsets" style={{paddingTop: "3rem"}}>What's New</div>
+                                    <div className="leftContentInsets" style={{paddingBottom: "1rem"}}>
+                                        <div className="pageSubSubtitle" style={{fontWeight: "bold", color: "gray"}}>Upcoming: March 7-9, 2023</div>
+                                        <div className="pageSubtitle" style={{color: "black", paddingTop: "0rem"}}><a style={{color: "black"}} href="icin-conference.org">ICIN 2023</a></div>
+                                        {/*<div className="pageSubSubtitle">with US Strategic Command (STRATCOM)</div>*/}
+                                        <div style={{paddingTop: "10px"}}>I will be presenting one of my undergraduate computer networks research papers in Paris, France!</div>
+                                    </div>
+                                    <div className="leftContentInsets" style={{paddingBottom: "1rem"}}>
+                                        <div className="pageSubSubtitle" style={{fontWeight: "bold", color: "gray"}}>Upcoming: March 17-19, 2023</div>
+                                        <div className="pageSubtitle" style={{color: "black", paddingTop: "0rem"}}><a style={{color: "black"}} href="http://www.icnct.org/">ICNCT 2023</a></div>
+                                        {/*<div className="pageSubSubtitle">with US Strategic Command (STRATCOM)</div>*/}
+                                        <div style={{paddingTop: "10px"}}>I will be presenting my second undergraduate networks research paper in Nice, France!</div>
+                                    </div>
+                                    {/*<div className="leftContentInsets">*/}
+                                    {/*<div className="pageSubSubtitle" style={{fontWeight: "bold", color: "gray"}}>March 30, 2022</div>*/}
+                                    {/*<div className="pageSubtitle" style={{color: "black", paddingTop: "0rem"}}>2022 Academic Alliance Conference</div>*/}
+                                    {/*<div className="pageSubSubtitle">with US Strategic Command (STRATCOM)</div>*/}
+                                    {/*<div style={{paddingTop: "10px"}}>I was on a virtual panel and presented my paper, <span style={{fontStyle: "italic"}}>An Analysis of Deterrence Options for Chinese Cyber Espionage Against the United States</span>, at the University of Nebraska-Lincoln's 2022 U.S. Strategic Command Deterrence and Assurance Academic Alliance Conference and Workshop.</div>*/}
                             </Col>
                         </Row>
                     </Col>
