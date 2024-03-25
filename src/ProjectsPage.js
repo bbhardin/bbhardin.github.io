@@ -15,8 +15,43 @@ import timingchain2 from "./images/projects/timingchain_close.JPG";
 export default function ProjectsPage() {
     return (
         <div className="leftAndRightContentInsets">
+            {/*<div style={{backgroundColor: "black", transform: "translateX(-50%) translateY(-3.7rem)", zIndex: "-1", position: "fixed",*/}
+            {/*    left: "50%",*/}
+            {/*    /* bring your own prefixes */}
+            {/*    height: "3rem", borderRadius: "25px", width: "750px"}}> _</div>*/}
 
-            <div className="pageTitle">Projects</div>
+
+            <div className="pageTitle">PhD Projects</div>
+            <div className="pageSubtitle">Ongoing</div>
+
+            <div className="leftContentInsets">
+
+                {/* YES I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
+
+                <div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing remote operators of road vehicles</div>
+                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop:"0.5rem"}}>Insights from operators with real-world experience</div>
+                <div style={{paddingTop:"0.5rem"}}>Much of the research into human factors of remote operation or "teleoperation" has been done in a lab. However, now
+                that remotely operated vehicles are hitting the roads, I hope to understand what challenges drivers still face in real-world
+                environments and how their workstations can better support these challenges.</div>
+
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop:"2rem"}}>Developing a definition of psychological safety for autonomous vehicles</div>
+                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop:"0.5rem"}}>What does it mean for a vehicle to be psychologically safe and what factors
+                are important for ensuring this safety?</div>
+                <div></div>
+
+                {/*<div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing Remote Operators of Road Vehicles</div>*/}
+                {/*<div className="pageSubSubtitle" style={{fontWeight: "bold"}}></div>*/}
+                {/*<div></div>*/}
+
+            </div>
+
+            <div className="pageSubtitle" style={{paddingTop: "3rem"}}>Completed</div>
+            <div className="leftContentInsets">
+                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop:"0.5rem"}}>Exploring Autonomous Decision Making Systems (ADMS) in the context of
+                in-vehicle driver monitoring</div>
+            </div>
+
+            <div className="pageTitle" style={{paddingTop: "5rem"}}>Other Projects</div>
 
             <div className="leftContentInsets" >
 

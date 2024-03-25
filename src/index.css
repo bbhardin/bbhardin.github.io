@@ -1,5 +1,6 @@
 :root {
   --orange: #ff9c59;
+  --exploreorange: #ff5a00;
   --mygreen: #748b85;
 }
 
@@ -18,11 +19,27 @@ code {
 }
 
 .navigationBar {
-  background-color: black;/*var(--mygreen)*/
+  /*background-color: black;/*var(--mygreen)*/
+  z-index: 2;
+  background-color: #1f1f1f;
+  /*padding: 10px;*/
+  border-radius: 5rem;
+  width: fit-content;
+  /*padding-left: 5rem;*/
+  max-width: 100%;
+  height: 3rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1rem;
+}
+
+.navigationBar.homepage {
+  /*background-color: black;/*var(--mygreen)*/
+  background-color: transparent;
 }
 
 .navigationBarContent {
-  padding: 1rem;
+  /*//padding: 1rem;*/
 }
 
 .navigationBarText {
@@ -104,7 +121,7 @@ code {
   vertical-align: middle;
   width: 100%;
   max-width: 100%;
-  height: 250px;
+  height: 400px;
   object-fit: cover;
   object-position: 50% 45%;
 }
@@ -126,10 +143,11 @@ code {
 
 .smallAvatar {
   vertical-align: middle;
-  width: auto;
-  max-width: 150px;
+  width: 75%;
+  text-align: center;
+  max-width: 200px;
   height: auto;
-  border-radius: 100px;
+  /*border-radius: 175px;*/
   margin-right: 0px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -214,18 +232,52 @@ code {
   height: 50px;
   text-align: center;
   text-decoration: none;
-  border-radius: 50%;
-  background-color: white;
-  color: black;
-  margin: 7px;
-  box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.2), 1px -1px 5px rgb(0, 0, 0, 0.2), -1px 1px 5px rgb(0, 0, 0, 0.2), 1px 1px 5px rgb(0, 0, 0, 0.2);
+  background-color: black;
+  border-style: solid;
+  border-color: #f0f0f0;
+  border-radius: 50% 50% 50% 50%;
+  /*background-color: #f0f0f0;*/
+  color: white;
+
+  margin: 5px;
+  /*!*box-shadow: -1px -1px 2px rgb(0, 0, 0, 0.2), 1px -1px 2px rgb(0, 0, 0, 0.2), -1px 1px 2px rgb(0, 0, 0, 0.2), 1px 1px 2px rgb(0, 0, 0, 0.2);*!*/
+  /*box-shadow:*/
+  /*        -6px -6px 26px rgba(255,255,255,.83),*/
+  /*        5px 6px 15px rgba(0,0,0,.05),*/
+  /*        15px 6px 35px rgba(0,0,0,.1),*/
+  /*        inset -2px -2px 2px rgba(0,0,0,.1),*/
+  /*        inset -1px -1px 3px rgba(255,255,255,.6),*/
+  /*        inset 2px 2px 8px rgba(255,255,255,.2),*/
+  /*        inset 1px 1px 8px rgba(255,255,255,.2),*/
+  /*        -6px -6px 26px rgba(255,255,255,.8);*/
+  /*color: black;*/
 }
 
 .fa:hover {
   opacity: 1.0;
-  color: dodgerblue;
-  background-color: snow;
+  /*color: dodgerblue;*/
+  /*background-color: #fafafa;*/
+  color: #ff5a00;
+    /*box-shadow:*/
+    /*        4px 4px 15px rgba(0,0,0,.1),*/
+    /*        5px 10px 15px rgba(0,0,0,.1),*/
+    /*        8px 10px 15px rgba(0,0,0,.1),*/
+    /*        inset -1px -1px 7px rgba(0,0,0,.2),*/
+    /*        inset -1px -1px 7px rgba(255,255,255,.1),*/
+    /*        inset 1px 1px 7px rgba(255,255,255,0.5),*/
+    /*        inset 4px 4px 7px rgba(0,0,0,.15),*/
+    /*        -5px -5px 15px rgba(255,255,255,.1);*/
+    /*transform: scale(.98);*/
+
 }
+
+/*.fa:active, .fa:focus {*/
+/*  box-shadow: inset 2px 2px 16px rgba(255,255,255,.9), inset 8px 8px 9px rgba(0,0,0,.2), 5px 10px 5px rgba(0,0,0,.03), -5px -5px 25px rgba(255,255,255,.1), -2px -2px 9px rgba(100,100,100,.1), inset -2px -2px 9px rgba(255,255,255,1);*/
+/*  outline: none;*/
+/*  background-color: #e5e5ef;*/
+/*  text-shadow: -2px -2px 3px rgba(0,0,0,.2), 2px 2px 3px rgba(255,255,255,1);*/
+/*  transform: translateY(3px);*/
+/*}*/
 
 .roundedBackgroundPadding {
   margin-top: 1rem;
@@ -270,12 +322,12 @@ code {
 }
 
 .boxhead a:hover {
-  padding: 0.3rem;
-  padding-left: 0.8rem;
-  padding-right: 0.8rem;
-  border-radius: 7px;
-  background-color: var(--mygreen);
-  color:white;
+  /*padding: 0.2rem;*/
+  /*padding-left: 0.8rem;*/
+  /*padding-right: 0.8rem;*/
+  /*border-radius: 7px;*/
+  color: var(--mygreen);
+  /*color:white;*/
 }
 
 .topBorder {
