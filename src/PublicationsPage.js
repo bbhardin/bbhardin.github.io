@@ -29,7 +29,13 @@ export default function PublicationsPage() {
                 <div className="pageSubSubtitle"><span style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Pericle
                     Salvini, Marina Jirotka, and Lars Kunze
                 </div>
-                <div className="leftContentInsets">IEEE IV 2023</div>
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>IEEE IV 2023</div>
+                <div className="leftContentInsets" style={{fontWeight:"lighter"}}>Remote driving is a promising strategy for helping Autonomous Vehicles (AVs) navigate many environments where edge cases may otherwise limit their abilities.
+                    For some companies, remote driving is an alternative to AVs altogether. Much remote driving research has taken place in simulated or controlled environments with novice operators,
+                    leaving the needs of operators with real-world experience under-explored. This research aims to understand if experienced operators are satisfied with current production remote driving systems,
+                    if they adapt to the difference in control, and how their job satisfaction compares to in-vehicle safety driving. This paper briefly overviews recent remote driving research and presents results
+                    from a questionnaire and a semi-structured interview with experienced teleoperators. The findings indicate that operators do adjust to the new domain, but latency and network reliability remain
+                    a challenge. Likewise, standardised training practices for operators are found to be lacking.</div>
 
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}><a
                     href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:F2UWTTQJPOcC"}>
@@ -38,7 +44,11 @@ export default function PublicationsPage() {
                 <div className="pageSubSubtitle">Pericle Salvini, Tyler Reinmund, <span style={{fontWeight: "bold"}}>Benjamin Hardin</span>,
                     Keri Grieman, Carolyn Ten Holter, Aaron Johnson, Lars Kunze, Alan Winfield, and Marina Jirotka
                 </div>
-                <div className="leftContentInsets">Frontiers in Political Science</div>
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>Frontiers in Political Science</div>
+                <div className="leftContentInsets" style={{fontWeight:"lighter"}}>
+                    This paper draws on three case studies to examine some of the challenges and tensions involved in the use of Autonomous Decision-Making Systems (ADMS). In particular, the paper highlights: (i) challenges around the shifting “locale” of the decision, and the associated consequences for stakeholders; (ii) potential implications for stakeholders from regulation such as the General Data Protection Regulation (GDPR); (iii) the different values that stakeholder groups bring to the “decision” question; (iv) how complex pre-existing webs of stakeholders and decision-making authorities may be disrupted or disempowered by the use of an automated system and the lack of evaluation of possible consequences; (v) how ADMS for non-technical users can lead to circumvention of the boundaries of intended system use. We illustrate these challenges through case studies in three domains: adult social care, aviation, and vehicle driver monitoring systems. The paper closes with recommendations for both practice and policy in the deployment of ADMS.
+
+                </div>
 
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}><a
                     href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:EYYDruWGBe4C"}>
@@ -48,7 +58,7 @@ export default function PublicationsPage() {
                     Ethan Glaser, <span style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Jared Huber, Elizabeth
                     Spyratos, Jason Ware
                 </div>
-                <div className="leftContentInsets">Local Development & Society Journal</div>
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>Local Development & Society Journal</div>
 
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}><a
                     href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:M05iB0D1s5AC"}>
@@ -56,7 +66,7 @@ export default function PublicationsPage() {
                 <div className="pageSubSubtitle" style={{fontWeight: ""}}><span style={{fontWeight: "bold"}}>Benjamin Hardin</span>,
                     Douglas Comer, Adib Rastegarnia
                 </div>
-                <div className="leftContentInsets">2023 Innovation in Clouds, Internet, and Networks (ICIN)</div>
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>2023 Innovation in Clouds, Internet, and Networks (ICIN)</div>
 
                 <div className="pageSubtitle boxhead" style={{paddingTop: "3rem", color: "black"}}><a
                     href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:g5m5HwL7SMYC"}>
@@ -64,7 +74,7 @@ export default function PublicationsPage() {
                 <div className="pageSubSubtitle"><span style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Douglas
                     Comer, Adib Rastegarnia
                 </div>
-                <div className="leftContentInsets">2023 International Conference on Computer, Control, and Robotics
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>2023 International Conference on Computer, Control, and Robotics
                     (ICCCR)
                 </div>
 
