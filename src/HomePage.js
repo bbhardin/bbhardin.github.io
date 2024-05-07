@@ -63,7 +63,7 @@ export default function HomePage() {
                         {/*    borderRadius: "55px", marginTop: "2rem"}}>*/}
 
                         {/*</div>*/}
-                        <div className="pageSubtitle" style={{color: "black", textAlign: "center"}}>Affiliations
+                        <div className="pageSubtitle" style={{color: "black", textAlign: "right"}}>Affiliations
                             <div className="hoverExpand"><a href="https://ori.ox.ac.uk"><img
                                 style={{width: "90%", maxWidth: "155px", paddingTop: "20px"}} src={ori_logo}/></a></div>
                             <div className="hoverExpand"><a href="https://rti.ox.ac.uk"><img
@@ -99,7 +99,7 @@ export default function HomePage() {
                                     lineHeight: "100%",
                                     // textAlign: "left"
                                 }}>BENJAMIN<br/>HARDIN</p>
-                                <div style={{position: "absolute", transform: "translate(-300px, -200px)"}}>
+                                <div style={{position: "absolute", transform: "translate(-325px, -150px)"}}>
                                     <link rel="stylesheet"
                                           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                                     <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"
