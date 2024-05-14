@@ -28,7 +28,7 @@ const papers = [
             "                    from a questionnaire and a semi-structured interview with experienced teleoperators. The findings\n" +
             "                    indicate that operators do adjust to the new domain, but latency and network reliability remain\n" +
             "                    a challenge. Likewise, standardised training practices for operators are found to be lacking.",
-        url: ""
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:-nhnvRiOwuoC"
     },
     {
         title: "(Pre-print) Safety assurance challenges for autonomous drones in Underground Mining Environments",
@@ -72,8 +72,8 @@ const papers = [
         title: "On the Unreliability of Network Simulation Results from Mininet and iPerf",
         authors: "<b>Benjamin Hardin</b>, Douglas Comer, Adib Rastegarnia",
         conference: "2023 International Conference on Computer, Control, and Robotics (ICCCR)",
-        abstract: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:g5m5HwL7SMYC",
-        url: ""
+        abstract: "",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:g5m5HwL7SMYC"
     }
 
     // {
@@ -93,17 +93,31 @@ const PaperList = () => (
     </div>
 );
 
-const Paper = ({title, authors, conference, abstract, url}) => (
-    <div>
-        <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}><a
-            href={`${url}`}>{title}</a></div>
-        <div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{ __html: `${authors}` }} />
-        <div className="leftContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
-        <div className="leftContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
-    </div>
-);
-
-
+const Paper = ({title, authors, conference, abstract, url}) => {
+    if (url !== "") {
+        // For when the paper has been published and has a URL
+        return(
+            <div>
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}><a
+                    href={`${url}`}>{title}</a></div>
+                <div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{__html: `${authors}`}}/>
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
+                <div className="leftContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
+            </div>
+        );
+    } else {
+        // For when the paper has not been published and there's no URL
+        return(
+            <div>
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}>{title}</div>
+                <div className="pageSubSubtitle" style={{fontWeight: ""}}
+                     dangerouslySetInnerHTML={{__html: `${authors}`}}/>
+                <div className="leftContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
+                <div className="leftContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
+            </div>
+        );
+    }
+}
 
 
 export default function PublicationsPage() {
@@ -113,11 +127,12 @@ export default function PublicationsPage() {
             {/*    left: "50%",*/}
             {/*    /* bring your own prefixes */}
             {/*    height: "3rem", borderRadius: "25px", width: "750px"}}> _</div>*/}
-            <div className="pageTitle boxhead"><a href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>Publications</a></div>
+            <div className="pageTitle boxhead"><a
+                href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>Publications</a></div>
 
             <div className="leftContentInsets">
 
-                <PaperList />
+            <PaperList />
 
                 {/*<div className="projectSubtitle boxhead"><a href="https://github.com/bbhardin/smart-light-control">Smart Light Control from a Mercedes Window Switch Panel</a></div>*/}
                 {/*    <Container><Row>*/}
