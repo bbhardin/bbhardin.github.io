@@ -14,7 +14,7 @@ import timingchain2 from "./images/projects/timingchain_close.JPG";
 
 const papers = [
     {
-        title: "(Pre-print) How Well Do Drivers Adapt to Remote Operation? Learning from Remote Drivers with On-Road Experience",
+        title: "How Well Do Drivers Adapt to Remote Operation? Learning from Remote Drivers with On-Road Experience",
         authors: "<b>Benjamin Hardin</b>, Pericle Salvini, Marina Jirotka, and Lars Kunze",
         conference: "IEEE IV 2024",
         abstract: "Remote driving is a promising strategy for helping Autonomous Vehicles (AVs) navigate many environments where edge cases may\n" +
@@ -33,7 +33,7 @@ const papers = [
     {
         title: "(Pre-print) Safety assurance challenges for autonomous drones in Underground Mining Environments",
         authors: "Philippa Ryan, Arjun Badyal, Samuel Sze, <b>Benjamin Hardin</b>, Hasan Bin Firoz, Paulina Lewinska, and Victoria Hodge",
-        conference: "",
+        conference: "TAROS 2024 (25th Annual Conference Towards Autonomous Robotic Systems)",
         abstract: "Autonomous drones have been proposed for many industrial inspection roles including building infrastructure, nuclear plants and mining. They have the benefit of accessing hazardous locations, without exposing human operators and other personnel to physical risk. Underground mines are extremely challenging for autonomous drones as there is limited infrastructure for Simultaneous Localisation and Mapping (SLAM), for the drone to navigate. For example, there is no Global Navigation Satellite System (GNSS), poor lighting, and few distinguishing landmarks. Additionally, the physical environment is extremely harsh, affecting the reliability of the drone. This paper describes the impact of these challenges in designing for, and assuring, safety. We illustrate with experience from developing an autonomous Return To Home (RTH) function for an inspection drone. This is initiated when the drone suffers a communications loss whilst surveying newly excavated corridors that are unsafe for personnel. We present some of the key safety assurance challenges we faced, including design constraints and difficulties using simulations for validation and verification.",
         url: ""
     },
