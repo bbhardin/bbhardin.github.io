@@ -1,6 +1,6 @@
 import React from "react";
 import profile from "./images/profile.jpg";
-import taillights from "./images/home/taillights.jpeg";
+// import taillights from "./images/home/taillights.jpeg";
 import ori_logo from "./images/home/ori_logo.png";
 import rti_logo from "./images/home/rti_logo.png";
 import monterey from "./images/home/monterey.jpeg";
@@ -75,9 +75,9 @@ export default function HomePage() {
 
                         <div>
 
-                            <img className="croppedImage"
-                                 style={{background: "white", color: "white", marginTop: "-5rem", opacity: "0%"}}
-                                 src={taillights}/>
+                            {/*<img className="croppedImage"*/}
+                            {/*     style={{background: "white", color: "white", marginTop: "-5rem", opacity: "0%"}}*/}
+                            {/*     src={taillights}/>*/}
                             <p style={{
                                 width: "90%",
                                 color: "black",
