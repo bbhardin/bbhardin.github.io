@@ -79,14 +79,14 @@ export default function HomePage() {
                             {/*     style={{background: "white", color: "white", marginTop: "-5rem", opacity: "0%"}}*/}
                             {/*     src={taillights}/>*/}
                             <p style={{
-                                width: "90%",
+                                marginRight: "70%",
                                 color: "black",
                                 position: "absolute",
                                 top: "120px",
-                                left: "50%",
-                                transform: "translate(-50%, 0%)", /*fontWeight: "bold"*/
+                                // left: "50%",
+                                // transform: "translate(-50%, 0%)", /*fontWeight: "bold"*/
                                 textAlign: "left",
-                                maxWidth: "50%"
+                                maxWidth: "40%"
                             }}>
                                 <p /*className="stroke"*/ style={{
                                     fontFamily: "system-ui, Helvetica Neue, Helvetica, Arial",
@@ -164,12 +164,12 @@ export default function HomePage() {
 
                             <Col>
                                 <div style={{
-                                    maxWidth: "750px", marginLeft: "5%", paddingLeft: "5%", paddingRight: "5%", /*background: "#EEEEEE",*/
+                                    maxWidth: "750px", marginLeft: "40%", paddingLeft: "5%", paddingRight: "5%", /*background: "#EEEEEE",*/
                                     borderRadius: "55px", marginTop: "2rem", marginBottom: "2rem"
                                 }}>
 
                                     <div className="pageTitle"
-                                         style={{paddingTop: "0rem", paddingBottom: "1rem", fontWeight: "150"}}>about me
+                                         style={{paddingTop: "20 rem", paddingBottom: "1rem", fontWeight: "150"}}>about me
                                     </div>
                                     {/*<div className='pageSubtitle' style={{fontFamily: "SF New Republic", paddingTop: "1rem", color: "black", fontSize:"60px"}}>About Me</div>*/}
                                     <div style={{fontSize: 22, fontWeight: "", paddingTop: "10px"}}>
