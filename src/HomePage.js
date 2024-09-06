@@ -169,7 +169,7 @@ export default function HomePage() {
                                 }}>
 
                                     <div className="pageTitle"
-                                         style={{paddingTop: "20 rem", paddingBottom: "1rem", fontWeight: "150"}}>about me
+                                         style={{paddingTop: "20rem", paddingBottom: "1rem", fontWeight: "150"}}>about me
                                     </div>
                                     {/*<div className='pageSubtitle' style={{fontFamily: "SF New Republic", paddingTop: "1rem", color: "black", fontSize:"60px"}}>About Me</div>*/}
                                     <div style={{fontSize: 22, fontWeight: "", paddingTop: "10px"}}>
