@@ -226,13 +226,13 @@ code {
 
 
 .fa {
-  padding: 16px;
-  font-size: 40px;
+  padding-top: 16px;
+  font-size: 30px;
   width: 50px;
   height: 50px;
   text-align: center;
   text-decoration: none;
-  background-color: black;
+  background-color: #1f1f1f;
   border-style: solid;
   border-color: #f0f0f0;
   border-radius: 50% 50% 50% 50%;
