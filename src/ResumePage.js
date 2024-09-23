@@ -4,8 +4,8 @@ import React from "react";
 export default function ResumePage() {
 
     return (
-        <div>
-                <iframe src={cv} style={{width: "100%", height: "750px"}}/>
+        <div style={{ width: "100%", height: "85vh", display: "flex", marginTop: "1rem"}}>
+                <iframe src={cv} style={{width: "80%", margin: "0 auto", borderRadius: "25px"}}/>
             {/*<div className='roundedBackground roundedBackgroundPadding'>*/}
             {/*<div className='pageTitle' style={{textAlign: "center", paddingBottom: "0rem"}}>Ben Hardin</div>*/}
             {/*<div style={{textAlign: "center", paddingBottom: "1rem"}}>bbhardin1@gmail.com  •  linkedin.com/in/benjamin-hardin  •  (812) 801-7698</div>*/}
