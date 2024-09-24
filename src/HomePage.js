@@ -31,7 +31,8 @@ export default function HomePage() {
                     <Col xs={3} style={{paddingLeft: "4%", paddingRight: "20px"}}>
                         <div style={{textAlign: "right"}}>
                             {/*<div style={{backgroundColor: "lightGray", borderBottomRightRadius: "100px", borderBottomLeftRadius: "100px", width: "150px", height:"75px", textAlign:"center"}} />*/}
-                            <img className="smallAvatar" style={{marginTop: "3rem", filter: "grayscale(100%)"}} src={profile}/>
+                            <img className="smallAvatar" style={{marginTop: "3rem", filter: "grayscale(100%)"}}
+                                 src={profile}/>
                             {/*<div style={{borderRadius: "100px", width: "150px", height:"150px", marginTop: "1rem", textAlign:"center"}}>*/}
 
                             <div className="pageSubtitle" style={{
@@ -46,6 +47,10 @@ export default function HomePage() {
                             </div>
                             {/*<div className='smallBottomPadding' style={{fontSize: "14px"}}><a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao" style={{color: explore_orange}}>Google Scholar</a></div>*/}
                             {/*<div className='smallBottomPadding' style={{fontSize: "14px"}}><a href="https://www.linkedin.com/in/benjamin-hardin" style={{color: explore_orange}}>LinkedIn</a></div>*/}
+                            <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
+                                href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao" style={{color: explore_orange}}>
+                                Google Scholar
+                            </a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "2rem", fontSize: "14px"}}><a
                                 href="https://www.cs.ox.ac.uk/people/benjamin.hardin" style={{color: explore_orange}}>my
                                 Oxford page</a></div>
@@ -103,14 +108,45 @@ export default function HomePage() {
                                     <link rel="stylesheet"
                                           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
                                     <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"
-                                       className="fa fa-linkedin"></a> <br/>
+                                       className="fa fa-linkedin"></a>
+                                    {/*<span style={{*/}
+                                    {/*    transform: "rotate(-90deg) translateY(-15px)",*/}
+                                    {/*    display: "inline-block",*/}
+                                    {/*    fontWeight: "150",*/}
+                                    {/*    fontSize: "12px",*/}
+                                    {/*    color: "var(--exploreorange)",*/}
+                                    {/*}}> linkedin</span>*/}
+                                    <br/>
                                     <a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao"
                                        target="_blank"
-                                       className="fa fa-graduation-cap"></a> <br/>
+                                       className="fa fa-graduation-cap"></a>
+                                    {/*<span style={{*/}
+                                    {/*    transform: "rotate(-90deg) translateY(-15px)",*/}
+                                    {/*    display: "inline-block",*/}
+                                    {/*    fontWeight: "150",*/}
+                                    {/*    fontSize: "12px",*/}
+                                    {/*    color: "var(--exploreorange)",*/}
+                                    {/*}}> scholar</span>*/}
+                                    <br/>
                                     <a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>
+                                    {/*<span style={{*/}
+                                    {/*    transform: "rotate(-90deg) translateY(-13px)",*/}
+                                    {/*    display: "inline-block",*/}
+                                    {/*    fontWeight: "150",*/}
+                                    {/*    fontSize: "12px",*/}
+                                    {/*    color: "var(--exploreorange)",*/}
+                                    {/*}}> github</span>*/}
                                     <br/>
                                     <a href="https://www.twitter.com/b_b_hardin" target="_blank"
                                        className="fa fa-twitter"></a>
+                                    {/*<span style={{*/}
+                                    {/*    transform: "rotate(-90deg) translateY(-13px)",*/}
+                                    {/*    display: "inline-block",*/}
+                                    {/*    fontWeight: "150",*/}
+                                    {/*    fontSize: "12px",*/}
+                                    {/*    color: "var(--exploreorange)",*/}
+                                    {/*}}>twitter</span>*/}
+                                    <br/>
                                 </div>
 
 
@@ -273,6 +309,7 @@ export default function HomePage() {
                 marginRight: "3%",
                 borderWidth: "0px",
                 borderTopWidth: "1px",
+                //borderColor: explore_orange,
                 borderBottomWidth: "0px",
                 borderStyle: "solid",
                 maxWidth: "1500px"
