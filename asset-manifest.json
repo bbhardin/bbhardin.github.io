@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.5d16d69f.chunk.css",
-    "main.js": "/static/js/main.7269d69e.chunk.js",
-    "main.js.map": "/static/js/main.7269d69e.chunk.js.map",
+    "main.js": "/static/js/main.4f1994f7.chunk.js",
+    "main.js.map": "/static/js/main.4f1994f7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1f658b42.js",
     "runtime-main.js.map": "/static/js/runtime-main.1f658b42.js.map",
     "static/css/2.f26e749f.chunk.css": "/static/css/2.f26e749f.chunk.css",
@@ -28,6 +28,8 @@
     "static/media/biking.720e48ce.jpg": "/static/media/biking.720e48ce.jpg",
     "static/media/cutting_tree.5c37d21b.jpg": "/static/media/cutting_tree.5c37d21b.jpg",
     "static/media/cv.cb1ae028.pdf": "/static/media/cv.cb1ae028.pdf",
+    "static/media/disengage_gif.ab94d9e4.gif": "/static/media/disengage_gif.ab94d9e4.gif",
+    "static/media/disengagement_ui.6ac876d2.png": "/static/media/disengagement_ui.6ac876d2.png",
     "static/media/doctorsnote.06e26207.png": "/static/media/doctorsnote.06e26207.png",
     "static/media/drill.97080127.jpg": "/static/media/drill.97080127.jpg",
     "static/media/eth.1f8956dd.png": "/static/media/eth.1f8956dd.png",
@@ -64,6 +66,6 @@
     "static/css/2.f26e749f.chunk.css",
     "static/js/2.3d21a7b6.chunk.js",
     "static/css/main.5d16d69f.chunk.css",
-    "static/js/main.7269d69e.chunk.js"
+    "static/js/main.4f1994f7.chunk.js"
   ]
 }
