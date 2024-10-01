@@ -8,8 +8,9 @@ import information from "./images/wwdc/information.png";
 import tree from "./images/wwdc/treewouldittake.png";
 import report from "./images/wwdc/your report.png";
 import info from "./images/wwdc/info.png";
+import iv2024 from "./images/iv2024.jpeg";
 import disengagement_ui from "./images/disengagement_ui.png"
-import disengage_gif from "./images/disengage_gif.gif"
+import disengage_gif from "./images/disengage_gif.gif";
 import light from "./images/smart_light_switch.jpeg";
 import timingchain from "./images/projects/timingchain.JPG";
 import timingchain2 from "./images/projects/timingchain_close.JPG";
@@ -47,11 +48,11 @@ export default function ProjectsPage() {
                     satisfactory?
                 </div>
 
-                <div style={{marginTop: "1rem"}}>User interface in Carla with disengagement warnings:</div>
+                <div style={{marginTop: "1rem", fontStyle: "italic"}}>User interface in Carla with disengagement warnings:</div>
 
-                <img src={disengagement_ui} style={{width: "40%", marginLeft: "2rem"}}>
-                </img>
-                <img src={disengage_gif} style={{width: "40%", margin: "1rem"}}>
+                {/*<img src={disengagement_ui} style={{width: "40%", marginLeft: "2rem"}}>*/}
+                {/*</img>*/}
+                <img src={disengage_gif} style={{width: "40%", margin: "0.3rem", marginLeft: "1rem"}}>
                 </img>
 
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Developing a
@@ -74,9 +75,12 @@ export default function ProjectsPage() {
                 <div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing remote operators of road
                     vehicles
                 </div>
+                <img className='avatar' style={{maxWidth: 200, borderRadius: '10px', float: 'right', marginRight: 50, marginLeft: 20}}
+                     src={iv2024}/>
                 <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop: "0.5rem"}}>Insights from
                     operators with real-world experience
                 </div>
+
                 <div style={{paddingTop: "0.5rem"}}>Much of the research into human factors of remote operation or
                     "teleoperation" has been done in a lab. However, now
                     that remotely operated vehicles are hitting the roads, I hope to understand what challenges drivers
@@ -84,7 +88,10 @@ export default function ProjectsPage() {
                     environments and how their workstations can better support these challenges.
                 </div>
 
-                <div className="pageSubtitle" style={{fontWeight: "bold", paddingTop: "1.5rem", color: "black"}}>Exploring Autonomous
+                <br/>
+
+                <div className="pageSubtitle"
+                     style={{fontWeight: "bold", paddingTop: "1.5rem", color: "black"}}>Exploring Autonomous
                     Decision Making Systems (ADMS) in the context of
                     in-vehicle driver monitoring
                 </div>
