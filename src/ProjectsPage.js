@@ -14,6 +14,7 @@ import disengage_gif from "./images/disengage_gif.gif";
 import light from "./images/smart_light_switch.jpeg";
 import timingchain from "./images/projects/timingchain.JPG";
 import timingchain2 from "./images/projects/timingchain_close.JPG";
+let explore_orange = "#ff5a00";
 
 export default function ProjectsPage() {
     return (
@@ -25,7 +26,7 @@ export default function ProjectsPage() {
 
 
             <div className="pageTitle">PhD Projects</div>
-            <div className="pageSubtitle">Ongoing</div>
+            <div className="pageSubtitle" style={{fontStyle: "italic", fontWeight: "250", color: explore_orange}}>ONGOING</div>
 
             <div className="leftContentInsets">
 
@@ -70,7 +71,7 @@ export default function ProjectsPage() {
 
             </div>
 
-            <div className="pageSubtitle" style={{paddingTop: "3rem"}}>Completed</div>
+            <div className="pageSubtitle" style={{fontStyle: "italic", fontWeight: "250", paddingTop: "5rem", color: explore_orange}}>COMPLETED</div>
             <div className="leftContentInsets">
                 <div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing remote operators of road
                     vehicles
@@ -97,7 +98,7 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <div className="pageTitle" style={{paddingTop: "5rem"}}>Other Projects</div>
+            <div className="pageTitle" style={{paddingTop: "10rem"}}>Other Projects</div>
 
             <div className="leftContentInsets">
 

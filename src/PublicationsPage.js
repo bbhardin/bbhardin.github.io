@@ -55,13 +55,6 @@ const papers = [
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:F2UWTTQJPOcC"
     },
     {
-        title: " A Cross-Sectional Examination of Evictions in Lafayette, Indiana in August 2020 during a Gap in Federal and State Eviction Moreatoria",
-        authors: "Mary Lang, Justin MacNeill, Ethan Edwards, Ethan Glaser, <b>Benjamin Hardin</b>, Jared Huber, Elizabeth Spyratos, and Jason Ware",
-        conference: "Local Development & Society Journal",
-        abstract: "",
-        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:EYYDruWGBe4C"
-    },
-    {
         title: "DCnet: Evaluation of a New Data Center Architecture",
         authors: "<b>Benjamin Hardin</b>, Douglas Comer, Adib Rastegarnia",
         conference: "2023 Innovation in Clouds, Internet, and Networks (ICIN)",
@@ -74,7 +67,14 @@ const papers = [
         conference: "2023 International Conference on Computer, Control, and Robotics (ICCCR)",
         abstract: "",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:g5m5HwL7SMYC"
-    }
+    },
+    {
+        title: " A Cross-Sectional Examination of Evictions in Lafayette, Indiana in August 2020 during a Gap in Federal and State Eviction Moreatoria",
+        authors: "Mary Lang, Justin MacNeill, Ethan Edwards, Ethan Glaser, <b>Benjamin Hardin</b>, Jared Huber, Elizabeth Spyratos, and Jason Ware",
+        conference: "Local Development & Society Journal",
+        abstract: "",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:EYYDruWGBe4C"
+    },
 
     // {
     //     title: "",
