@@ -205,7 +205,8 @@ export default function HomePage() {
                                 }}>
 
                                     <div className="pageTitle"
-                                         style={{paddingTop: "20rem", paddingBottom: "1rem", fontWeight: "150"}}>about me
+                                         style={{paddingTop: "20rem", paddingBottom: "1rem", fontWeight: "150"}}>about
+                                        me
                                     </div>
                                     {/*<div className='pageSubtitle' style={{fontFamily: "SF New Republic", paddingTop: "1rem", color: "black", fontSize:"60px"}}>About Me</div>*/}
                                     <div style={{fontSize: 22, fontWeight: "", paddingTop: "10px"}}>
@@ -213,8 +214,7 @@ export default function HomePage() {
                                     </div>
                                     <div style={{fontSize: 16, fontWeight: "bold", paddingTop: "1rem"}}>
                                         I explore psychological safety of autonomous vehicles to improve trust,
-                                        transparency, and human understanding. More broadly, I research
-                                        Human-Computer Interaction and novel ways for humans and AI systems to interact.
+                                        transparency, and human understanding.
 
                                         I am advised by <a className="subtleLink"
                                                            href="https://www.cs.ox.ac.uk/people/marina.jirotka/">Professor
@@ -225,8 +225,17 @@ export default function HomePage() {
                                         Pericle Salvini</a>
                                     </div>
 
-                                    <div style={{fontSize: 16, paddingTop: "3rem"}}>
-                                        Previously: Computer Science at Purdue University, ETH Zürich exchange student,
+                                    <div style={{fontSize: 22, fontWeight: "", paddingTop: "4rem"}}>
+                                        So what does this look like practically?
+                                    </div>
+
+                                    <div style={{fontSize: 16, fontWeight: "bold", paddingTop: "1rem"}}>
+                                        Think affective computing meets transformers meets human studies meets
+                                        autonomous vehicles meets explainable AI...
+                                    </div>
+
+                                    <div style={{fontSize: 16, paddingTop: "4rem"}}>
+                                        <span style={{fontStyle:"italic"}}>Previously: </span>Computer Science at Purdue University, ETH Zürich exchange student,
                                         and intern for Microsoft, GM, and GE Aerospace.
                                     </div>
 
