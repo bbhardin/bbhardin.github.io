@@ -330,7 +330,7 @@ export default function HomePage() {
                     <div className="leftContentInsets">
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
-                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:F2UWTTQJPOcC"}>
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:-nhnvRiOwuoC"}>
                             How well do drivers adapt to remote operation? Learning from remote drivers with on-road experience
                         </a></div>
                         <div className="pageSubSubtitle"><span
