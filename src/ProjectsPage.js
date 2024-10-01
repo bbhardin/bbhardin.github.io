@@ -8,6 +8,8 @@ import information from "./images/wwdc/information.png";
 import tree from "./images/wwdc/treewouldittake.png";
 import report from "./images/wwdc/your report.png";
 import info from "./images/wwdc/info.png";
+import disengagement_ui from "./images/disengagement_ui.png"
+import disengage_gif from "./images/disengage_gif.gif"
 import light from "./images/smart_light_switch.jpeg";
 import timingchain from "./images/projects/timingchain.JPG";
 import timingchain2 from "./images/projects/timingchain_close.JPG";
@@ -28,18 +30,29 @@ export default function ProjectsPage() {
 
                 {/* YES, I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
 
-                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Visualizing predicted disengagements and their physiological effects on passenger safety
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Visualizing predicted
+                    disengagements and their physiological effects on passenger safety
                 </div>
-                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop: "0.5rem"}}>Utilising past environment
+                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop: "0.5rem"}}>Utilising past
+                    environment
                     knowledge to warn of risky disengagement situations and help the
-                    passenger develop a mental model of the automation
+                    passenger develop a mental model of the automation.
                 </div>
                 <div>
-                    1. To what extent can previous autonomous system disengagements be used to inform the system of difficult environments?
-                    <br />2. To what extent can previous autonomous system disengagements be used to increase driver awareness and improve takeover situations?
-                    <br />3. To what extent does a driver or passenger find disengagement warnings beneficial and satisfactory?
+                    1. To what extent can previous autonomous system disengagements be used to inform the system of
+                    difficult environments?
+                    <br/>2. To what extent can previous autonomous system disengagements be used to increase driver
+                    awareness and improve takeover situations?
+                    <br/>3. To what extent does a driver or passenger find disengagement warnings beneficial and
+                    satisfactory?
                 </div>
-                <div></div>
+
+                <div style={{marginTop: "1rem"}}>User interface in Carla with disengagement warnings:</div>
+
+                <img src={disengagement_ui} style={{width: "40%", marginLeft: "2rem"}}>
+                </img>
+                <img src={disengage_gif} style={{width: "40%", margin: "1rem"}}>
+                </img>
 
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Developing a
                     definition of psychological safety for autonomous vehicles
