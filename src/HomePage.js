@@ -331,6 +331,16 @@ export default function HomePage() {
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:F2UWTTQJPOcC"}>
+                            How well do drivers adapt to remote operation? Learning from remote drivers with on-road experience
+                        </a></div>
+                        <div className="pageSubSubtitle"><span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Pericle Salvini, Marina Jirotka, Lars Kunze
+                        </div>
+                        <div className="leftContentInsets">IEEE Intelligent Vehicles Symposium 2024</div>
+
+
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:F2UWTTQJPOcC"}>
                             Human
                             Involvement in Autonomous Decision-Making Systems. Lessons learned from three case studies
                             in aviation, social care and road vehicles</a></div>
