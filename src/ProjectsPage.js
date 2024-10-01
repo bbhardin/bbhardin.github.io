@@ -26,11 +26,28 @@ export default function ProjectsPage() {
 
             <div className="leftContentInsets">
 
-                {/* YES I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
+                {/* YES, I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
 
-                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop:"2rem"}}>Developing a definition of psychological safety for autonomous vehicles</div>
-                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop:"0.5rem"}}>What does it mean for a vehicle to be psychologically safe and what factors
-                are important for ensuring this safety?</div>
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Visualizing predicted disengagements and their physiological effects on passenger safety
+                </div>
+                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop: "0.5rem"}}>Utilising past environment
+                    knowledge to warn of risky disengagement situations and help the
+                    passenger develop a mental model of the automation
+                </div>
+                <div>
+                    1. To what extent can previous autonomous system disengagements be used to inform the system of difficult environments?
+                    <br />2. To what extent can previous autonomous system disengagements be used to increase driver awareness and improve takeover situations?
+                    <br />3. To what extent does a driver or passenger find disengagement warnings beneficial and satisfactory?
+                </div>
+                <div></div>
+
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Developing a
+                    definition of psychological safety for autonomous vehicles
+                </div>
+                <div className="pageSubSubtitle" style={{fontWeight: "bold", paddingTop: "0.5rem"}}>What does it mean
+                    for a vehicle to be psychologically safe and what factors
+                    are important for ensuring this safety?
+                </div>
                 <div></div>
 
                 {/*<div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing Remote Operators of Road Vehicles</div>*/}
