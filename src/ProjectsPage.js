@@ -28,9 +28,17 @@ export default function ProjectsPage() {
             <div className="pageTitle">PhD Projects</div>
             <div className="pageSubtitle" style={{fontStyle: "italic", fontWeight: "250", color: explore_orange}}>ONGOING</div>
 
+
+
             <div className="leftContentInsets">
 
                 {/* YES, I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
+
+                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Analyzing cyclist safety
+                    through eye tracking measures with the Meta Project Aria Glasses
+                </div>
+
+                <div><a href="https://eng.ox.ac.uk/news/oxford-robotics-institute-joins-road-safety-event-in-central-oxford/">More info</a></div>
 
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Visualizing predicted
                     disengagements and their physiological effects on passenger safety
@@ -49,7 +57,9 @@ export default function ProjectsPage() {
                     satisfactory?
                 </div>
 
-                <div style={{marginTop: "1rem", fontStyle: "italic"}}>User interface in Carla with disengagement warnings:</div>
+                <div style={{marginTop: "1rem", fontStyle: "italic"}}>User interface in Carla with disengagement
+                    warnings:
+                </div>
 
                 {/*<img src={disengagement_ui} style={{width: "40%", marginLeft: "2rem"}}>*/}
                 {/*</img>*/}
@@ -71,9 +81,11 @@ export default function ProjectsPage() {
 
             </div>
 
-            <div className="pageSubtitle" style={{fontStyle: "italic", fontWeight: "250", paddingTop: "5rem", color: explore_orange}}>COMPLETED</div>
+            <div className="pageSubtitle"
+                 style={{fontStyle: "italic", fontWeight: "250", paddingTop: "5rem", color: explore_orange}}>COMPLETED
+            </div>
             <div className="leftContentInsets">
-                <div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing remote operators of road
+            <div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing remote operators of road
                     vehicles
                 </div>
                 <img className='avatar' style={{maxWidth: 200, borderRadius: '10px', float: 'right', marginRight: 50, marginLeft: 20}}
