@@ -57,7 +57,7 @@ code {
 }
 
 .pageTitle {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial;
   font-weight: bold;
   font-size: 44px;
   padding-bottom: 1rem;
@@ -65,7 +65,7 @@ code {
 }
 
 .secondaryPageTitle {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial;
   font-weight: bold;
   font-size: 30px;
   padding-bottom: 1rem;
@@ -73,7 +73,7 @@ code {
 }
 
 .pageSubtitle {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial;
   font-weight: bold;
   line-height: 110%;
   color: dimgray;
@@ -82,12 +82,20 @@ code {
 }
 
 .pageSubSubtitle {
-  font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Arial;
+  font-family: -apple-system, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial;
   font-size: 17px;
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
+.orangeItalic {
+  font-style: italic;
+  font-weight: 200;
+  padding-top: 5rem;
+  font-size: 60pt;
+  color: var(--exploreorange);
+  margin-left: -20px;
+}
 
 .contentInsets {
   padding: 1rem;
@@ -95,6 +103,14 @@ code {
 
 .leftContentInsets {
   padding-left: 2rem;
+}
+
+.largeLeftContentInsets {
+  padding-left: 4rem;
+}
+
+.massiveLeftContentInsets {
+  padding-left: 6rem;
 }
 
 .leftAndRightContentInsets {
@@ -233,7 +249,7 @@ code {
   text-decoration: none;
   background-color: #1f1f1f;
   border-style: solid;
-  border-color: #f0f0f0;
+  border-color: #000000;
   border-radius: 50% 50% 50% 50%;
   /*background-color: #f0f0f0;*/
   color: white;
