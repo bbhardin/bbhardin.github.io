@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import {Nav, Navbar, Row, Col} from "react-bootstrap";
+import {Nav, Navbar} from "react-bootstrap";
 
 export default function NavigationBar() {
 

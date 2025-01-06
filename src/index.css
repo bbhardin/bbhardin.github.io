@@ -36,18 +36,37 @@ code {
 .navigationBar.homepage {
   /*background-color: black;/*var(--mygreen)*/
   background-color: transparent;
+  vertical-align: middle;
 }
 
 .navigationBarContent {
-  /*//padding: 1rem;*/
+  font-size: min(calc(0.8vw + 0.8vh), 1rem);
+  /*padding-top: 2rem;*/
+  /*vertical-align: middle;*/
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*height: 200px;*/
 }
 
-.navigationBarText {
-  font-family: Helvetica;
-  font-size: 20px;
-  color: white;
-  text-align: right;
+.nav-brand {
+  margin-top: 50%;
+  margin-bottom: 50%;
 }
+
+.nav-link {
+  /*background-color: blue;*/
+  /*margin-left: 0;*/
+  /*margin-right: 0;*/
+  /*margin-top: 50%;*/
+  /*margin-bottom: 50%;*/
+  align-content: center;
+  vertical-align: center;
+  /*padding-top: 5rem;*/
+}
+/*.navigationBarText {*/
+/*  height: 100%;*/
+/*  background-color: blue;*/
+/*}*/
 
 .homeButton {
   font-family: Helvetica;
