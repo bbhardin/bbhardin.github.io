@@ -122,17 +122,20 @@ const Paper = ({title, authors, conference, abstract, url}) => {
 
 export default function PublicationsPage() {
     return (
-        <div className="leftAndRightContentInsets">
+        <div>
             {/*<div style={{backgroundColor: "black", transform: "translateX(-50%) translateY(-3.7rem)", zIndex: "-1", position: "fixed",*/}
             {/*    left: "50%",*/}
             {/*    /* bring your own prefixes */}
             {/*    height: "3rem", borderRadius: "25px", width: "750px"}}> _</div>*/}
-            <div className="pageTitle boxhead"><a
-                href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>Publications</a></div>
+            {/*<div className="pageSubtitle orangeItalic"*/}
+            {/*     style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px"}}>PROJECTS<br/></div>*/}
+            <div className="pageSubtitle orangeItalic boxhead"
+                 style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px"}}><a
+                href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>PUBLICATIONS</a></div>
 
-            <div className="leftContentInsets">
+            <div className="leftAndRightContentInsets">
 
-            <PaperList />
+                <PaperList/>
 
                 {/*<div className="projectSubtitle boxhead"><a href="https://github.com/bbhardin/smart-light-control">Smart Light Control from a Mercedes Window Switch Panel</a></div>*/}
                 {/*    <Container><Row>*/}
