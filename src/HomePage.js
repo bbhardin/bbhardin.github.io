@@ -100,10 +100,10 @@ export default function HomePage() {
                                     fontWeight: "",
                                     marginBottom: "1rem",
                                     color: "var(--exploreorange)",
-                                    transform: "translate(-85px, 0px)",
+                                    transform: "translate(-95px, 0px)",
                                     lineHeight: "100%",
                                     // textAlign: "left"
-                                }}>BENJAMIN<br/>HARDIN</p>
+                                }}>BENJAMIN<br/><span style={{paddingLeft: "25px"}}>HARDIN</span></p>
                                 <div style={{position: "absolute", transform: "translate(-325px, -150px)"}}>
                                     <link rel="stylesheet"
                                           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
@@ -234,12 +234,16 @@ export default function HomePage() {
                                         autonomous vehicles meets explainable AI...
                                     </div>
 
-                                    <div style={{fontSize: 16, paddingTop: "4rem"}}>
+                                    <div style={{fontSize: 16, fontWeight: "bold", paddingTop: "4rem"}}>
+                                        Currently: Apple Intern (Jan - Jul 2025)
+                                    </div>
+
+                                    <div style={{fontSize: 16, paddingTop: "1rem"}}>
                                         <span style={{fontStyle:"italic"}}>Previously: </span>Computer Science at Purdue University, ETH Zürich exchange student,
                                         and intern for Microsoft, GM, and GE Aerospace.
                                     </div>
 
-                                    <div style={{fontSize: 16, fontWeight: "", paddingTop: "1rem"}}>
+                                    <div style={{fontSize: 16, fontWeight: "", paddingTop: "4rem"}}>
                                         Outside of my direct research, my life goals are to shape technology to:
                                         <li><b>Improve urban transportation and design</b> to better connect people</li>
                                         <li><b>Reduce loneliness</b>, improve social skills, and help people truly
@@ -339,11 +343,32 @@ export default function HomePage() {
                     <div className="leftContentInsets">
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:-6RzNnnwWf8C"}>
+                            The Oxford RobotCycle Project: A Multimodal Urban Cycling Dataset for Assessing the Safety of Vulnerable Road Users
+                        </a></div>
+                        <div className="pageSubSubtitle">Efimia Panagiotaki, Divya Thuremella, Jumana Baghabrah, Samuel Sze, Lanke Frank Tarimo Fu, <span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Tyler Reinmund, Tobit Flatscher, Daniel Marques, Chris Prahacs, Lars Kunze, and Daniele De Martini
+                        </div>
+                        <div className="leftContentInsets">IROS 2025 </div>
+
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:0aBXIfxlw9sC"}>
+                            Foundations for the psychological safety of human and autonomous vehicles interaction
+                        </a></div>
+                        <div className="pageSubSubtitle">Yandika Sirgabsou, <span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, François Leblanc, Efi Raili, Pericle Salvini, David Jackson, Marina Jirotka, and Lars Kunze
+                        </div>
+                        <div className="leftContentInsets">IEEE Intelligent Vehicles Symposium 2024</div>
+
+
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:-nhnvRiOwuoC"}>
-                            How well do drivers adapt to remote operation? Learning from remote drivers with on-road experience
+                            How well do drivers adapt to remote operation? Learning from remote drivers with on-road
+                            experience
                         </a></div>
                         <div className="pageSubSubtitle"><span
-                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Pericle Salvini, Marina Jirotka, Lars Kunze
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Pericle Salvini, Marina Jirotka, Lars
+                            Kunze
                         </div>
                         <div className="leftContentInsets">IEEE Intelligent Vehicles Symposium 2024</div>
 
@@ -358,15 +383,6 @@ export default function HomePage() {
                             Johnson, Lars Kunze, Alan Winfield, and Marina Jirotka
                         </div>
                         <div className="leftContentInsets">Frontiers in Political Science</div>
-
-                        <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "1rem"}}><a
-                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:M05iB0D1s5AC"}>
-                            DCnet: Evaluation of a New Data Center Architecture</a></div>
-                        <div className="pageSubSubtitle" style={{fontWeight: ""}}><span style={{fontWeight: "bold"}}>Benjamin Hardin</span>,
-                            Douglas Comer, Adib Rastegarnia
-                        </div>
-                        <div className="leftContentInsets">2023 Innovation in Clouds, Internet, and Networks (ICIN)
-                        </div>
 
                         <div className="pageSubtitle boxhead" style={{paddingTop: "1rem", color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:g5m5HwL7SMYC"}>
