@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.efcd4ffb.css",
-    "main.js": "/static/js/main.3fee26f8.js",
+    "main.css": "/static/css/main.2d92ff77.css",
+    "main.js": "/static/js/main.a14954bb.js",
     "static/js/453.5533b60b.chunk.js": "/static/js/453.5533b60b.chunk.js",
     "static/media/disengage_gif.gif": "/static/media/disengage_gif.ab94d9e46d645fe0b144.gif",
     "static/media/planting.jpeg": "/static/media/planting.582ac3e6c3ddc5e8f225.jpeg",
@@ -29,12 +29,12 @@
     "static/media/cv.pdf": "/static/media/cv.b0ce9a1592cf4bef5b31.pdf",
     "static/media/IMG_0602.jpg": "/static/media/IMG_0602.ac4d4a058c26bae6032a.jpg",
     "static/media/drill.jpg": "/static/media/drill.97080127f8d659844f1f.jpg",
-    "static/media/profile.jpg": "/static/media/profile.09ad73b9f4c1a98c3b53.jpg",
     "static/media/IMG_4086.jpg": "/static/media/IMG_4086.7a9cb3bd33964d488772.jpg",
     "static/media/ski.jpg": "/static/media/ski.8b79480ba8023f62f1f4.jpg",
     "static/media/timingchain_close.JPG": "/static/media/timingchain_close.bec43a41428b131c1371.JPG",
     "static/media/Icon.png": "/static/media/Icon.6eddd67de8bbad8e3893.png",
     "static/media/rti_logo.png": "/static/media/rti_logo.0f42d1a86b2dd204a435.png",
+    "static/media/profile_2025.jpg": "/static/media/profile_2025.2a9ae596cb58b7c75648.jpg",
     "static/media/iv2024.jpeg": "/static/media/iv2024.116a509eee6951e24fd7.jpeg",
     "static/media/sl_my_version.jpg": "/static/media/sl_my_version.d548727723d4fcdd72d9.jpg",
     "static/media/treewouldittake.png": "/static/media/treewouldittake.ca3635af80202dad2900.png",
@@ -51,12 +51,12 @@
     "static/media/eth.png": "/static/media/eth.1f8956ddf16ba227f790.png",
     "static/media/doctorsnote.png": "/static/media/doctorsnote.06e26207e64fc5450563.png",
     "index.html": "/index.html",
-    "main.efcd4ffb.css.map": "/static/css/main.efcd4ffb.css.map",
-    "main.3fee26f8.js.map": "/static/js/main.3fee26f8.js.map",
+    "main.2d92ff77.css.map": "/static/css/main.2d92ff77.css.map",
+    "main.a14954bb.js.map": "/static/js/main.a14954bb.js.map",
     "453.5533b60b.chunk.js.map": "/static/js/453.5533b60b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.efcd4ffb.css",
-    "static/js/main.3fee26f8.js"
+    "static/css/main.2d92ff77.css",
+    "static/js/main.a14954bb.js"
   ]
 }
