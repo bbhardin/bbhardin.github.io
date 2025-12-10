@@ -38,7 +38,8 @@ export default function ProjectsPage() {
 
                     {/* YES, I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
 
-                    <div className="pageSubtitle boxhead leftcon" style={{color: "black", paddingTop: "2rem"}}>Analyzing
+                    <div style={{fontSize: "25pt", padding: "0rem"}}>RobotCycle</div>
+                    <div className="pageSubtitle boxhead leftcon" style={{color: "black", padding: "0rem"}}>Analyzing
                         cyclist
                         safety
                         through eye tracking measures with the Meta Project Aria Glasses
@@ -48,7 +49,8 @@ export default function ProjectsPage() {
                         href="https://eng.ox.ac.uk/news/oxford-robotics-institute-joins-road-safety-event-in-central-oxford/">More
                         info</a></div>
 
-                    <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Visualizing
+                    <div style={{fontSize: "25pt", paddingTop: "2rem"}}>Disengagements Prediction</div>
+                    <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "0rem"}}>Visualizing
                         predicted
                         disengagements and their physiological effects on passenger safety
                     </div>
@@ -80,13 +82,15 @@ export default function ProjectsPage() {
                         </img>
                     </div>
 
-                    <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "2rem"}}>Developing a
-                        definition of psychological safety for autonomous vehicles
+                    <div style={{fontSize: "25pt", paddingTop: "2rem"}}>Psychological Safety of Autonomous Vehicles</div>
+                    <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "0rem"}}>Developing a
+                        definition of psychological safety for autonomous vehicles.
                     </div>
                     <div className="pageSubSubtitle largeLeftContentInsets"
                          style={{fontWeight: "bold", paddingTop: "0.5rem"}}>What does it mean
                         for a vehicle to be psychologically safe and what factors
                         are important for ensuring this safety?
+                        In partnership with Capgemini.
                     </div>
                     <div></div>
 
@@ -126,6 +130,12 @@ export default function ProjectsPage() {
                          style={{fontWeight: "bold", paddingTop: "1.5rem", color: "black"}}>Exploring Autonomous
                         Decision Making Systems (ADMS) in the context of
                         in-vehicle driver monitoring
+                    </div>
+                </div>
+
+                <div className="leftContentInsets">
+                    <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "1.5rem"}}>Drone Safety in Mines: Safety analysis frameworks
+                        for mine drone scenarios. In collaboration with University of York.
                     </div>
                 </div>
 

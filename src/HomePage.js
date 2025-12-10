@@ -323,6 +323,16 @@ export default function HomePage() {
                                    to="/publications">See All ></Nav.Link></div>
 
                     <div className="leftContentInsets">
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:H_jBuBxbQIAC"}>
+                            AV-PsySafe: A risk model and analysis method for the psychological safety of human and autonomous vehicles interaction
+                        </a></div>
+                        <div className="pageSubSubtitle">Yandika Sirgabsou, <span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, François Leblanc, Efi Raili, Pericle Salvini, David Jackson, Marina Jirotka, and Lars Kunze
+                        </div>
+                        <div className="leftContentInsets">Transportation Research Interdisciplinary Perspectives</div>
+
+
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:-6RzNnnwWf8C"}>
@@ -332,15 +342,6 @@ export default function HomePage() {
                             style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Tyler Reinmund, Tobit Flatscher, Daniel Marques, Chris Prahacs, Lars Kunze, and Daniele De Martini
                         </div>
                         <div className="leftContentInsets">IROS 2025 </div>
-
-                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
-                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:0aBXIfxlw9sC"}>
-                            Foundations for the psychological safety of human and autonomous vehicles interaction
-                        </a></div>
-                        <div className="pageSubSubtitle">Yandika Sirgabsou, <span
-                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, François Leblanc, Efi Raili, Pericle Salvini, David Jackson, Marina Jirotka, and Lars Kunze
-                        </div>
-                        <div className="leftContentInsets">IEEE Intelligent Vehicles Symposium 2024</div>
 
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a

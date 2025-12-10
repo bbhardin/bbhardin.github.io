@@ -14,6 +14,13 @@ import timingchain2 from "./images/projects/timingchain_close.JPG";
 
 const papers = [
     {
+        title: "AV-PsySafe: A risk model and analysis method for the psychological safety of human and autonomous vehicles interaction",
+        authors: "Yandika Sirgabsou, <b>Benjamin Hardin</b>, François Leblanc, Efi Raili, Pericle Salvini, David Jackson, Marina Jirotka, and Lars Kunze",
+        conference: "Transportation Research Interdisciplinary Perspectives",
+        abstract: "The rapid advancement of artificial intelligence and autonomous driving technologies has significantly propelled the development of autonomous vehicles (AVs). However, psychological barriers continue to impede widespread AV adoption, despite technological progress. This paper addresses the critical yet often overlooked aspect of psychological safety in AV design and operation. While traditional safety standards focus primarily on physical safety, this paper emphasizes the psychological implications that arise from human interactions with autonomous vehicles, highlighting the importance of trust and perceived risk as significant factors influencing user acceptance. The paper makes a methodological proposal, a framework for addressing AVs psychological safety consisting of three key contributions. First, it introduces a definition of psychological safety in AVs context. Secondly, it proposes a risk model for identifying and assessing AVs psychological hazards and risks. PsySIL (Psychological Safety Integrity Level), a classification of AV psychological risk levels is developed. Thirdly, an adapted system-theoretic analysis method for AVs psychological safety is proposed. The paper illustrates the application of the framework for assessing potential psychological hazards using a scenario involving a family’s experience with an autonomous vehicle, pioneering a systems approach towards evaluating situations that could lead to psychological harm. By establishing a framework that incorporates psychological safety alongside physical safety, the paper contributes to the broader discourse on the safe deployment of autonomous vehicle, aiming to guide future developments in user-centred design and regulatory practices, while acknowledging the limitations brought by the application of the proposals on a rather simple but pedagogical illustrative example.",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:H_jBuBxbQIAC"
+    },
+    {
         title: "The Oxford RobotCycle Project: A Multimodal Urban Cycling Dataset for Assessing the Safety of Vulnerable Road Users",
         authors: "Efimia Panagiotaki, Divya Thuremella, Jumana Baghabrah, Samuel Sze, Lanke Frank Tarimo Fu, <b>Benjamin Hardin</b>, Tyler Reinmund, Tobit Flatscher, Daniel Marques, Chris Prahacs, Lars Kunze, and Daniele De Martini",
         conference: "IROS 2025",
@@ -33,24 +40,6 @@ const papers = [
             "This work contributes toward improving cycling safety, enhancing urban mobility, and supporting sustainable transportation " +
             "initiatives. The dataset and tools are made available at https://ori-mrg.github.io/robotcycle-dataset/",
         url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:-6RzNnnwWf8C"
-    },
-    {
-        title: "Foundations for the psychological safety of human and autonomous vehicles interaction",
-        authors: "Yandika Sirgabsou, <b>Benjamin Hardin</b>, François Leblanc, Efi Raili, Pericle Salvini, David Jackson, Marina Jirotka, and Lars Kunze",
-        conference: "",
-        abstract: "This paper addresses the critical issue of psychological safety in the design and operation of autonomous " +
-            "vehicles, which are increasingly integrated with artificial intelligence technologies. While traditional safety " +
-            "standards focus primarily on physical safety, this paper emphasizes the psychological implications that arise " +
-            "from human interactions with autonomous vehicles, highlighting the importance of trust and perceived risk as " +
-            "significant factors influencing user acceptance. Through a review of existing safety techniques, the paper " +
-            "defines psychological safety in the context of autonomous vehicles, proposes a risk model to identify and " +
-            "assess psychological risks, and adopts a system-theoretic analysis method. The paper illustrates the potential " +
-            "psychological hazards using a scenario involving a family's experience with an autonomous vehicle, aiming to " +
-            "systematically evaluate situations that could lead to psychological harm. By establishing a framework that " +
-            "incorporates psychological safety alongside physical safety, the paper contributes to the broader discourse " +
-            "on the safe deployment of autonomous vehicle and aims to guide future developments in user-cantered design and " +
-            "regulatory practices.",
-        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:0aBXIfxlw9sC"
     },
     {
         title: "How Well Do Drivers Adapt to Remote Operation? Learning from Remote Drivers with On-Road Experience",
