@@ -137,11 +137,15 @@ const Paper = ({title, authors, conference, abstract, url}) => {
         // For when the paper has been published and has a URL
         return(
             <div>
-                <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}><a
+                <div className="pageSubtitle boxhead" style={{color: "black", marginTop: "3rem",
+                    // borderWidth: "0px",
+                    // borderTopWidth: "1px",
+                    // borderTopStyle: "dotted",
+                    }}><a
                     href={`${url}`}>{title}</a></div>
                 <div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{__html: `${authors}`}}/>
-                <div className="leftContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
-                <div className="leftContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
+                <div className="leftAndRightContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
+                <div className="leftAndRightContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
             </div>
         );
     } else {
@@ -169,10 +173,14 @@ export default function PublicationsPage() {
             {/*<div className="pageSubtitle orangeItalic"*/}
             {/*     style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px"}}>PROJECTS<br/></div>*/}
             <div className="pageSubtitle orangeItalic boxhead"
-                 style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px"}}><a
+                 style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px",
+                     borderWidth: "0px",
+                     borderBottomWidth: "2px",
+                     borderBottomStyle: "dotted",
+                     maxWidth: "625px"}}><a
                 href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>PUBLICATIONS</a></div>
 
-            <div className="leftAndRightContentInsets">
+            <div className="leftContentInsets">
 
                 <PaperList/>
 

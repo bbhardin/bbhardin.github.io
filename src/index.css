@@ -41,6 +41,7 @@ code {
 
 .navigationBarContent {
   font-size: min(calc(0.8vw + 0.8vh), 1rem);
+  padding-left: 5px;
   /*padding-top: 2rem;*/
   /*vertical-align: middle;*/
   /*display: flex;*/
@@ -96,15 +97,16 @@ code {
   font-weight: bold;
   line-height: 110%;
   color: dimgray;
-  font-size: 22px;
-  padding-top: 1rem;
+  font-size: 20px;
+  padding-top: 1.5rem;
 }
 
 .pageSubSubtitle {
   font-family: -apple-system, BlinkMacSystemFont, Oxygen-Sans, Helvetica Neue, Arial;
-  font-size: 17px;
-  padding-top: 0px;
+  font-size: 15px;
+  padding-top: 4px;
   padding-bottom: 0px;
+  padding-left: 1.8rem;
 }
 
 .orangeItalic {

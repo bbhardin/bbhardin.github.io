@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./images/profile.jpg";
+import profile from "./images/profile_2025.jpg";
 // import taillights from "./images/home/taillights.jpeg";
 import ori_logo from "./images/home/ori_logo.png";
 import rti_logo from "./images/home/rti_logo.png";
@@ -13,7 +13,7 @@ export default function HomePage() {
 
     return (
 
-        <div>
+        <div style={{paddingTop: "0.5rem"}}>
             <style>
                 @import url('https://fonts.cdnfonts.com/css/sf-new-republic-2');
                 @import url('https://fonts.cdnfonts.com/css/berlina');
@@ -31,14 +31,14 @@ export default function HomePage() {
                     <Col xs={3} style={{paddingLeft: "4%", paddingRight: "20px"}}>
                         <div style={{textAlign: "right"}}>
                             {/*<div style={{backgroundColor: "lightGray", borderBottomRightRadius: "100px", borderBottomLeftRadius: "100px", width: "150px", height:"75px", textAlign:"center"}} />*/}
-                            <img className="smallAvatar" style={{marginTop: "3rem", filter: "grayscale(100%)"}}
+                            <img className="smallAvatar" style={{marginTop: "3rem"}}
                                  src={profile}/>
                             {/*<div style={{borderRadius: "100px", width: "150px", height:"150px", marginTop: "1rem", textAlign:"center"}}>*/}
 
                             <div className="pageSubtitle" style={{
                                 // paddingBottom: "20px",
                                 paddingTop: "2rem",
-                                fontWeight: "bold",
+                                fontWeight: "200",
                                 color: "black"
                             }}>Contact
                             </div>
@@ -51,9 +51,15 @@ export default function HomePage() {
                                 href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao" style={{color: explore_orange}}>
                                 Google Scholar
                             </a></div>
-                            <div className='smallBottomPadding' style={{paddingBottom: "2rem", fontSize: "14px"}}><a
+                            <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
                                 href="https://www.cs.ox.ac.uk/people/benjamin.hardin" style={{color: explore_orange}}>my
                                 Oxford page</a></div>
+                            <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
+                                href="www.linkedin.com/in/benjamin-hardin" style={{color: explore_orange}}>LinkedIn</a></div>
+                            <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
+                                href="https://www.github.com/bbhardin" style={{color: explore_orange}}>GitHub</a></div>
+                            <div className='smallBottomPadding' style={{paddingBottom: "2rem", fontSize: "14px"}}><a
+                                href="https://x.com/b_b_hardin" style={{color: explore_orange}}>Twitter</a></div>
                             {/*</div>*/}
                         </div>
 
@@ -68,7 +74,7 @@ export default function HomePage() {
                         {/*    borderRadius: "55px", marginTop: "2rem"}}>*/}
 
                         {/*</div>*/}
-                        <div className="pageSubtitle" style={{color: "black", textAlign: "right"}}>Affiliations
+                        <div className="pageSubtitle" style={{fontWeight: "200", textAlign: "right", color: "black"}}>Affiliations
                             <div className="hoverExpand"><a href="https://ori.ox.ac.uk"><img
                                 style={{width: "90%", maxWidth: "155px", paddingTop: "20px"}} src={ori_logo}/></a></div>
                             <div className="hoverExpand"><a href="https://rti.ox.ac.uk"><img
@@ -104,84 +110,60 @@ export default function HomePage() {
                                     lineHeight: "100%",
                                     // textAlign: "left"
                                 }}>BENJAMIN<br/><span style={{paddingLeft: "25px"}}>HARDIN</span></p>
-                                <div style={{position: "absolute", transform: "translate(-325px, -150px)"}}>
-                                    <link rel="stylesheet"
-                                          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-                                    <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"
-                                       className="fa fa-linkedin"></a>
-                                    {/*<span style={{*/}
-                                    {/*    transform: "rotate(-90deg) translateY(-15px)",*/}
-                                    {/*    display: "inline-block",*/}
-                                    {/*    fontWeight: "150",*/}
-                                    {/*    fontSize: "12px",*/}
-                                    {/*    color: "var(--exploreorange)",*/}
-                                    {/*}}> linkedin</span>*/}
-                                    <br/>
-                                    <a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao"
-                                       target="_blank"
-                                       className="fa fa-graduation-cap"></a>
-                                    {/*<span style={{*/}
-                                    {/*    transform: "rotate(-90deg) translateY(-15px)",*/}
-                                    {/*    display: "inline-block",*/}
-                                    {/*    fontWeight: "150",*/}
-                                    {/*    fontSize: "12px",*/}
-                                    {/*    color: "var(--exploreorange)",*/}
-                                    {/*}}> scholar</span>*/}
-                                    <br/>
-                                    <a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>
-                                    {/*<span style={{*/}
-                                    {/*    transform: "rotate(-90deg) translateY(-13px)",*/}
-                                    {/*    display: "inline-block",*/}
-                                    {/*    fontWeight: "150",*/}
-                                    {/*    fontSize: "12px",*/}
-                                    {/*    color: "var(--exploreorange)",*/}
-                                    {/*}}> github</span>*/}
-                                    <br/>
-                                    <a href="https://www.twitter.com/b_b_hardin" target="_blank"
-                                       className="fa fa-twitter"></a>
-                                    {/*<span style={{*/}
-                                    {/*    transform: "rotate(-90deg) translateY(-13px)",*/}
-                                    {/*    display: "inline-block",*/}
-                                    {/*    fontWeight: "150",*/}
-                                    {/*    fontSize: "12px",*/}
-                                    {/*    color: "var(--exploreorange)",*/}
-                                    {/*}}>twitter</span>*/}
-                                    <br/>
-                                </div>
+                                {/*<div style={{position: "absolute", transform: "translate(-325px, -150px)"}}>*/}
+                                {/*    <link rel="stylesheet"*/}
+                                {/*          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>*/}
+                                {/*    <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"*/}
+                                {/*       className="fa fa-linkedin"></a>*/}
+                                {/*    /!*<span style={{*!/*/}
+                                {/*    /!*    transform: "rotate(-90deg) translateY(-15px)",*!/*/}
+                                {/*    /!*    display: "inline-block",*!/*/}
+                                {/*    /!*    fontWeight: "150",*!/*/}
+                                {/*    /!*    fontSize: "12px",*!/*/}
+                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
+                                {/*    /!*}}> linkedin</span>*!/*/}
+                                {/*    <br/>*/}
+                                {/*    <a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao"*/}
+                                {/*       target="_blank"*/}
+                                {/*       className="fa fa-graduation-cap"></a>*/}
+                                {/*    /!*<span style={{*!/*/}
+                                {/*    /!*    transform: "rotate(-90deg) translateY(-15px)",*!/*/}
+                                {/*    /!*    display: "inline-block",*!/*/}
+                                {/*    /!*    fontWeight: "150",*!/*/}
+                                {/*    /!*    fontSize: "12px",*!/*/}
+                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
+                                {/*    /!*}}> scholar</span>*!/*/}
+                                {/*    <br/>*/}
+                                {/*    <a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>*/}
+                                {/*    /!*<span style={{*!/*/}
+                                {/*    /!*    transform: "rotate(-90deg) translateY(-13px)",*!/*/}
+                                {/*    /!*    display: "inline-block",*!/*/}
+                                {/*    /!*    fontWeight: "150",*!/*/}
+                                {/*    /!*    fontSize: "12px",*!/*/}
+                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
+                                {/*    /!*}}> github</span>*!/*/}
+                                {/*    <br/>*/}
+                                {/*    <a href="https://www.twitter.com/b_b_hardin" target="_blank"*/}
+                                {/*       className="fa fa-twitter"></a>*/}
+                                {/*    /!*<span style={{*!/*/}
+                                {/*    /!*    transform: "rotate(-90deg) translateY(-13px)",*!/*/}
+                                {/*    /!*    display: "inline-block",*!/*/}
+                                {/*    /!*    fontWeight: "150",*!/*/}
+                                {/*    /!*    fontSize: "12px",*!/*/}
+                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
+                                {/*    /!*}}>twitter</span>*!/*/}
+                                {/*    <br/>*/}
+                                {/*</div>*/}
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
                                 <p /*className="stroke"*/
-                                    style={{fontSize: 22, margin: "0rem", fontWeight: "bold", lineHeight: "100%"}}>PhD
+                                    style={{fontSize: 22, margin: "1rem", fontWeight: "bold", lineHeight: "105%"}}>PhD
                                     Student<br/>Computer Science<br/>University of Oxford</p>
                                 {/*<p style={{margin: "0rem", paddingBottom: "0.5rem"}}>Graduating May 2022</p>*/}
-                                <p /*className="stroke"*/ style={{margin: "0rem", "marginBottom": "1.2rem"}}>Research
-                                    Interests: <span style={{fontStyle: "italic"}}>Human-Computer Interaction, Psychological Safety, Autonomous Systems</span>
+                                <p /*className="stroke"*/ style={{margin: "1rem", "marginBottom": "1.2rem"}}>Research
+                                    Interests: <br></br><span style={{fontStyle: "italic"}}>Human-Computer Interaction, Psychological Safety, Autonomous Systems</span>
                                 </p>
-                                {/*<link rel="stylesheet"*/}
-                                {/*      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>*/}
-                                {/*<a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"*/}
-                                {/*   className="fa fa-linkedin"></a>*/}
-                                {/*<a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao"*/}
-                                {/*   target="_blank"*/}
-                                {/*   className="fa fa-graduation-cap"></a>*/}
-                                {/*<a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>*/}
-                                {/*<a href="https://www.twitter.com/b_b_hardin" target="_blank"*/}
-                                {/*   className="fa fa-twitter"></a>*/}
-
-                                {/*<link rel="stylesheet"*/}
-                                {/*      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>*/}
-                                {/*<a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"*/}
-                                {/*   className="fa fa-linkedin"></a> <br/>*/}
-                                {/*<a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao"*/}
-                                {/*   target="_blank"*/}
-                                {/*   className="fa fa-graduation-cap"></a> <br/>*/}
-                                {/*<a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>*/}
-                                {/*<br/>*/}
-                                {/*<a href="https://www.twitter.com/b_b_hardin" target="_blank"*/}
-                                {/*   className="fa fa-twitter"></a>*/}
-                                {/*<a href="https://www.flickr.com/gp/165665758@N08/4FDeEd" target="_blank"*/}
-                                {/*   className="fa fa-flickr"></a>*/}
                             </p>
                         </div>
 
@@ -205,8 +187,7 @@ export default function HomePage() {
                                 }}>
 
                                     <div className="pageTitle"
-                                         style={{paddingTop: "20rem", paddingBottom: "1rem", fontWeight: "150"}}>about
-                                        me
+                                         style={{paddingTop: "20rem", paddingBottom: "1rem", fontWeight: "150"}}>
                                     </div>
                                     {/*<div className='pageSubtitle' style={{fontFamily: "SF New Republic", paddingTop: "1rem", color: "black", fontSize:"60px"}}>About Me</div>*/}
                                     <div style={{fontSize: 22, fontWeight: "", paddingTop: "10px"}}>
@@ -319,12 +300,13 @@ export default function HomePage() {
                 marginTop: "3%",
                 paddingBottom: "1rem",
                 paddingLeft: "2rem",
-                marginRight: "3%",
+                marginRight: "4%",
                 borderWidth: "0px",
-                borderTopWidth: "1px",
+                borderTopWidth: "2px",
+                borderTopStyle: "dotted",
                 //borderColor: explore_orange,
                 borderBottomWidth: "0px",
-                borderStyle: "solid",
+                //borderStyle: "solid",
                 maxWidth: "1500px"
             }}>
                 <div className="leftAndRightContentInsets">
@@ -337,7 +319,7 @@ export default function HomePage() {
                         width: "400px"
                     }}>selected publications
                     </div>
-                    <div><Nav.Link style={{paddingLeft: 0, fontWeight: "", color: explore_orange}} as={Link}
+                    <div><Nav.Link style={{paddingLeft: 0, fontWeight: "", color: explore_orange, paddingBottom: "2rem"}} as={Link}
                                    to="/publications">See All ></Nav.Link></div>
 
                     <div className="leftContentInsets">
