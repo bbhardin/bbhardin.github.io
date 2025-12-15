@@ -199,33 +199,38 @@ export default function HomePage() {
 
                                         I am advised by <a className="subtleLink"
                                                            href="https://www.cs.ox.ac.uk/people/marina.jirotka/">Professor
-                                        Marina Jirokta</a>, <a
+                                        Marina Jirokta</a> and   <a
                                         className="subtleLink" href="https://ori.ox.ac.uk/people/lars-kunze/">Professor
-                                        Lars Kunze</a>, and <a className="subtleLink"
-                                                               href="https://ori.ox.ac.uk/people/pericle-salvini/">Dr.
-                                        Pericle Salvini</a>
+                                        Lars Kunze.</a>
                                     </div>
 
                                     <div style={{fontSize: 22, fontWeight: "", paddingTop: "4rem"}}>
                                         So what does this look like practically?
                                     </div>
 
-                                    <div style={{fontSize: 16, fontWeight: "bold", paddingTop: "1rem"}}>
-                                        Think affective computing meets transformers meets human studies meets
+                                    <div style={{fontSize: 16, fontWeight: "250", paddingTop: "1rem"}}>
+                                        Imagine affective computing meets transformers meets human studies meets
                                         autonomous vehicles meets explainable AI...
                                     </div>
 
-                                    <div style={{fontSize: 16, fontWeight: "bold", paddingTop: "4rem"}}>
-                                        Currently: Apple Intern (Jan - Jul 2025)
+                                    {/*<div style={{fontSize: 16, fontWeight: "bold", paddingTop: "4rem"}}>*/}
+                                    {/*    Currently: Apple Intern (Jan - Jul 2025)*/}
+                                    {/*</div>*/}
+
+                                    <div style={{fontSize: 16, paddingTop: "2rem"}}>
+                                        <span style={{fontStyle:"italic"}}>Previously:
+                                            <br></br>
+                                            </span>
+                                             - Intern for Apple, Microsoft, GM, and GE Aerospace<br></br>
+                                        - Computer Science at Purdue University <br></br>
+                                        - ETH Zürich exchange student
+
+
                                     </div>
 
-                                    <div style={{fontSize: 16, paddingTop: "1rem"}}>
-                                        <span style={{fontStyle:"italic"}}>Previously: </span>Computer Science at Purdue University, ETH Zürich exchange student,
-                                        and intern for Microsoft, GM, and GE Aerospace.
-                                    </div>
-
-                                    <div style={{fontSize: 16, fontWeight: "", paddingTop: "4rem"}}>
+                                    <div style={{fontSize: 16, fontWeight: "200", paddingTop: "4rem"}}>
                                         Outside of my direct research, my life goals are to shape technology to:
+                                        <div className="leftContentInsets">
                                         <li><b>Improve urban transportation and design</b> to better connect people</li>
                                         <li><b>Reduce loneliness</b>, improve social skills, and help people truly
                                             connect
@@ -233,8 +238,9 @@ export default function HomePage() {
                                         <li>Help people feel an <b>increased sense of agency</b> in their own lives</li>
                                         <li>Improve healthcare access and <b>help people live healthier lives
                                             day-to-day</b></li>
-                                        <div style={{paddingTop: "5px"}}>Please reach out if you're interested in any of
+                                        <div style={{paddingTop: "15px"}}>Please reach out if you're interested in any of
                                             these areas, I'd love to chat!
+                                        </div>
                                         </div>
                                     </div>
 

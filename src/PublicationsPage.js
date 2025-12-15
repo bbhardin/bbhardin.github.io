@@ -166,7 +166,7 @@ export default function PublicationsPage() {
                      borderWidth: "0px",
                      borderBottomWidth: "2px",
                      borderBottomStyle: "dotted",
-                     maxWidth: "625px"}}><a
+                     maxWidth: "630px"}}><a
                 href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>PUBLICATIONS</a></div>
 
             <div className="leftContentInsets">
