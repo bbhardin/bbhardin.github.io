@@ -162,11 +162,11 @@ export default function PublicationsPage() {
             {/*<div className="pageSubtitle orangeItalic"*/}
             {/*     style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px"}}>PROJECTS<br/></div>*/}
             <div className="pageSubtitle orangeItalic boxhead"
-                 style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px",
+                 style={{fontWeight: "450", color: "black", fontSize: "6vw", marginLeft: "-10px",
                      borderWidth: "0px",
                      borderBottomWidth: "2px",
                      borderBottomStyle: "dotted",
-                     maxWidth: "630px"}}><a
+                     maxWidth: "40%"}}><a
                 href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>PUBLICATIONS</a></div>
 
             <div className="leftContentInsets">

@@ -24,13 +24,13 @@ export default function ProjectsPage() {
 
             <div className="pageSubtitle orangeItalic" style={{fontWeight:"450",
                 color: "black",
-                fontSize: "70pt",
+                fontSize: "6vw",
                 marginLeft: "-10px",
                 borderWidth: "0px",
                 borderBottomWidth: "2px",
                 borderBottomStyle: "dotted",
-                maxWidth: "450px"}}>PROJECTS</div>
-            <div className="pageSubtitle orangeItalic" style={{paddingTop:"1rem"}}>ONGOING<br/></div>
+                maxWidth: "28%"}}>PROJECTS</div>
+            <div className="pageSubtitle orangeItalic" style={{paddingTop:"1rem", fontSize: "5vw"}}>ONGOING<br/></div>
 
             <div className="leftAndRightContentInsets">
 
@@ -101,7 +101,7 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <div className="pageSubtitle orangeItalic">COMPLETED</div>
+            <div className="pageSubtitle orangeItalic" style={{fontSize: "5vw"}}>COMPLETED</div>
 
             <div className="leftAndRightContentInsets">
 
