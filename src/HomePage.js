@@ -106,7 +106,7 @@ export default function HomePage() {
                                     fontWeight: "",
                                     marginBottom: "1rem",
                                     color: "var(--exploreorange)",
-                                    transform: "translate(-95px, 0px)",
+                                    transform: "translate(-27%, 0px)",
                                     lineHeight: "100%",
                                     // textAlign: "left"
                                 }}>BENJAMIN<br/><span style={{paddingLeft: "25px"}}>HARDIN</span></p>
