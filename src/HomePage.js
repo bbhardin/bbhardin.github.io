@@ -103,7 +103,7 @@ export default function HomePage() {
                                     fontFamily: "system-ui, Helvetica Neue, Helvetica, Arial",
                                     fontSize: "calc(3vw + 3vh)",
                                     letterSpacing: "-3px",
-                                    fontWeight: "",
+                                    fontWeight: "200",
                                     marginBottom: "1rem",
                                     color: "var(--exploreorange)",
                                     transform: "translate(0%, 0px)",

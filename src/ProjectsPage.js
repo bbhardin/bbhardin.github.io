@@ -32,7 +32,7 @@ export default function ProjectsPage() {
                 maxWidth: "28%"}}>PROJECTS</div>
             <div className="pageSubtitle orangeItalic" style={{paddingTop:"1rem", fontSize: "5vw"}}>ONGOING<br/></div>
 
-            <div className="leftAndRightContentInsets">
+            <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 
                 <div className="leftContentInsets">
 
@@ -103,7 +103,7 @@ export default function ProjectsPage() {
 
             <div className="pageSubtitle orangeItalic" style={{fontSize: "5vw"}}>COMPLETED</div>
 
-            <div className="leftAndRightContentInsets">
+            <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 
                 <div className="leftContentInsets">
                     <div className="pageSubtitle boxhead" style={{color: "black"}}>Interviewing remote operators of road

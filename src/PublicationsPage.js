@@ -169,7 +169,7 @@ export default function PublicationsPage() {
                      maxWidth: "40%"}}><a
                 href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>PUBLICATIONS</a></div>
 
-            <div className="leftContentInsets">
+            <div className="leftContentInsets" style={{maxWidth: "1500px"}}>
 
                 <PaperList/>
 
