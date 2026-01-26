@@ -106,54 +106,10 @@ export default function HomePage() {
                                     fontWeight: "",
                                     marginBottom: "1rem",
                                     color: "var(--exploreorange)",
-                                    transform: "translate(-27%, 0px)",
+                                    transform: "translate(0%, 0px)",
                                     lineHeight: "100%",
                                     // textAlign: "left"
                                 }}>BENJAMIN<br/><span style={{paddingLeft: "25px"}}>HARDIN</span></p>
-                                {/*<div style={{position: "absolute", transform: "translate(-325px, -150px)"}}>*/}
-                                {/*    <link rel="stylesheet"*/}
-                                {/*          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>*/}
-                                {/*    <a href="https://www.linkedin.com/in/benjamin-hardin" target="_blank"*/}
-                                {/*       className="fa fa-linkedin"></a>*/}
-                                {/*    /!*<span style={{*!/*/}
-                                {/*    /!*    transform: "rotate(-90deg) translateY(-15px)",*!/*/}
-                                {/*    /!*    display: "inline-block",*!/*/}
-                                {/*    /!*    fontWeight: "150",*!/*/}
-                                {/*    /!*    fontSize: "12px",*!/*/}
-                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
-                                {/*    /!*}}> linkedin</span>*!/*/}
-                                {/*    <br/>*/}
-                                {/*    <a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao"*/}
-                                {/*       target="_blank"*/}
-                                {/*       className="fa fa-graduation-cap"></a>*/}
-                                {/*    /!*<span style={{*!/*/}
-                                {/*    /!*    transform: "rotate(-90deg) translateY(-15px)",*!/*/}
-                                {/*    /!*    display: "inline-block",*!/*/}
-                                {/*    /!*    fontWeight: "150",*!/*/}
-                                {/*    /!*    fontSize: "12px",*!/*/}
-                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
-                                {/*    /!*}}> scholar</span>*!/*/}
-                                {/*    <br/>*/}
-                                {/*    <a href="https://github.com/bbhardin" target="_blank" className="fa fa-github"></a>*/}
-                                {/*    /!*<span style={{*!/*/}
-                                {/*    /!*    transform: "rotate(-90deg) translateY(-13px)",*!/*/}
-                                {/*    /!*    display: "inline-block",*!/*/}
-                                {/*    /!*    fontWeight: "150",*!/*/}
-                                {/*    /!*    fontSize: "12px",*!/*/}
-                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
-                                {/*    /!*}}> github</span>*!/*/}
-                                {/*    <br/>*/}
-                                {/*    <a href="https://www.twitter.com/b_b_hardin" target="_blank"*/}
-                                {/*       className="fa fa-twitter"></a>*/}
-                                {/*    /!*<span style={{*!/*/}
-                                {/*    /!*    transform: "rotate(-90deg) translateY(-13px)",*!/*/}
-                                {/*    /!*    display: "inline-block",*!/*/}
-                                {/*    /!*    fontWeight: "150",*!/*/}
-                                {/*    /!*    fontSize: "12px",*!/*/}
-                                {/*    /!*    color: "var(--exploreorange)",*!/*/}
-                                {/*    /!*}}>twitter</span>*!/*/}
-                                {/*    <br/>*/}
-                                {/*</div>*/}
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
@@ -224,8 +180,41 @@ export default function HomePage() {
                                              - Intern for Apple, Microsoft, GM, and GE Aerospace<br></br>
                                         - Computer Science at Purdue University <br></br>
                                         - ETH Zürich exchange student
+                                    </div>
 
-
+                                    <div style={{fontSize: 16, paddingTop: "2rem"}}>
+                                        <span style={{fontStyle:"italic"}}>Teaching Experience:
+                                            <br></br>
+                                            </span>
+                                        <div style={{paddingLeft: "20px"}}>
+                                            Fall 2025 <br></br>
+                                                <div style={{paddingLeft: "20px"}}>
+                                               - Machine Learning Tutor, Oxford CS<br></br>
+                                               - Computer Vision Tutor, Oxford CS<br></br>
+                                                </div>
+                                            Fall 2024 <br></br>
+                                            <div style={{paddingLeft: "20px"}}>
+                                                - Law & Computer Science Teaching Assistant, <span style={{fontWeight: "200"}}>Oxford CS</span>
+                                            </div>
+                                            Spring 2024 <br></br>
+                                            <div style={{paddingLeft: "20px"}}>
+                                             - Software Design Group Mentor, <span style={{fontWeight: "200"}}>Oxford CS</span><br></br>
+                                             - C++ Programming Lab Demonstrator, <span style={{fontWeight: "200"}}>Oxford Engineering</span>
+                                            </div>
+                                            Fall 2023 <br></br>
+                                            <div style={{paddingLeft: "20px"}}>
+                                             - Requirements Engineering Teaching Assistant, <span style={{fontWeight: "200"}}>Oxford CS</span>
+                                            </div>
+                                            Spring 2023 <br></br>
+                                            <div style={{paddingLeft: "20px"}}>
+                                             - Software Design Group Mentor, <span style={{fontWeight: "200"}}>Oxford CS</span><br></br>
+                                             - C++ Programming Lab Demonstrator, <span style={{fontWeight: "200"}}>Oxford Engineering</span>
+                                            </div>
+                                            Fall 2021 - Fall 2022 <br></br>
+                                            <div style={{paddingLeft: "20px"}}>
+                                             - Systems Programming Teaching Assistant, <span style={{fontWeight: "200"}}>Purdue CS</span>
+                                            </div>
+                                            </div>
                                     </div>
 
                                     <div style={{fontSize: 16, fontWeight: "200", paddingTop: "4rem"}}>
