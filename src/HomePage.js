@@ -101,15 +101,15 @@ export default function HomePage() {
                             }}>
                                 <p /*className="stroke"*/ style={{
                                     fontFamily: "system-ui, Helvetica Neue, Helvetica, Arial",
-                                    fontSize: "calc(3vw + 3vh)",
+                                    fontSize: "calc(3.2vw + 3.2vh)",
                                     letterSpacing: "-3px",
-                                    fontWeight: "200",
+                                    fontWeight: "150",
                                     marginBottom: "1rem",
                                     color: "var(--exploreorange)",
                                     transform: "translate(0%, 0px)",
-                                    lineHeight: "100%",
+                                    lineHeight: "70%",
                                     // textAlign: "left"
-                                }}>BENJAMIN<br/><span style={{paddingLeft: "25px"}}>HARDIN</span></p>
+                                }}>BENJAMIN<br/><span style={{paddingLeft: "40px", fontStretch: "extra-expanded", fontWeight: "500", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
