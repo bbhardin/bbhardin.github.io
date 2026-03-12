@@ -108,6 +108,7 @@ export default function HomePage() {
                                     color: "var(--exploreorange)",
                                     transform: "translate(0%, 0px)",
                                     lineHeight: "70%",
+                                    fontStretch: "extra-expanded"
                                     // textAlign: "left"
                                 }}>BENJAMIN<br/><span style={{paddingLeft: "40px", fontStretch: "extra-expanded", fontWeight: "500", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
 

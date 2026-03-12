@@ -7,9 +7,7 @@ import CertificationsPage from "./CertificationsPage";
 import ProjectsPage from "./ProjectsPage";
 import VolunteerPage from "./VolunteerPage";
 import HobbiesPage from "./HobbiesPage";
-import TravelsPage from "./TravelsPage";
 import ContactPage from "./ContactPage";
-import ArtPage from "./ArtPage";
 import ResumePage from "./ResumePage";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useEffect} from "react";
@@ -30,9 +28,7 @@ function App() {
                 <Route exact path="/publications" component={PublicationsPage}/>
                 <Route exact path="/volunteer" component={VolunteerPage}/>
                 <Route exact path="/hobbies" component={HobbiesPage}/>
-                <Route exact path="/travels" component={TravelsPage}/>
                 <Route exact path="/contact" component={ContactPage}/>
-                <Route exact path="/art" component={ArtPage}/>
             </Switch>
             <p style={{paddingBottom: "4rem"}}></p>
             <div className='bottomElement' style={{paddingTop: "0.5rem", paddingBottom: "0.5rem", paddingLeft: "1rem", color: "black", backgroundColor: "white", fontWeight: "lighter"}}>
