@@ -101,7 +101,7 @@ export default function HomePage() {
                             }}>
                                 <p /*className="stroke"*/ style={{
                                     fontFamily: "system-ui, Helvetica Neue, Helvetica, Arial",
-                                    fontSize: "calc(3.2vw + 3.2vh)",
+                                    fontSize: "calc(3vw + 3vh)",
                                     letterSpacing: "-3px",
                                     fontWeight: "150",
                                     marginBottom: "1rem",
