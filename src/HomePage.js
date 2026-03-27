@@ -19,6 +19,12 @@ export default function HomePage() {
                 @import url('https://fonts.cdnfonts.com/css/berlina');
             </style>
 
+            {/* Blob section: blobs scroll with this content and are clipped to it */}
+            {/*<div style={{ position: "relative", overflow: "clip" }}>*/}
+            {/*<div aria-hidden="true">*/}
+            {/*    <div className="bg-blob bg-blob-orange" />*/}
+            {/*    <div className="bg-blob bg-blob-teal" />*/}
+            {/*</div>*/}
 
             <div>
 
@@ -378,6 +384,8 @@ export default function HomePage() {
                 <div style={{paddingBottom: "5rem"}}></div>
             </div>
             </div>
+
+            {/*</div>/!* end blob section *!/*/}
 
 
             {/* SELECTED PROJECTS*/}

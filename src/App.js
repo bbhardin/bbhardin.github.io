@@ -18,7 +18,9 @@ function App() {
   return (
       <>
         <HashRouter basename="/mysite">
+
             <NavigationBar/>
+
             <Suspense fallback={<div>Loading...</div>}>
                 <Switch>
                     <Route exact path="/" component={HomePage}/>

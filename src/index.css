@@ -397,3 +397,43 @@ code {
 /*  max-width: 600%;*/
 /*}*/
 
+/* Background ambient blobs */
+@keyframes blobDrift {
+  0%, 100% { transform: translate(0px,    0px)  scale(1);    }
+  33%       { transform: translate(45px, -55px) scale(1.05); }
+  66%       { transform: translate(-35px, 35px) scale(0.96); }
+}
+
+.bg-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(80px);
+  pointer-events: none;
+  will-change: transform;
+  z-index: 0;
+}
+
+.bg-blob-orange {
+  top: 250px;
+  right: -100px;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle at center,
+    rgba(255, 90, 0, 0.5)   0%,
+    rgba(255, 156, 89, 0.7) 45%,
+    transparent              70%);
+  animation: blobDrift 2s ease-in-out infinite;
+}
+
+.bg-blob-teal {
+  top: 450px;
+  left: -100px;
+  width: 550px;
+  height: 550px;
+  background: radial-gradient(circle at center,
+    rgba(116, 139, 133, 0.6) 0%,
+    rgba(116, 139, 133, 0.5) 50%,
+    transparent               70%);
+  animation: blobDrift 2s ease-in-out infinite reverse;
+}
+
