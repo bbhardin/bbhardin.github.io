@@ -166,7 +166,7 @@ export default function HomePage() {
                                         Marina Jirokta</a>,   <a
                                         className="subtleLink" href="https://ori.ox.ac.uk/people/lars-kunze/">Professor
                                         Lars Kunze</a>, and <a
-                                        className="subtleLink" href="https://www.oxford-aiethics.ox.ac.uk/keri-grieman">Dr Keri Grieman.</a>
+                                        className="subtleLink" href="https://www.oxford-aiethics.ox.ac.uk/keri-grieman">Dr Keri Grieman</a>.
                                     </div>
 
                                     <div style={{fontSize: 22, fontWeight: "", paddingTop: "4rem"}}>
