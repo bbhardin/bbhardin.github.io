@@ -30,7 +30,7 @@ export default function ProjectsPage() {
                 borderBottomWidth: "2px",
                 borderBottomStyle: "dotted",
                 maxWidth: "28%"}}>PROJECTS</div>
-            <div className="pageSubtitle orangeItalic" style={{font: "normal, system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"1rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400"}}>ONGOING<br/></div>
+            <div className="pageSubtitle orangeItalic" style={{font: "normal, system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"1rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#00a5ff"}}>ONGOING<br/></div>
 
             <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 
@@ -101,7 +101,7 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <div className="pageSubtitle orangeItalic" style={{font: "system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"1rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400"}}>COMPLETED</div>
+            <div className="pageSubtitle orangeItalic" style={{font: "system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"4rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#7EB77F"}}>COMPLETED</div>
 
             <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 

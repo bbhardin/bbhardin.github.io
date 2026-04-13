@@ -14,6 +14,13 @@ import timingchain2 from "./images/projects/timingchain_close.JPG";
 
 const papers = [
     {
+        title: "(Pre-Print) A Survey of Road Scenarios and Their Effects on Autonomous Vehicle Psychological Safety",
+        authors: "<b>Benjamin Hardin</b>, Lars Kunze, Keri Grieman, and Marina Jirotka",
+        conference: "",
+        abstract: "Autonomous Vehicles (AVs) face a diverse range of safety-critical driving scenarios which prompt varying reactions from occupants. Nevertheless, there has not been a comprehensive evaluation of how occupant attitudes and perceptions change based on scenarios since it is generally infeasible for a single study to consider a vast number of scenarios. To this end, this paper presents a survey of the AV studies literature to understand how vehicle occupant psychological safety and its components, such as trust, vary in response to the scenario. The paper also presents a list of publicly available datasets that contain passenger reactions in various scenarios. The paper finds that certain scenarios such as highway lane changes are well studied along with situational trust. Other scenarios such as snowy and rural environments as well as predictability of scenarios are under-explored. The paper offers suggestions for improving the psychological safety coverage of tested AV scenarios.",
+        url: ""
+    },
+    {
         title: "AV-PsySafe: A risk model and analysis method for the psychological safety of human and autonomous vehicles interaction",
         authors: "Yandika Sirgabsou, <b>Benjamin Hardin</b>, François Leblanc, Efi Raili, Pericle Salvini, David Jackson, Marina Jirotka, and Lars Kunze",
         conference: "Transportation Research Interdisciplinary Perspectives",

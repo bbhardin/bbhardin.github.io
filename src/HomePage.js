@@ -114,9 +114,9 @@ export default function HomePage() {
                                     color: "var(--exploreorange)",
                                     transform: "translate(0%, 0px)",
                                     lineHeight: "70%",
-                                    fontStretch: "extra-expanded"
+                                    //fontStretch: "extra-expanded"
                                     // textAlign: "left"
-                                }}>BENJAMIN<br/><span style={{paddingLeft: "40px", fontStretch: "extra-expanded", fontWeight: "500", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
+                                }}>BENJAMIN<br/><span style={{paddingLeft: "", letterSpacing:"5px", fontStretch: "ultra-expanded", fontWeight: "700", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
@@ -327,6 +327,16 @@ export default function HomePage() {
                                    to="/publications">See All ></Nav.Link></div>
 
                     <div className="leftContentInsets">
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
+                            //href={""}>
+                            >
+                            (Pre-Print) A Survey of Road Scenarios and Their Effects on Autonomous Vehicle Psychological Safety
+                        </a></div>
+                        <div className="pageSubSubtitle"><span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Lars Kunze, Keri Grieman, and Marina Jirotka
+                        </div>
+
+
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&citation_for_view=kKQG1fIAAAAJ:H_jBuBxbQIAC"}>
                             AV-PsySafe: A risk model and analysis method for the psychological safety of human and autonomous vehicles interaction
