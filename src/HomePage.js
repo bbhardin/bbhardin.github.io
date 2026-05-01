@@ -1,7 +1,7 @@
 import React from "react";
 import profile from "./images/profile_2025.jpg";
 // import taillights from "./images/home/taillights.jpeg";
-import ori_logo from "./images/home/ori_logo.png";
+import ori_logo from "./images/home/ori_logo.jpg";
 import rti_logo from "./images/home/rti_logo.png";
 import monterey from "./images/home/monterey.jpeg";
 import {Container, Row, Col, Nav} from "react-bootstrap";
@@ -82,7 +82,7 @@ export default function HomePage() {
                         {/*</div>*/}
                         <div className="pageSubtitle" style={{fontWeight: "200", textAlign: "right", color: "black"}}>Affiliations
                             <div className="hoverExpand"><a href="https://ori.ox.ac.uk"><img
-                                style={{width: "90%", maxWidth: "155px", paddingTop: "20px"}} src={ori_logo}/></a></div>
+                                style={{width: "90%", maxWidth: "105px", paddingTop: "20px"}} src={ori_logo}/></a></div>
                             <div className="hoverExpand"><a href="https://rti.ox.ac.uk"><img
                                 style={{width: "90%", maxWidth: "155px", paddingTop: "20px"}} src={rti_logo}/></a></div>
                         </div>
