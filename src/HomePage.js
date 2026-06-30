@@ -116,7 +116,7 @@ export default function HomePage() {
                                     lineHeight: "70%",
                                     //fontStretch: "extra-expanded"
                                     // textAlign: "left"
-                                }}>BENJAMIN<br/><span style={{paddingLeft: "", letterSpacing:"5px", fontStretch: "ultra-expanded", fontWeight: "700", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
+                                }}>BENJAMIN<br/><span style={{paddingLeft: "", letterSpacing:"", fontStretch: "", fontWeight: "", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
