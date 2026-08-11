@@ -109,14 +109,14 @@ export default function HomePage() {
                                     fontFamily: "system-ui, Helvetica Neue, Helvetica, Arial",
                                     fontSize: "calc(3vw + 3vh)",
                                     letterSpacing: "-3px",
-                                    fontWeight: "150",
+                                    fontWeight: "200",
                                     marginBottom: "1rem",
                                     color: "var(--exploreorange)",
-                                    transform: "translate(0%, 0px)",
+                                    transform: "translate(0%, 0px) scale(1, 0.9)",
                                     lineHeight: "70%",
                                     //fontStretch: "extra-expanded"
                                     // textAlign: "left"
-                                }}>BENJAMIN<br/><span style={{paddingLeft: "", letterSpacing:"", fontStretch: "", fontWeight: "", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
+                                }}>BENJAMIN<br/><span style={{paddingLeft: "", letterSpacing:"", fontStretch: "", fontWeight: "150", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
@@ -306,8 +306,8 @@ export default function HomePage() {
                 paddingLeft: "2rem",
                 marginRight: "4%",
                 borderWidth: "0px",
-                borderTopWidth: "2px",
-                borderTopStyle: "dotted",
+                borderTopWidth: "1px",
+                borderTopStyle: "dashed",
                 //borderColor: explore_orange,
                 borderBottomWidth: "0px",
                 //borderStyle: "solid",
@@ -328,8 +328,15 @@ export default function HomePage() {
 
                     <div className="leftContentInsets">
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
-                            //href={""}>
-                            >
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:Zh0EY9V9P6UC"}>
+                            (Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project
+                        </a></div>
+                        <div className="pageSubSubtitle"><span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Efimia Panagiotaki, Daniele De Martini, and Lars Kunze
+                        </div>
+
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a
+                            href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:8dzOF9BpDQoC"}>
                             (Pre-Print) A Survey of Road Scenarios and Their Effects on Autonomous Vehicle Psychological Safety
                         </a></div>
                         <div className="pageSubSubtitle"><span

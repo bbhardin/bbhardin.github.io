@@ -14,11 +14,18 @@ import timingchain2 from "./images/projects/timingchain_close.JPG";
 
 const papers = [
     {
+        title: "(Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project",
+        authors: "<b>Benjamin Hardin</b>, Efimia Panagiotaki, Daniele De Martini, and Lars Kunze",
+        conference: "",
+        abstract: "Autonomous Vehicles (AVs) face a diverse range of safety-critical driving scenarios which prompt varying reactions from occupants. Nevertheless, there has not been a comprehensive evaluation of how occupant attitudes and perceptions change based on scenarios since it is generally infeasible for a single study to consider a vast number of scenarios. To this end, this paper presents a survey of the AV studies literature to understand how vehicle occupant psychological safety and its components, such as trust, vary in response to the scenario. The paper also presents a list of publicly available datasets that contain passenger reactions in various scenarios. The paper finds that certain scenarios such as highway lane changes are well studied along with situational trust. Other scenarios such as snowy and rural environments as well as predictability of scenarios are under-explored. The paper offers suggestions for improving the psychological safety coverage of tested AV scenarios.",
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:Zh0EY9V9P6UC"
+    },
+    {
         title: "(Pre-Print) A Survey of Road Scenarios and Their Effects on Autonomous Vehicle Psychological Safety",
         authors: "<b>Benjamin Hardin</b>, Lars Kunze, Keri Grieman, and Marina Jirotka",
         conference: "",
         abstract: "Autonomous Vehicles (AVs) face a diverse range of safety-critical driving scenarios which prompt varying reactions from occupants. Nevertheless, there has not been a comprehensive evaluation of how occupant attitudes and perceptions change based on scenarios since it is generally infeasible for a single study to consider a vast number of scenarios. To this end, this paper presents a survey of the AV studies literature to understand how vehicle occupant psychological safety and its components, such as trust, vary in response to the scenario. The paper also presents a list of publicly available datasets that contain passenger reactions in various scenarios. The paper finds that certain scenarios such as highway lane changes are well studied along with situational trust. Other scenarios such as snowy and rural environments as well as predictability of scenarios are under-explored. The paper offers suggestions for improving the psychological safety coverage of tested AV scenarios.",
-        url: ""
+        url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:8dzOF9BpDQoC"
     },
     {
         title: "AV-PsySafe: A risk model and analysis method for the psychological safety of human and autonomous vehicles interaction",
@@ -169,10 +176,10 @@ export default function PublicationsPage() {
             {/*<div className="pageSubtitle orangeItalic"*/}
             {/*     style={{fontWeight: "450", color: "black", fontSize: "70pt", marginLeft: "-10px"}}>PROJECTS<br/></div>*/}
             <div className="pageSubtitle orangeItalic boxhead"
-                 style={{fontWeight: "450", color: "black", fontSize: "6vw", marginLeft: "-10px",
+                 style={{fontWeight: "450", color: "black", fontSize: "6vw", marginLeft: "-1px",
                      borderWidth: "0px",
-                     borderBottomWidth: "2px",
-                     borderBottomStyle: "dotted",
+                     borderBottomWidth: "1px",
+                     borderBottomStyle: "dashed",
                      maxWidth: "40%"}}><a
                 href={"https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en"}>PUBLICATIONS</a></div>
 

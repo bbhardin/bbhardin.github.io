@@ -25,12 +25,13 @@ export default function ProjectsPage() {
             <div className="pageSubtitle orangeItalic" style={{fontWeight:"450",
                 color: "black",
                 fontSize: "6vw",
-                marginLeft: "-10px",
+                marginLeft: "-1px",
                 borderWidth: "0px",
-                borderBottomWidth: "2px",
-                borderBottomStyle: "dotted",
+                borderBottomWidth: "1px",
+                borderBottomStyle: "dashed",
                 maxWidth: "28%"}}>PROJECTS</div>
-            <div className="pageSubtitle orangeItalic" style={{font: "normal, system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"1rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#00a5ff"}}>ONGOING<br/></div>
+            <div className="pageSubtitle orangeItalic" style={{font: "normal, system-ui, Helvetica Neue, Helvetica, Arial",
+                fontStyle: "normal", paddingTop:"1rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#9ac9e3"}}>ONGOING<br/></div>
 
             <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 
