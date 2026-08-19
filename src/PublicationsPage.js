@@ -1,18 +1,22 @@
-import icon from "./images/Icon.png"
-import dn from "./images/doctorsnote.png"
-import hcr from "./images/HCR.png"
 import React from "react";
-import {Col, Container, Row} from "react-bootstrap";
-import information from "./images/wwdc/information.png";
-import tree from "./images/wwdc/treewouldittake.png";
-import report from "./images/wwdc/your report.png";
-import info from "./images/wwdc/info.png";
-import light from "./images/smart_light_switch.jpeg";
-import timingchain from "./images/projects/timingchain.JPG";
-import timingchain2 from "./images/projects/timingchain_close.JPG";
+
 
 
 const papers = [
+    // { BOOK CHAPTER WILL GO HERE
+    //     title: "(Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project",
+    //     authors: "Chris Harper, <b>Benjamin Hardin</b>, and Lars Kunze",
+    //     conference: "",
+    //     abstract: "",
+    //     url: ""
+    // },
+    {
+        title: "(Pre-Print) The Agent Is Not Your Driver: Clarifying the Implied Capabilities of In-Vehicle Anthropomorphic Agents",
+        authors: "<b>Benjamin Hardin</b>",
+        conference: "",
+        abstract: "This position paper considers how the gap between an anthropomorphic agent in an autonomous vehicle and the automated driving system of the vehicle can create psychological risks if the agent inaccurately presents itself as integrated into the driving system. This gap is under-explored both because of the evolving nature of these agents and because of study limitations in Human-Computer Interaction (HCI) research. Nevertheless, this gap may cause the agent to misrepresent itself as more knowledgeable about the car than it is, creating a risk of dependence and, in the worst case, betrayal if the occupant feels that the agent has misled them. This paper proposes a research agenda for future work to understand the psychological risk that exists in the gap between agents and driving systems and to narrow this gap in a manner aligned with safety assurance. As these agents evolve to hold greater capabilities and increased anthropomorphism, future research must investigate risks which may emerge from richer interaction with them. The impact of how an agent presents itself and its knowledge becomes greater.",
+        url: ""
+    },
     {
         title: "(Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project",
         authors: "<b>Benjamin Hardin</b>, Efimia Panagiotaki, Daniele De Martini, and Lars Kunze",
@@ -158,8 +162,8 @@ const Paper = ({title, authors, conference, abstract, url}) => {
                 <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}>{title}</div>
                 <div className="pageSubSubtitle" style={{fontWeight: ""}}
                      dangerouslySetInnerHTML={{__html: `${authors}`}}/>
-                <div className="leftContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
-                <div className="leftContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
+                <div className="leftAndRightContentInsets" style={{fontStyle: "italic"}}>{conference}</div>
+                <div className="leftAndRightContentInsets" style={{fontWeight: "lighter"}}>{abstract}</div>
             </div>
         );
     }
