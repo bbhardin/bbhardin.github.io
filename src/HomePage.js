@@ -122,7 +122,7 @@ export default function HomePage() {
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
                                 <p /*className="stroke"*/
                                     style={{fontSize: 22, margin: "1rem", fontWeight: "bold", lineHeight: "105%"}}>PhD
-                                    Student<br/>Computer Science<br/>University of Oxford</p>
+                                    Candidate<br/>Computer Science<br/>University of Oxford</p>
                                 {/*<p style={{margin: "0rem", paddingBottom: "0.5rem"}}>Graduating May 2022</p>*/}
                                 <p /*className="stroke"*/ style={{margin: "1rem", "marginBottom": "1.2rem"}}>Research
                                     Interests: <br></br><span style={{fontStyle: "italic"}}>Human-Computer Interaction, Psychological Safety, Autonomous Systems</span>
