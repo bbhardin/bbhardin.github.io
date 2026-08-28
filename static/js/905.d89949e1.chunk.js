@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_website_react=self.webpackChunkmy_website_react||[]).push([[905],{3292:(e,t,i)=>{i.r(t),i.d(t,{default:()=>d});const s=i.p+"static/media/cv.7eeffcfb4ddd42b59460.pdf";i(5043);var a=i(579);function d(){return(0,a.jsx)("div",{style:{width:"100%",height:"90vh",display:"flex",marginTop:"1rem"},children:(0,a.jsx)("iframe",{src:s,style:{width:"90%",maxWidth:"1400px",margin:"0 auto",borderRadius:"15px"}})})}}}]);
+//# sourceMappingURL=905.d89949e1.chunk.js.map
