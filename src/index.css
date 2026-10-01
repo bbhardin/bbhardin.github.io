@@ -437,3 +437,66 @@ code {
   animation: blobDrift 2s ease-in-out infinite reverse;
 }
 
+/* Home page layout (HomePage.js)
+   992px and wider: photo and contact info on the left, name and bio on the right.
+   Narrower (phones, small tablets): one column, with the name at the top.
+   To change where it switches, change 992px and 991.98px below. */
+
+@media (min-width: 992px) {
+  .homeSidebar {
+    text-align: right;
+  }
+
+  /* Name and title float at the top of the right-hand column */
+  .homeHero {
+    position: absolute;
+    top: 120px;
+    max-width: 40%;
+    margin-right: 70%;
+  }
+
+  /* Two class names so this beats Bootstrap's .row margin (Bootstrap's CSS loads after this file) */
+  .row.homeBioRow {
+    margin-left: 2%;
+  }
+
+  .homeBio {
+    margin-left: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .row.homeColumns {
+    flex-direction: column;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  /* Remove the two column boxes so the pieces inside them stack as one column... */
+  .homeSidebar,
+  .homeMain {
+    display: contents;
+  }
+
+  /* ...and move the name and title above the photo */
+  .homeHero {
+    order: -1;
+    margin-top: 2rem;
+  }
+
+  /* The spacer only makes room for the floating name, and the right-hand column is empty */
+  .homeBioSpacer,
+  .homeNewsColumn {
+    display: none;
+  }
+
+  .homePublications .leftAndRightContentInsets {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+

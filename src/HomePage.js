@@ -33,9 +33,10 @@ export default function HomePage() {
                 </div>
 
 
-                <Row>
-                    <Col xs={3} style={{paddingLeft: "4%", paddingRight: "20px"}}>
-                        <div style={{textAlign: "right"}}>
+                {/* Two columns on wide windows, one column on narrow ones. See "Home page layout" in index.css */}
+                <Row className="homeColumns">
+                    <Col xs={3} className="homeSidebar" style={{paddingLeft: "4%", paddingRight: "20px"}}>
+                        <div>
                             {/*<div style={{backgroundColor: "lightGray", borderBottomRightRadius: "100px", borderBottomLeftRadius: "100px", width: "150px", height:"75px", textAlign:"center"}} />*/}
                             <img className="smallAvatar" style={{marginTop: "3rem"}}
                                  src={profile}/>
@@ -80,7 +81,7 @@ export default function HomePage() {
                         {/*    borderRadius: "55px", marginTop: "2rem"}}>*/}
 
                         {/*</div>*/}
-                        <div className="pageSubtitle" style={{fontWeight: "200", textAlign: "right", color: "black"}}>Affiliations
+                        <div className="pageSubtitle" style={{fontWeight: "200", color: "black"}}>Affiliations
                             <div className="hoverExpand"><a href="https://ori.ox.ac.uk"><img
                                 style={{width: "90%", maxWidth: "105px", paddingTop: "20px"}} src={ori_logo}/></a></div>
                             <div className="hoverExpand"><a href="https://rti.ox.ac.uk"><img
@@ -88,22 +89,19 @@ export default function HomePage() {
                         </div>
                     </Col>
 
-                    <Col>
+                    <Col className="homeMain">
 
-                        <div>
+                        {/* Name and title. Its position is set by .homeHero in index.css */}
+                        <div className="homeHero">
 
                             {/*<img className="croppedImage"*/}
                             {/*     style={{background: "white", color: "white", marginTop: "-5rem", opacity: "0%"}}*/}
                             {/*     src={taillights}/>*/}
                             <p style={{
-                                marginRight: "70%",
                                 color: "black",
-                                position: "absolute",
-                                top: "120px",
                                 // left: "50%",
                                 // transform: "translate(-50%, 0%)", /*fontWeight: "bold"*/
                                 textAlign: "left",
-                                maxWidth: "40%"
                             }}>
                                 <p /*className="stroke"*/ style={{
                                     fontFamily: "system-ui, Helvetica Neue, Helvetica, Arial",
@@ -130,11 +128,10 @@ export default function HomePage() {
                             </p>
                         </div>
 
-                        <Row style={{
+                        <Row className="homeBioRow" style={{
                             // background: "#f3f3f3",
                             borderTopLeftRadius: "25px",
                             borderBottomLeftRadius: "25px",
-                            marginLeft: "2%",
                             marginTop: "3%",
                             marginBottom: "2%",
                             // borderColor: "#eaeaea",
@@ -144,12 +141,12 @@ export default function HomePage() {
                         }}>
 
                             <Col>
-                                <div style={{
-                                    maxWidth: "750px", marginLeft: "40%", paddingLeft: "5%", paddingRight: "5%", /*background: "#EEEEEE",*/
+                                <div className="homeBio" style={{
+                                    maxWidth: "750px", /*background: "#EEEEEE",*/
                                     borderRadius: "55px", marginTop: "2rem", marginBottom: "2rem"
                                 }}>
 
-                                    <div className="pageTitle"
+                                    <div className="pageTitle homeBioSpacer"
                                          style={{paddingTop: "20rem", paddingBottom: "1rem", fontWeight: "150"}}>
                                     </div>
                                     {/*<div className='pageSubtitle' style={{fontFamily: "SF New Republic", paddingTop: "1rem", color: "black", fontSize:"60px"}}>About Me</div>*/}
@@ -255,7 +252,7 @@ export default function HomePage() {
                                     </div>
                                 </div>
                             </Col>
-                            <Col sm={4} style={{paddingRight: "4rem"}}>
+                            <Col sm={4} className="homeNewsColumn" style={{paddingRight: "4rem"}}>
 
 
                                 {/*    <div className="secondaryPageTitle leftContentInsets" style={{paddingTop: "3rem", color: explore_orange}}>What's New</div>*/}
@@ -299,7 +296,7 @@ export default function HomePage() {
             <div style={{
                 // backgroundColor: "#859c96",
             }}>
-            <div style={{
+            <div className="homePublications" style={{
                 // backgroundColor: "#f3f3f3",
                 marginTop: "3%",
                 paddingBottom: "1rem",
@@ -320,13 +317,22 @@ export default function HomePage() {
                         paddingBottom: "0rem",
                         fontWeight: "150",
                         // transform: "rotate(90deg) translateX(200px) translateY(250px)",
-                        width: "400px"
+                        width: "400px",
+                        maxWidth: "100%"
                     }}>selected publications
                     </div>
                     <div><Nav.Link style={{paddingLeft: 0, fontWeight: "", color: explore_orange, paddingBottom: "2rem"}} as={Link}
                                    to="/publications">See All ></Nav.Link></div>
 
                     <div className="leftContentInsets">
+                        <div className="pageSubtitle boxhead" style={{color: "black"}}><a>
+                            (Pre-Print) Assuring the Trustworthiness of Autonomous Robotic Systems in Challenging Environments
+                        </a></div>
+                        <div className="pageSubSubtitle">Chris Harper, <span
+                            style={{fontWeight: "bold"}}>Benjamin Hardin</span>, and Lars Kunze
+                        </div>
+                        <div className="leftContentInsets">Book chapter submitted to Elsevier</div>
+
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:Zh0EY9V9P6UC"}>
                             (Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project
