@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ecedf5af.css",
-    "main.js": "/static/js/main.b5652eab.js",
-    "static/js/140.0a671a31.chunk.js": "/static/js/140.0a671a31.chunk.js",
+    "main.js": "/static/js/main.fb5e6a65.js",
+    "static/js/28.380a14e6.chunk.js": "/static/js/28.380a14e6.chunk.js",
     "static/js/905.d89949e1.chunk.js": "/static/js/905.d89949e1.chunk.js",
     "static/js/103.9457ff62.chunk.js": "/static/js/103.9457ff62.chunk.js",
     "static/js/246.fba939c0.chunk.js": "/static/js/246.fba939c0.chunk.js",
@@ -33,7 +33,6 @@
     "static/media/Icon.png": "/static/media/Icon.6eddd67de8bbad8e3893.png",
     "static/media/rti_logo.png": "/static/media/rti_logo.0f42d1a86b2dd204a435.png",
     "static/media/ori_logo.jpg": "/static/media/ori_logo.b48087713df79a4cb3b7.jpg",
-    "static/media/profile_2025.jpg": "/static/media/profile_2025.2a9ae596cb58b7c75648.jpg",
     "static/media/iv2024.jpeg": "/static/media/iv2024.116a509eee6951e24fd7.jpeg",
     "static/media/sl_my_version.jpg": "/static/media/sl_my_version.d548727723d4fcdd72d9.jpg",
     "static/media/treewouldittake.png": "/static/media/treewouldittake.ca3635af80202dad2900.png",
@@ -41,6 +40,7 @@
     "static/media/your report.png": "/static/media/your report.840009986149ee7bc9a4.png",
     "static/media/2_series_my_version.jpg": "/static/media/2_series_my_version.b5d21cf27a1246c0c127.jpg",
     "static/media/info.png": "/static/media/info.cb528a332b82975b1648.png",
+    "static/media/profile.JPG": "/static/media/profile.99ff8104d5db17d199a1.JPG",
     "static/media/information.png": "/static/media/information.43e090d39d79dce50d3d.png",
     "static/media/cv.pdf": "/static/media/cv.7eeffcfb4ddd42b59460.pdf",
     "static/media/2_series_original.jpeg": "/static/media/2_series_original.1b6426f1d486fe5425c0.jpeg",
@@ -50,8 +50,8 @@
     "static/media/doctorsnote.png": "/static/media/doctorsnote.06e26207e64fc5450563.png",
     "index.html": "/index.html",
     "main.ecedf5af.css.map": "/static/css/main.ecedf5af.css.map",
-    "main.b5652eab.js.map": "/static/js/main.b5652eab.js.map",
-    "140.0a671a31.chunk.js.map": "/static/js/140.0a671a31.chunk.js.map",
+    "main.fb5e6a65.js.map": "/static/js/main.fb5e6a65.js.map",
+    "28.380a14e6.chunk.js.map": "/static/js/28.380a14e6.chunk.js.map",
     "905.d89949e1.chunk.js.map": "/static/js/905.d89949e1.chunk.js.map",
     "103.9457ff62.chunk.js.map": "/static/js/103.9457ff62.chunk.js.map",
     "246.fba939c0.chunk.js.map": "/static/js/246.fba939c0.chunk.js.map",
@@ -64,6 +64,6 @@
   },
   "entrypoints": [
     "static/css/main.ecedf5af.css",
-    "static/js/main.b5652eab.js"
+    "static/js/main.fb5e6a65.js"
   ]
 }
