@@ -1,5 +1,5 @@
 import React from "react";
-import profile from "./images/profile_2025.jpg";
+import profile from "./images/profile.JPG";
 // import taillights from "./images/home/taillights.jpeg";
 import ori_logo from "./images/home/ori_logo.jpg";
 import rti_logo from "./images/home/rti_logo.png";
@@ -55,18 +55,18 @@ export default function HomePage() {
                             {/*<div className='smallBottomPadding' style={{fontSize: "14px"}}><a href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao" style={{color: explore_orange}}>Google Scholar</a></div>*/}
                             {/*<div className='smallBottomPadding' style={{fontSize: "14px"}}><a href="https://www.linkedin.com/in/benjamin-hardin" style={{color: explore_orange}}>LinkedIn</a></div>*/}
                             <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
-                                href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao" style={{color: explore_orange}}>
+                                href="https://scholar.google.com/citations?user=kKQG1fIAAAAJ&hl=en&oi=ao" style={{color: "black"}}>
                                 Google Scholar
                             </a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
-                                href="https://www.cs.ox.ac.uk/people/benjamin.hardin" style={{color: explore_orange}}>my
+                                href="https://www.cs.ox.ac.uk/people/benjamin.hardin" style={{color: "black"}}>my
                                 Oxford page</a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
-                                href="www.linkedin.com/in/benjamin-hardin" style={{color: explore_orange}}>LinkedIn</a></div>
+                                href="www.linkedin.com/in/benjamin-hardin" style={{color:  "black"}}>LinkedIn</a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
-                                href="https://www.github.com/bbhardin" style={{color: explore_orange}}>GitHub</a></div>
+                                href="https://www.github.com/bbhardin" style={{color:  "black"}}>GitHub</a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "2rem", fontSize: "14px"}}><a
-                                href="https://x.com/b_b_hardin" style={{color: explore_orange}}>Twitter</a></div>
+                                href="https://x.com/b_b_hardin" style={{color:  "black"}}>Twitter</a></div>
                             {/*</div>*/}
                         </div>
 
@@ -109,12 +109,12 @@ export default function HomePage() {
                                     letterSpacing: "-3px",
                                     fontWeight: "200",
                                     marginBottom: "1rem",
-                                    color: "var(--exploreorange)",
+                                    color: "#003066",// "var(--exploreorange)",
                                     transform: "translate(0%, 0px) scale(1, 0.9)",
                                     lineHeight: "70%",
                                     //fontStretch: "extra-expanded"
                                     // textAlign: "left"
-                                }}>BENJAMIN<br/><span style={{paddingLeft: "", letterSpacing:"", fontStretch: "", fontWeight: "150", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
+                                }}>BENJAMIN<br/><span style={{paddingLeft: "1rem", letterSpacing:"", fontStretch: "", fontWeight: "150", fontSize: "calc(2.2vw + 2.2vh)"}}>HARDIN</span></p>
 
 
                                 {/*THIS LINK IS WHERE I GET THE ICONS*/}
