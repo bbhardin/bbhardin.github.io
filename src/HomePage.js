@@ -9,6 +9,90 @@ import {Link} from "react-router-dom";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 let explore_orange = "#ff5a00";
 
+const updates = [
+    // { BOOK CHAPTER WILL GO HERE
+    //     title: "(Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project",
+    //     authors: "Chris Harper, <b>Benjamin Hardin</b>, and Lars Kunze",
+    //     conference: "",
+    //     abstract: "",
+    //     url: ""
+    // },
+    {
+        title: "I attended ACM AutomotiveUI 2026 in Gothenburg, Sweden 🇸🇪",
+        date: "September 2026",
+        notes:
+            "I presented a position paper at the AnthroAssist Workshop (Anthropomorphic and Intelligent Assistive Systems for Automated Vehicles) titled, \"The Agent Is Not Your Driver: Clarifying the Implied Capabilities of In-Vehicle Anthropomorphic Agents.\"",
+        photos: ""
+    },
+
+    {
+        title: "I am starting a new position as an intern with Apple in San Diego!",
+        date: "January 2025",
+        notes: "",
+        photos: ""
+    },
+
+    {
+        title: "I presented to the UNECE Global Forum for Road Traffic Safety about human factors considerations for road vehicle teleoperation",
+        date: "September 2024",
+        notes:
+            "",
+        photos: ""
+    },
+
+    {
+        title: "I presented to the Department for Transport Centre for Connected and Autonomous Vehicles",
+        date: "June 2024",
+        notes:
+            "I shared considerations about the human factors considerations for road vehicle teleoperation.",
+        photos: ""
+    },
+
+    {
+        title: "I attended the IEEE Intelligent Vehicles Symposium 2024 on Jeju Island, South Korea 🇰🇷",
+        date: "January 2024",
+        notes:
+            "I presented a position paper at the workshop on teleoperation.",
+        photos: ""
+    },
+    ]
+
+const UpdateList = () => (
+    <div style={{paddingLeft: "10px"}}>
+        {updates.map(update => (
+            <Update key={update.title} title={update.title} date={update.date} notes={update.notes} />
+        ))}
+    </div>
+);
+
+const Update = ({title, date, notes, url=""}) => {
+    if (url !== "") {
+        // For when the paper has been published and has a URL
+        return(
+            <div>
+                <div className="pageSubtitle boxhead" style={{color: "black", marginTop: "3rem",
+                    // borderWidth: "0px",
+                    // borderTopWidth: "1px",
+                    // borderTopStyle: "dotted",
+                }}><a
+                    href={`${url}`}>{title}</a></div>
+                <div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{__html: `${date}`}}/>
+                <div className="leftAndRightContentInsets" style={{fontStyle: "italic"}}>{notes}</div>
+            </div>
+        );
+    } else {
+        // For when the paper has not been published and there's no URL
+        return(
+            <div>
+                <div className="pageSubSubtitle boxhead" style={{color: "black", paddingTop: "1rem", fontWeight: "550"}}>
+                    <span style={{fontWeight: "normal", paddingRight: "1rem"}}>{date}</span> {title}</div>
+
+                <div className="leftAndRightContentInsets" style={{fontStyle: "italic", paddingBottom: "0px"}}>{notes}</div>
+            </div>
+        );
+    }
+}
+
 export default function HomePage() {
 
     return (
@@ -166,14 +250,14 @@ export default function HomePage() {
                                         className="subtleLink" href="https://www.oxford-aiethics.ox.ac.uk/keri-grieman">Dr Keri Grieman</a>.
                                     </div>
 
-                                    <div style={{fontSize: 22, fontWeight: "", paddingTop: "4rem"}}>
-                                        So what does this look like practically?
-                                    </div>
+                                    {/*<div style={{fontSize: 22, fontWeight: "", paddingTop: "4rem"}}>*/}
+                                    {/*    So what does this look like practically?*/}
+                                    {/*</div>*/}
 
-                                    <div style={{fontSize: 16, fontWeight: "250", paddingTop: "1rem"}}>
-                                        Imagine affective computing meets transformers meets human studies meets
-                                        autonomous vehicles meets explainable AI...
-                                    </div>
+                                    {/*<div style={{fontSize: 16, fontWeight: "250", paddingTop: "1rem"}}>*/}
+                                    {/*    Imagine affective computing meets transformers meets human studies meets*/}
+                                    {/*    autonomous vehicles meets explainable AI...*/}
+                                    {/*</div>*/}
 
                                     {/*<div style={{fontSize: 16, fontWeight: "bold", paddingTop: "4rem"}}>*/}
                                     {/*    Currently: Apple Intern (Jan - Jul 2025)*/}
@@ -326,7 +410,7 @@ export default function HomePage() {
 
                     <div className="leftContentInsets">
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a>
-                            (Pre-Print) Assuring the Trustworthiness of Autonomous Robotic Systems in Challenging Environments
+                            (Pre-Print Book Chapter) Assuring the Trustworthiness of Autonomous Robotic Systems in Challenging Environments
                         </a></div>
                         <div className="pageSubSubtitle">Chris Harper, <span
                             style={{fontWeight: "bold"}}>Benjamin Hardin</span>, and Lars Kunze
@@ -410,89 +494,45 @@ export default function HomePage() {
             </div>
             </div>
 
+
+            <div style={{
+                // backgroundColor: "#859c96",
+            }}>
+                <div className="homePublications" style={{
+                    // backgroundColor: "#f3f3f3",
+                    marginTop: "3%",
+                    paddingBottom: "1rem",
+                    paddingLeft: "2rem",
+                    marginRight: "50%",
+                    borderWidth: "0px",
+                    borderTopWidth: "1px",
+                    borderTopStyle: "dashed",
+                    //borderColor: explore_orange,
+                    borderBottomWidth: "0px",
+                    //borderStyle: "solid",
+                    maxWidth: "1500px"
+                }}>
+                    <div className="leftAndRightContentInsets">
+
+                        <div className="pageTitle" style={{
+                            paddingTop: "3rem",
+                            paddingBottom: "0rem",
+                            fontWeight: "150",
+                            // transform: "rotate(90deg) translateX(200px) translateY(250px)",
+                            width: "400px",
+                            maxWidth: "100%",
+                            fontSize: "40px"
+                        }}>updates
+                        </div>
+
+                        <UpdateList/>
+
+                    </div>
+                </div>
+            </div>
+
             {/*</div>/!* end blob section *!/*/}
 
-
-            {/* SELECTED PROJECTS*/}
-
-
-            {/*<div style={{*/}
-            {/*    backgroundColor: "#f3f3f3",*/}
-            {/*    marginTop: "3%",*/}
-            {/*    paddingBottom: "1rem",*/}
-            {/*    paddingLeft: "2rem",*/}
-            {/*    marginLeft: "3%",*/}
-            {/*    borderTopLeftRadius: "25px",*/}
-            {/*    borderBottomLeftRadius: "25px",*/}
-            {/*    borderColor: "#eaeaea",*/}
-            {/*    borderWidth: "1px",*/}
-            {/*    borderStyle: "solid",*/}
-            {/*    borderRight: "0px"*/}
-            {/*}}>*/}
-            {/*<div style={{*/}
-            {/*    // backgroundColor: "#f3f3f3",*/}
-            {/*    marginTop: "3%",*/}
-            {/*    paddingBottom: "1rem",*/}
-            {/*    paddingRight: "2rem",*/}
-            {/*    marginRight: "3%",*/}
-            {/*    borderWidth: "0px",*/}
-            {/*    borderTopWidth: "1px",*/}
-            {/*    // borderBottomWidth: "1px",*/}
-            {/*    borderStyle: "solid"*/}
-            {/*}}>*/}
-            {/*    <div className="leftAndRightContentInsets">*/}
-
-            {/*        <div className="pageTitle"*/}
-            {/*             style={{*/}
-            {/*                 paddingTop: "3rem",*/}
-            {/*                 paddingBottom: "1rem",*/}
-            {/*                 fontWeight: "150",*/}
-            {/*                 // transform: "rotate(90deg) translateX(200px) translateY(250px)",*/}
-            {/*                 width: "400px"*/}
-            {/*             }}>selected projects*/}
-            {/*        </div>*/}
-            {/*        <div><Nav.Link style={{paddingLeft: 0, fontWeight: "bold", color: explore_orange}} as={Link}*/}
-            {/*                       to="/projects">See More ></Nav.Link> or see <a className="subtleLink"*/}
-            {/*                                                                      href="https://github.com/bbhardin">my*/}
-            {/*            GitHub</a> for all my latest projects.*/}
-            {/*        </div>*/}
-
-            {/*        <div className="leftContentInsets">*/}
-            {/*            <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "3rem"}}>Winter Break*/}
-            {/*                2021/22: Purdue Honors College Event Analytics*/}
-            {/*            </div>*/}
-            {/*            <div className="pageSubSubtitle" style={{fontWeight: "bold"}}>Goal: Help the Honors College*/}
-            {/*                determine event popularity*/}
-            {/*                and boost resident engagement to encourage a sense of community*/}
-            {/*            </div>*/}
-            {/*            <div className="mediumBottomPadding">I'm cleaning and organizing data from event submissions*/}
-            {/*                within an app for the Honors College that I led.*/}
-            {/*                Residents submit points for attending events in order to earn awards for their dorm*/}
-            {/*                residence floor. We are analyzing these submissions from the past two years to*/}
-            {/*                collect statistics on event attendance and improve future events.*/}
-            {/*            </div>*/}
-
-            {/*            <div className="pageSubtitle boxhead"><a href="https://github.com/real-dcnet/dcnet-source">DCnet*/}
-            {/*                Research Project</a></div>*/}
-            {/*            <div className="pageSubSubtitle">Undergraduate Research with Distinguished Professor Douglas*/}
-            {/*                Comer*/}
-            {/*            </div>*/}
-            {/*            <ul className="mediumBottomPadding">*/}
-            {/*                <li>Implemented a new data center architecture based on unique static MAC addresses to*/}
-            {/*                    provide reliable and quick VM migration.*/}
-            {/*                </li>*/}
-            {/*                <li>Designed tests utilizing Mininet and ONOS to simulate our architecture and test network*/}
-            {/*                    performance.*/}
-            {/*                </li>*/}
-            {/*            </ul>*/}
-
-            {/*            /!*<div className="pageSubtitle boxhead" style={{paddingTop:"0rem"}}><a href="https://github.com/bbhardin/cs592-project">Mixed-Initiative Natural Language File Searcher</a></div>*!/*/}
-            {/*            /!*<div className="pageSubSubtitle">CS592 Human-AI Interaction Course Project</div>*!/*/}
-            {/*            /!*<div>Goal: Add mixed-initiave interface design principles to natural language file search queries to reduce the time required to find files.</div>*!/*/}
-            {/*        </div>*/}
-            {/*    </div>*/}
-            {/*    <div style={{paddingBottom: "5rem"}}></div>*/}
-            {/*</div>*/}
 
 
         </div>
