@@ -268,7 +268,7 @@ export default function HomePage() {
                                             <br></br>
                                             </span>
                                              - Intern for Apple, Microsoft, GM, and GE Aerospace<br></br>
-                                        - Computer Science at Purdue University <br></br>
+                                        - Computer Science Honors at Purdue University <br></br>
                                         - ETH Zürich exchange student
                                     </div>
 
