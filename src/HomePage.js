@@ -242,12 +242,13 @@ export default function HomePage() {
                                         transparency, and human understanding.
                                         <br></br>
 
-                                        I am advised by <a className="subtleLink"
+                                        <div  style={{paddingTop: "1rem"}}>I am advised by <a className="subtleLink"
                                                            href="https://www.cs.ox.ac.uk/people/marina.jirotka/">Professor
                                         Marina Jirokta</a>,   <a
                                         className="subtleLink" href="https://people.uwe.ac.uk/Person/LarsKunze">Professor
                                         Lars Kunze</a>, and <a
                                         className="subtleLink" href="https://www.oxford-aiethics.ox.ac.uk/keri-grieman">Dr Keri Grieman</a>.
+                                        </div>
                                     </div>
 
                                     {/*<div style={{fontSize: 22, fontWeight: "", paddingTop: "4rem"}}>*/}
