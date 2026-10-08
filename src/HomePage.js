@@ -146,7 +146,7 @@ export default function HomePage() {
                                 href="https://www.cs.ox.ac.uk/people/benjamin.hardin" style={{color: "black"}}>my
                                 Oxford page</a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
-                                href="www.linkedin.com/in/benjamin-hardin" style={{color:  "black"}}>LinkedIn</a></div>
+                                href="https://www.linkedin.com/in/benjamin-hardin" style={{color:  "black"}}>LinkedIn</a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "0rem", fontSize: "14px"}}><a
                                 href="https://www.github.com/bbhardin" style={{color:  "black"}}>GitHub</a></div>
                             <div className='smallBottomPadding' style={{paddingBottom: "2rem", fontSize: "14px"}}><a
@@ -245,7 +245,7 @@ export default function HomePage() {
                                         I am advised by <a className="subtleLink"
                                                            href="https://www.cs.ox.ac.uk/people/marina.jirotka/">Professor
                                         Marina Jirokta</a>,   <a
-                                        className="subtleLink" href="https://ori.ox.ac.uk/people/lars-kunze/">Professor
+                                        className="subtleLink" href="https://people.uwe.ac.uk/Person/LarsKunze">Professor
                                         Lars Kunze</a>, and <a
                                         className="subtleLink" href="https://www.oxford-aiethics.ox.ac.uk/keri-grieman">Dr Keri Grieman</a>.
                                     </div>
@@ -264,27 +264,27 @@ export default function HomePage() {
                                     {/*</div>*/}
 
                                     <div style={{fontSize: 16, paddingTop: "2rem"}}>
-                                        <span style={{fontStyle:"italic"}}>Previously:
+                                        <span style={{fontStyle:"italic", fontSize: 20}}>Previously:
                                             <br></br>
                                             </span>
-                                             - Intern for Apple, Microsoft, GM, and GE Aerospace<br></br>
-                                        - Computer Science Honors at Purdue University <br></br>
-                                        - ETH Zürich exchange student
+                                             - Intern at <span style={{fontWeight: "bold"}}>Apple</span>, <span style={{fontWeight: "bold"}}>Microsoft</span>, <span style={{fontWeight: "bold"}}>GM</span>, and <span style={{fontWeight: "bold"}}>GE Aerospace</span><br></br>
+                                        - Computer Science Honors at <span style={{fontWeight: "bold"}}>Purdue University</span> <br></br>
+                                        - <span style={{fontWeight: "bold"}}>ETH Zürich</span> exchange student
                                     </div>
 
                                     <div style={{fontSize: 16, paddingTop: "2rem"}}>
-                                        <span style={{fontStyle:"italic"}}>Teaching Experience:
+                                        <span style={{fontStyle:"italic", fontSize: 20}}>Teaching Experience:
                                             <br></br>
                                             </span>
                                         <div style={{paddingLeft: "20px"}}>
                                             Fall 2025 <br></br>
                                                 <div style={{paddingLeft: "20px"}}>
-                                               - Machine Learning Tutor, Oxford CS<br></br>
-                                               - Computer Vision Tutor, Oxford CS<br></br>
+                                                    - Machine Learning Tutor,<span style={{fontWeight: "200"}}> Oxford CS </span><br></br>
+                                               - Computer Vision Tutor,<span style={{fontWeight: "200"}}> Oxford CS </span><br></br>
                                                 </div>
                                             Fall 2024 <br></br>
                                             <div style={{paddingLeft: "20px"}}>
-                                                - Law & Computer Science Teaching Assistant, <span style={{fontWeight: "200"}}>Oxford CS</span>
+                                                - Law & Computer Science Teaching Assistant,<span style={{fontWeight: "200"}}> Oxford CS</span>
                                             </div>
                                             Spring 2024 <br></br>
                                             <div style={{paddingLeft: "20px"}}>
@@ -415,7 +415,7 @@ export default function HomePage() {
                         <div className="pageSubSubtitle">Chris Harper, <span
                             style={{fontWeight: "bold"}}>Benjamin Hardin</span>, and Lars Kunze
                         </div>
-                        <div className="leftContentInsets">Book chapter submitted to Elsevier</div>
+                        <div className="leftContentInsets" style={{fontStyle: "italic"}}>Book chapter submitted to Elsevier Comprehensive Robotics for Extreme and Challenging Environments</div>
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:Zh0EY9V9P6UC"}>
@@ -424,6 +424,7 @@ export default function HomePage() {
                         <div className="pageSubSubtitle"><span
                             style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Efimia Panagiotaki, Daniele De Martini, and Lars Kunze
                         </div>
+                        <div className="leftContentInsets" style={{fontStyle: "italic"}}>Submitted to CHI 2027</div>
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
                             href={"https://scholar.google.com/citations?view_op=view_citation&hl=en&user=kKQG1fIAAAAJ&sortby=pubdate&citation_for_view=kKQG1fIAAAAJ:8dzOF9BpDQoC"}>
@@ -432,6 +433,7 @@ export default function HomePage() {
                         <div className="pageSubSubtitle"><span
                             style={{fontWeight: "bold"}}>Benjamin Hardin</span>, Lars Kunze, Keri Grieman, and Marina Jirotka
                         </div>
+                        <div className="leftContentInsets" style={{fontStyle: "italic"}}>Submitted to HRI 2027</div>
 
 
                         <div className="pageSubtitle boxhead" style={{color: "black"}}><a
