@@ -39,16 +39,19 @@ export default function ProjectsPage() {
 
                     {/* YES, I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
 
-                    <div style={{fontSize: "25pt", padding: "0rem"}}>RobotCycle</div>
+                    <div style={{fontSize: "25pt", padding: "0.2rem"}}>RobotCycle Project</div>
                     <div className="pageSubtitle boxhead leftcon" style={{color: "black", padding: "0rem"}}>Analyzing
                         cyclist
                         safety
                         through eye tracking measures with the Meta Project Aria Glasses
                     </div>
 
-                    <div className="largeLeftContentInsets"><a
-                        href="https://eng.ox.ac.uk/news/oxford-robotics-institute-joins-road-safety-event-in-central-oxford/">More
-                        info</a></div>
+                    <div className="largeLeftContentInsets">
+                        <a
+                            href="https://ori-mrg.github.io/robotcycle-dataset/" style={{paddingRight: "1rem"}}>The Project</a>
+
+                        <a
+                        href="https://eng.ox.ac.uk/news/oxford-robotics-institute-joins-road-safety-event-in-central-oxford/">Project News</a></div>
 
                     <div style={{fontSize: "25pt", paddingTop: "2rem"}}>Disengagements Prediction</div>
                     <div className="pageSubtitle boxhead" style={{color: "black", paddingTop: "0rem"}}>Visualizing
@@ -102,7 +105,7 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <div className="pageSubtitle orangeItalic" style={{font: "system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"4rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#7EB77F"}}>COMPLETED</div>
+            <div className="pageSubtitle orangeItalic" style={{font: "system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"4rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#9ac9e3"}}>COMPLETED</div>
 
             <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 

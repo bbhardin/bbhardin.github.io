@@ -21,7 +21,7 @@ function App() {
 
             <NavigationBar/>
 
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<div style={{paddingLeft: "1rem"}}>   l o a d i n g...</div>}>
                 <Switch>
                     <Route exact path="/" component={HomePage}/>
                     {/*<Route exact path="/about" component={HomePage}/>*/}

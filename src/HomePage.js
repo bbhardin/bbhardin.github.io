@@ -8,6 +8,7 @@ import {Container, Row, Col, Nav} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 let explore_orange = "#ff5a00";
+let navy = "#003066";
 
 const updates = [
     // { BOOK CHAPTER WILL GO HERE
@@ -26,9 +27,37 @@ const updates = [
     },
 
     {
-        title: "I am starting a new position as an intern with Apple in San Diego!",
+        title: "I presented a poster at the 2026 Oxford MPLS Researcher Conference: AI & Ethics",
+        date: "January 2026",
+        notes: "https://www.mpls.ox.ac.uk/training/mpls-researcher-conference",
+        photos: ""
+    },
+
+    {
+        title: "I demonstrated the RobotCycle project for a second year at the Oxford Vision Zero road safety event! 🚲",
+        date: "November 2025",
+        notes: "https://news.oxfordshire.gov.uk/vision-zero-road-safety-event-puts-focus-on-cycling-safety/",
+        photos: ""
+    },
+
+    {
+        title: "I volunteered at the Lilly Scholars Network Summit in Lafayette, Indiana, connecting with scholars from across the state.",
+        date: "March 2025",
+        notes: "",
+        photos: ""
+    },
+
+    {
+        title: "I am starting a new position as an intern with Apple in San Diego! ",
         date: "January 2025",
         notes: "",
+        photos: ""
+    },
+
+    {
+        title: "I demonstrated the RobotCycle project at the Oxford Vision Zero road safety event! 🚲",
+        date: "November 2024",
+        notes: "https://news.oxfordshire.gov.uk/vision-zero-event/",
         photos: ""
     },
 
@@ -55,6 +84,14 @@ const updates = [
             "I presented a position paper at the workshop on teleoperation.",
         photos: ""
     },
+
+    {
+        title: "I visited the Woodsmith Mine near Whitby, UK as part of a drone safety project ⛏️",
+        date: "November 2023",
+        notes:
+            "In collaboration with the University of York, we designed plans for safety assurance of drones in mining environments.",
+        photos: ""
+    }
     ]
 
 const UpdateList = () => (
@@ -67,29 +104,38 @@ const UpdateList = () => (
 
 const Update = ({title, date, notes, url=""}) => {
     if (url !== "") {
-        // For when the paper has been published and has a URL
         return(
             <div>
-                <div className="pageSubtitle boxhead" style={{color: "black", marginTop: "3rem",
-                    // borderWidth: "0px",
-                    // borderTopWidth: "1px",
-                    // borderTopStyle: "dotted",
-                }}><a
-                    href={`${url}`}>{title}</a></div>
-                <div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{__html: `${date}`}}/>
-                <div className="leftAndRightContentInsets" style={{fontStyle: "italic"}}>{notes}</div>
+                {/*<div className="pageSubtitle boxhead" style={{color: "black", marginTop: "3rem",*/}
+                {/*    // borderWidth: "0px",*/}
+                {/*    // borderTopWidth: "1px",*/}
+                {/*    // borderTopStyle: "dotted",*/}
+                {/*}}><a*/}
+                {/*    href={`${url}`}>{title}</a></div>*/}
+                {/*<div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{__html: `${date}`}}/>*/}
+                {/*<div className="leftAndRightContentInsets" style={{fontStyle: "italic"}}>{notes}</div>*/}
             </div>
         );
     } else {
-        // For when the paper has not been published and there's no URL
         return(
-            <div>
-                <div className="pageSubSubtitle boxhead" style={{color: "black", paddingTop: "1rem", fontWeight: "550"}}>
-                    <span style={{fontWeight: "normal", paddingRight: "1rem"}}>{date}</span> {title}</div>
+            <div style={{paddingTop: "1rem"}}>
+                <Row style={{paddingBottom: "1rem"}}>
+                    <Col xs={3} md={0} style={{backgroundColor: "", textAlign: "right"}}>
+                        <span style={{fontWeight: "normal", color: navy}}>{date} </span>
+                    </Col>
+                    <Col md={0} style={{backgroundColor: "  "}}   >
+                    <div className="boxhead"
+                         style={{color: "black", fontWeight: "550"}}>
+                        {title}</div>
 
-                <div className="leftAndRightContentInsets" style={{fontStyle: "italic", paddingBottom: "0px"}}>{notes}</div>
-            </div>
-        );
+                    <div className=""
+                         style={{fontStyle: "italic", paddingBottom: "0px"}}>{notes}</div>
+                    </Col>
+            </Row>
+
+    </div>
+    )
+        ;
     }
 }
 
