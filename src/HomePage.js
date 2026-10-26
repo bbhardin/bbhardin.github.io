@@ -3,12 +3,20 @@ import profile from "./images/profile.JPG";
 // import taillights from "./images/home/taillights.jpeg";
 import ori_logo from "./images/home/ori_logo.jpg";
 import rti_logo from "./images/home/rti_logo.png";
-import monterey from "./images/home/monterey.jpeg";
+
+import DOMPurify from 'dompurify';
+import parse from 'html-react-parser';
+
 import {Container, Row, Col, Nav} from "react-bootstrap";
 import {Link} from "react-router-dom";
 import { TwitterTimelineEmbed } from "react-twitter-embed";
 let explore_orange = "#ff5a00";
 let navy = "#003066";
+
+function HtmlLinkText({ html }) {
+    const clean = DOMPurify.sanitize(html, { ALLOWED_TAGS: ['a'], ALLOWED_ATTR: ['href'] });
+    return <div className="blackLink">{parse(clean)}</div>;
+}
 
 const updates = [
     // { BOOK CHAPTER WILL GO HERE
@@ -20,50 +28,57 @@ const updates = [
     // },
     {
         title: "I attended ACM AutomotiveUI 2026 in Gothenburg, Sweden 🇸🇪",
-        date: "September 2026",
+        month: "SEPT",
+        year: "2026",
         notes:
             "I presented a position paper at the AnthroAssist Workshop (Anthropomorphic and Intelligent Assistive Systems for Automated Vehicles) titled, \"The Agent Is Not Your Driver: Clarifying the Implied Capabilities of In-Vehicle Anthropomorphic Agents.\"",
         photos: ""
     },
 
     {
-        title: "I presented a poster at the 2026 Oxford MPLS Researcher Conference: AI & Ethics",
-        date: "January 2026",
-        notes: "https://www.mpls.ox.ac.uk/training/mpls-researcher-conference",
+        title: "I presented a poster at the 2026 <a href=\"https://www.mpls.ox.ac.uk/training/mpls-researcher-conference\">Oxford MPLS Researcher Conference: AI & Ethics</a>",
+        month: "JAN",
+        year: "2026",
+        notes: "",
         photos: ""
     },
 
     {
-        title: "I demonstrated the RobotCycle project for a second year at the Oxford Vision Zero road safety event! 🚲",
-        date: "November 2025",
-        notes: "https://news.oxfordshire.gov.uk/vision-zero-road-safety-event-puts-focus-on-cycling-safety/",
+        title: "I demonstrated the RobotCycle project for a second year at the <a href=\"https://news.oxfordshire.gov.uk/vision-zero-road-safety-event-puts-focus-on-cycling-safety/\">Oxford Vision Zero</a> road safety event! 🚲",
+        month: "NOV",
+        year: "2025",
+        notes: "",
         photos: ""
     },
 
     {
-        title: "I volunteered at the Lilly Scholars Network Summit in Lafayette, Indiana, connecting with scholars from across the state.",
-        date: "March 2025",
+        title: "I volunteered at <a href=\"https://www.lillyscholars.org/event/collegiate-connect/\">Lilly Scholars Network Collegiate Connect</a> in Lafayette, Indiana, connecting with scholars from across the state.",
+        month: "MAR",
+        year: "2025",
         notes: "",
         photos: ""
     },
 
     {
         title: "I am starting a new position as an intern with Apple in San Diego! ",
-        date: "January 2025",
+        month: "JAN",
+        year: "2025",
         notes: "",
         photos: ""
     },
 
     {
-        title: "I demonstrated the RobotCycle project at the Oxford Vision Zero road safety event! 🚲",
-        date: "November 2024",
-        notes: "https://news.oxfordshire.gov.uk/vision-zero-event/",
+        title: "I demonstrated the RobotCycle project at the <a href=\"https://news.oxfordshire.gov.uk/vision-zero-event/\">Oxford Vision Zero</a> road safety event! 🚲",
+        month: "NOV",
+        year: "2024",
+        notes: "",
         photos: ""
     },
 
     {
         title: "I presented to the UNECE Global Forum for Road Traffic Safety about human factors considerations for road vehicle teleoperation",
-        date: "September 2024",
+        month: "SEPT",
+        year: "2024",
         notes:
             "",
         photos: ""
@@ -71,7 +86,8 @@ const updates = [
 
     {
         title: "I presented to the Department for Transport Centre for Connected and Autonomous Vehicles",
-        date: "June 2024",
+        month: "JUN",
+        year: "2024",
         notes:
             "I shared considerations about the human factors considerations for road vehicle teleoperation.",
         photos: ""
@@ -79,7 +95,8 @@ const updates = [
 
     {
         title: "I attended the IEEE Intelligent Vehicles Symposium 2024 on Jeju Island, South Korea 🇰🇷",
-        date: "January 2024",
+        month: "JAN",
+        year: "2024",
         notes:
             "I presented a position paper at the workshop on teleoperation.",
         photos: ""
@@ -87,7 +104,8 @@ const updates = [
 
     {
         title: "I visited the Woodsmith Mine near Whitby, UK as part of a drone safety project ⛏️",
-        date: "November 2023",
+        month: "NOV",
+        year: "2023",
         notes:
             "In collaboration with the University of York, we designed plans for safety assurance of drones in mining environments.",
         photos: ""
@@ -97,46 +115,30 @@ const updates = [
 const UpdateList = () => (
     <div style={{paddingLeft: "10px"}}>
         {updates.map(update => (
-            <Update key={update.title} title={update.title} date={update.date} notes={update.notes} />
+            <Update key={update.title} title={update.title} month={update.month} year={update.year} notes={update.notes} />
         ))}
     </div>
 );
 
-const Update = ({title, date, notes, url=""}) => {
-    if (url !== "") {
-        return(
-            <div>
-                {/*<div className="pageSubtitle boxhead" style={{color: "black", marginTop: "3rem",*/}
-                {/*    // borderWidth: "0px",*/}
-                {/*    // borderTopWidth: "1px",*/}
-                {/*    // borderTopStyle: "dotted",*/}
-                {/*}}><a*/}
-                {/*    href={`${url}`}>{title}</a></div>*/}
-                {/*<div className="pageSubSubtitle" style={{fontWeight: ""}} dangerouslySetInnerHTML={{__html: `${date}`}}/>*/}
-                {/*<div className="leftAndRightContentInsets" style={{fontStyle: "italic"}}>{notes}</div>*/}
-            </div>
-        );
-    } else {
-        return(
-            <div style={{paddingTop: "1rem"}}>
-                <Row style={{paddingBottom: "1rem"}}>
-                    <Col xs={3} md={0} style={{backgroundColor: "", textAlign: "right"}}>
-                        <span style={{fontWeight: "normal", color: navy}}>{date} </span>
-                    </Col>
-                    <Col md={0} style={{backgroundColor: "  "}}   >
-                    <div className="boxhead"
-                         style={{color: "black", fontWeight: "550"}}>
-                        {title}</div>
+const Update = ({title, month, year, notes, url=""}) => {
+    return(
+        <div style={{paddingTop: "1rem"}}>
+            <Row style={{paddingBottom: "1rem"}}>
+                <Col xs={2} md={0} style={{backgroundColor: "", textAlign: "right"}}>
+                    <span style={{fontWeight: "bold", color: navy, fontSize: "13px", lineHeight: "0px"}}>{month}</span><br></br>
+                    <span style={{fontWeight: 300, color: navy, fontSize: "18px", lineHeight: "0px"}}>{year} </span>
+                </Col>
+                <Col md={0} style={{backgroundColor: "  "}}   >
+                <HtmlLinkText className="boxhead"
+                     style={{color: "black", fontWeight: "500"}} html={title}/>
 
-                    <div className=""
-                         style={{fontStyle: "italic", paddingBottom: "0px"}}>{notes}</div>
-                    </Col>
-            </Row>
+                <div className=""
+                     style={{fontStyle: "italic", paddingBottom: "0px"}}>{notes}</div>
+                </Col>
+        </Row>
 
-    </div>
-    )
-        ;
-    }
+</div>
+    );
 }
 
 export default function HomePage() {

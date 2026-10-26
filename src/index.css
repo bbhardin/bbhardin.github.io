@@ -385,6 +385,10 @@ code {
   color: dodgerblue;
 }
 
+.blackLink a {
+  color: black;
+}
+
 .hoverExpand{
   transition: transform .2s;
 }
