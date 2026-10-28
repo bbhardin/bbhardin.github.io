@@ -39,7 +39,12 @@ export default function ProjectsPage() {
 
                     {/* YES, I REALLY NEED TO MAKE THIS SOME FORM OF CLASS WITH TITLE, SUBTITLE, AND BODY */}
 
-                    <div style={{fontSize: "25pt", padding: "0.2rem"}}>RobotCycle Project</div>
+                    <div style={{fontSize: "25pt", padding: "0.2rem"}}>Psychological Safety Simulator Trials</div>
+                    <div className="pageSubtitle boxhead leftcon" style={{color: "black", padding: "0rem"}}>Measuring psychological
+                        safety in simulator trials using scales and physiological data
+                    </div>
+
+                    <div style={{fontSize: "25pt", paddingTop: "2rem"}}>RobotCycle Project</div>
                     <div className="pageSubtitle boxhead leftcon" style={{color: "black", padding: "0rem"}}>Analyzing
                         cyclist
                         safety
@@ -105,7 +110,8 @@ export default function ProjectsPage() {
                 </div>
             </div>
 
-            <div className="pageSubtitle orangeItalic" style={{font: "system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"4rem", fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#9ac9e3"}}>COMPLETED</div>
+            <div className="pageSubtitle orangeItalic" style={{font: "system-ui, Helvetica Neue, Helvetica, Arial", fontStyle: "normal", paddingTop:"10rem",
+                fontSize: "4vw", fontStretch: "extra-expanded", fontWeight: "400", color: "#9ac9e3", paddingBottom: "3rem"}}>COMPLETED</div>
 
             <div className="leftAndRightContentInsets" style={{maxWidth: "1500px"}}>
 
