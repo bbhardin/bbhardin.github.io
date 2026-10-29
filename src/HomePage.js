@@ -98,7 +98,7 @@ const updates = [
         month: "JAN",
         year: "2024",
         notes:
-            "I presented a position paper at the workshop on teleoperation.",
+            "I presented my paper on real world experience of teleoperators at the workshop on teleoperation.",
         photos: ""
     },
 
