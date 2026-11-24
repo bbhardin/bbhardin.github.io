@@ -22,7 +22,7 @@ const papers = [
         authors: "<b>Benjamin Hardin</b>",
         conference: "AntrhoAssist Workshop, ACM AutomotiveUI 2026",
         abstract: "This position paper considers how the gap between an anthropomorphic agent in an autonomous vehicle and the automated driving system of the vehicle can create psychological risks if the agent inaccurately presents itself as integrated into the driving system. This gap is under-explored both because of the evolving nature of these agents and because of study limitations in Human-Computer Interaction (HCI) research. Nevertheless, this gap may cause the agent to misrepresent itself as more knowledgeable about the car than it is, creating a risk of dependence and, in the worst case, betrayal if the occupant feels that the agent has misled them. This paper proposes a research agenda for future work to understand the psychological risk that exists in the gap between agents and driving systems and to narrow this gap in a manner aligned with safety assurance. As these agents evolve to hold greater capabilities and increased anthropomorphism, future research must investigate risks which may emerge from richer interaction with them. The impact of how an agent presents itself and its knowledge becomes greater.",
-        url: ""
+        url: "https://ora.ox.ac.uk/objects/uuid:b746a488-73ed-4c74-9d9a-b6d02c2db4d0"
     },
     {
         title: "(Pre-Print) What Can Eye Gaze Teach Us About Real-World Cycling? Insights From the Oxford RobotCycle Project",
